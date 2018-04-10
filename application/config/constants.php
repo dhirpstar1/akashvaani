@@ -86,11 +86,11 @@ define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
 define('MERCHANT_ID', '114454'); // highest automatically-assigned error code
-define('WORKING_KEY', 'C6AD546ED5241858332B936BF9CE03F4'); // highest automatically-assigned error code
-define('ACCESS_CODE', 'AVGA67DK73AQ34AGQA'); // highest automatically-assigned error code
+define('WORKING_KEY', ''); // highest automatically-assigned error code
+define('ACCESS_CODE', ''); // highest automatically-assigned error code
 
 define('USER_ID', '600204'); // highest automatically-assigned error code
-define('API_KEY', '73907d396fbca5772661fce70059708e'); // highest automatically-assigned error code
+define('API_KEY', ''); // highest automatically-assigned error code
 define('TAX', '0.00');
 define('SITE_PHONE', '7011270706');
 //define('SITE_EMAIL', 'dhirpstar@gmail.com');
@@ -101,7 +101,7 @@ define('GOOGOLE_PLACE_API', 'AIzaSyD3EA2kgQMZTt1PjzGcNQdfgSr0nG8-CP0');
 define('LANGUAGES', serialize(array('en' => 'ENGLISH', 'hi' => 'HINDI')));
 define('CONTACT_NUMBER', '701 127 0706');
 define('API_USERNAME', 'pec.anshul05_api1.gmail.com');
-define('API_PASSWORD', 'WG72WRYNUK46NYZ3');
-define('API_SIGNATURE', 'AiPC9BjkCyDFQXbSkoZcgqH3hpacAQIdKrVKXPBpQVHA1Olvy5hdmpWe');
+define('API_PASSWORD', '');
+define('API_SIGNATURE', '');
 define('GET_KUNDALI_REPORT', 'Get Kundali Matching Report.'); // highest automatically-assigned error code
-define('SENDGRID_APIKEY', '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');
+define('SENDGRID_APIKEY', '');
