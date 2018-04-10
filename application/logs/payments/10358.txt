@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 10358
+    [tracking_id] => 106265651630
+    [bank_ref_no] => 023119
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => Visa Debit Card
+    [status_code] => 0
+    [status_message] => Transaction Successful
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Dayananda Singh
+    [billing_address] => Kakching Makha Leikai, Thoubal District
+    [billing_city] => Thoubal
+    [billing_state] => Manipur
+    [billing_zip] => 795103
+    [billing_country] => India
+    [billing_tel] => 08527422094
+    [billing_email] => ndp_singh@yahoo.co.in
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => 05
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 13/08/2017 13:48:51
+    [bin_country] => INDIA
+)

@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 13910
+    [tracking_id] => 106283855356
+    [bank_ref_no] => 029884
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => MasterCard Debit Card
+    [status_code] => 0
+    [status_message] => Transaction Successful
+    [currency] => INR
+    [amount] => 398.0
+    [billing_name] => Yaminee rana
+    [billing_address] => Gandhinagar
+    [billing_city] => Gandhinagar
+    [billing_state] => Gujarat
+    [billing_zip] => 382006
+    [billing_country] => India
+    [billing_tel] => 9099921283
+    [billing_email] => yaminee1990@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 398.0
+    [eci_value] => 02
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 01/10/2017 23:18:39
+    [bin_country] => INDIA
+)

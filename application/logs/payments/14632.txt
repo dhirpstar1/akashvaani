@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 14632
+    [tracking_id] => 106286730962
+    [bank_ref_no] => 1309535720
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => ICICI Bank
+    [status_code] => null
+    [status_message] => SUCCESS
+    [currency] => INR
+    [amount] => 398.0
+    [billing_name] => Somesh Dhal
+    [billing_address] => Gcn enclave, flat number - FF4, Sai baba temple road
+    [billing_city] => Bangalore 
+    [billing_state] => Karnataka
+    [billing_zip] => 560037 
+    [billing_country] => India
+    [billing_tel] => 8984205350
+    [billing_email] => meetsomesh01@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 398.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 09/10/2017 23:12:09
+    [bin_country] => 
+)

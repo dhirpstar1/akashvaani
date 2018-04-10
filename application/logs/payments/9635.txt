@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 9635
+    [tracking_id] => 106259740246
+    [bank_ref_no] => 140121721233488091
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Credit Card
+    [card_name] => MasterCard
+    [status_code] => null
+    [status_message] => SUCCESS
+    [currency] => INR
+    [amount] => 299.0
+    [billing_name] => Debojit Saha
+    [billing_address] => 4/1 A Dihi Entally Road, Kolkata-700014.
+    [billing_city] => Kolkata
+    [billing_state] => West Bengal
+    [billing_zip] => 700014
+    [billing_country] => India
+    [billing_tel] => 8017098242
+    [billing_email] => debojitsaha16@gmail.cim
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 299.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 31/07/2017 07:40:22
+    [bin_country] => INDIA
+)

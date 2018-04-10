@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 8763
+    [tracking_id] => 106253213309
+    [bank_ref_no] => null
+    [order_status] => Initiated
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => Visa Debit Card
+    [status_code] => 
+    [status_message] => card not supported
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Rashmi Miranda
+    [billing_address] => 356
+    [billing_city] => NuwaraEliya
+    [billing_state] => Central
+    [billing_zip] => 22200
+    [billing_country] => Sri Lanka
+    [billing_tel] => 94713126190
+    [billing_email] => rashmimiranda0@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => 
+    [retry] => null
+    [response_code] => 
+    [billing_notes] => 
+    [trans_date] => 15/07/2017 07:44:33
+    [bin_country] => 
+)

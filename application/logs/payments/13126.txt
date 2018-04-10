@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 13126
+    [tracking_id] => 106280201340
+    [bank_ref_no] => IGACBCHQB0
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => State Bank of India
+    [status_code] => null
+    [status_message] => Completed Successfully
+    [currency] => INR
+    [amount] => 796.0
+    [billing_name] => vikas khatarkar
+    [billing_address] => chandrapur
+    [billing_city] => chandrpaur
+    [billing_state] => maharashtra
+    [billing_zip] => 442401
+    [billing_country] => India
+    [billing_tel] => 7875878581
+    [billing_email] => vkvikas07@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 796.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 21/09/2017 01:35:46
+    [bin_country] => 
+)

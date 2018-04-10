@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 17567
+    [tracking_id] => 106296495636
+    [bank_ref_no] => null
+    [order_status] => Initiated
+    [failure_message] => 
+    [payment_mode] => Credit Card
+    [card_name] => Visa
+    [status_code] => 
+    [status_message] => card not supported
+    [currency] => INR
+    [amount] => 599.0
+    [billing_name] => rasandeep
+    [billing_address] => 189 tarawood close ne
+    [billing_city] => calgary
+    [billing_state] => ab
+    [billing_zip] => t3j 4y9
+    [billing_country] => Canada
+    [billing_tel] => 5879171918
+    [billing_email] => deep.rasan0@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 599.0
+    [eci_value] => 
+    [retry] => null
+    [response_code] => 
+    [billing_notes] => 
+    [trans_date] => 07/11/2017 06:30:10
+    [bin_country] => 
+)

@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 16047
+    [tracking_id] => 106291742195
+    [bank_ref_no] => null
+    [order_status] => Aborted
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => MasterCard Debit Card
+    [status_code] => null
+    [status_message] => Transaction aborted
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => akshita natani
+    [billing_address] => 21 D gariahat road
+    [billing_city] => Kolkata
+    [billing_state] => West Bengal
+    [billing_zip] => 700068
+    [billing_country] => India
+    [billing_tel] => 9062476063
+    [billing_email] => akshitanatani@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 961
+    [billing_notes] => 
+    [trans_date] => 24/10/2017 16:56:07
+    [bin_country] => INDIA
+)

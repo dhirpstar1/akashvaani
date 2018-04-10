@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 11735
+    [tracking_id] => 106273997058
+    [bank_ref_no] => 7197245380
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Wallet
+    [card_name] => Paytm
+    [status_code] => null
+    [status_message] => Txn Successful.
+    [currency] => INR
+    [amount] => 299.0
+    [billing_name] => Shivangi Singh
+    [billing_address] => Blk super speciality hospital, pusa road
+    [billing_city] => New Delhi
+    [billing_state] => New Delhi
+    [billing_zip] => 110005
+    [billing_country] => India
+    [billing_tel] => 9871711554
+    [billing_email] => shivangi.singh2101@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 299.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 03/09/2017 13:49:20
+    [bin_country] => 
+)

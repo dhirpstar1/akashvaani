@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 7375
+    [tracking_id] => 106240898363
+    [bank_ref_no] => R73930
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Credit Card
+    [card_name] => MasterCard
+    [status_code] => 0
+    [status_message] => Transaction Successful
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Rameshwar Bhattacharjee
+    [billing_address] => 56/6 MB Road Indira Nagar Birati
+    [billing_city] => Kolkata
+    [billing_state] => West Bengal
+    [billing_zip] => 700081
+    [billing_country] => India
+    [billing_tel] => 9831167216
+    [billing_email] => rameshwar.nis@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => 02
+    [retry] => null
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 19/06/2017 17:18:20
+    [bin_country] => 
+)

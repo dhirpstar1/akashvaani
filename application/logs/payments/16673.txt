@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 16673
+    [tracking_id] => 106293654058
+    [bank_ref_no] => 1321593188
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => ICICI Bank
+    [status_code] => null
+    [status_message] => SUCCESS
+    [currency] => INR
+    [amount] => 599.0
+    [billing_name] => Asmita Patkey
+    [billing_address] => Gurukrupa bunglow,Parijat nagar, Lokhande mala, Saikheda road, Jail road, Nashik road, Nashik
+    [billing_city] => nashik
+    [billing_state] => maharashtra
+    [billing_zip] => 422101
+    [billing_country] => India
+    [billing_tel] => 9158977743
+    [billing_email] => ajay.patkey@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 599.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 30/10/2017 11:18:35
+    [bin_country] => 
+)

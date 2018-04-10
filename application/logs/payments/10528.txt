@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 10528
+    [tracking_id] => 106266888057
+    [bank_ref_no] => 369639
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => Visa Debit Card
+    [status_code] => 0
+    [status_message] => Transaction Successful
+    [currency] => INR
+    [amount] => 299.0
+    [billing_name] => sonal narang
+    [billing_address] => 12/142 Arjan Vihar Delhi Cantt
+    [billing_city] => New Delhi
+    [billing_state] => New Delhi
+    [billing_zip] => 110010
+    [billing_country] => India
+    [billing_tel] => 9971522897
+    [billing_email] => sonalnarang1@yahoo.co.in
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 299.0
+    [eci_value] => 05
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 16/08/2017 12:25:49
+    [bin_country] => INDIA
+)

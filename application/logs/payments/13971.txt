@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 13971
+    [tracking_id] => 106284004618
+    [bank_ref_no] => 833845
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Credit Card
+    [card_name] => Visa
+    [status_code] => null
+    [status_message] => SUCCESS
+    [currency] => INR
+    [amount] => 796.0
+    [billing_name] => Neha
+    [billing_address] => shakarpur
+    [billing_city] => Delhi
+    [billing_state] => New Delhi
+    [billing_zip] => 110092
+    [billing_country] => India
+    [billing_tel] => 9763175516
+    [billing_email] => neha.sodhi13@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 796.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 02/10/2017 14:04:02
+    [bin_country] => INDIA
+)

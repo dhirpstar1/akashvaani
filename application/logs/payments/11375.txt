@@ -1,0 +1,55 @@
+Array
+(
+    [order_id] => 11375
+    [tracking_id] => 106272302728
+    [bank_ref_no] => 7188305769
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Wallet
+    [card_name] => Paytm
+    [status_code] => null
+    [status_message] => Txn Successful.
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Riya Pal
+    [billing_address] => akshaya vasuda flat no 144 277/277, 2nd A Main Rd, Gururaja Layout, Vibhutipura Extension, Doddanekundi, 
+    [billing_city] => Bengaluru
+    [billing_state] => Karnataka
+    [billing_zip] => 560037
+    [billing_country] => India
+    [billing_tel] => 9206135626
+    [billing_email] => riyapal1908@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 29/08/2017 18:30:11
+    [bin_country] => 
+
+
+
+
+
+
+
+
+
+
+)

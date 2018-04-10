@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 16397
+    [tracking_id] => 106292774611
+    [bank_ref_no] => 591366
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => Citibank
+    [status_code] => null
+    [status_message] => null
+    [currency] => INR
+    [amount] => 398.0
+    [billing_name] => Pratishtha Singh
+    [billing_address] => baner
+    [billing_city] => pune
+    [billing_state] => maharashtra
+    [billing_zip] => 411045
+    [billing_country] => India
+    [billing_tel] => 7987608781
+    [billing_email] => pratishtha.singh.863@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 398.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 27/10/2017 16:32:32
+    [bin_country] => 
+)

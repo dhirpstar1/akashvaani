@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 9553
+    [tracking_id] => 106259197074
+    [bank_ref_no] => null
+    [order_status] => Awaited
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => Axis Bank
+    [status_code] => null
+    [status_message] => null
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Pradipta Baksi
+    [billing_address] => L-503 Venus parkland
+    [billing_city] => Ahmedabad
+    [billing_state] => Gujarat
+    [billing_zip] => 380054
+    [billing_country] => India
+    [billing_tel] => 09099075402
+    [billing_email] => pradiptabaksi@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => null
+    [response_code] => 
+    [billing_notes] => 
+    [trans_date] => 29/07/2017 17:19:38
+    [bin_country] => 
+)

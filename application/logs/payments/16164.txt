@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 16164
+    [tracking_id] => 106292106356
+    [bank_ref_no] => IGACGGGFE4
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => State Bank of India
+    [status_code] => null
+    [status_message] => Completed Successfully
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => ajupi baruah
+    [billing_address] => NRC Office. Bhangagarh
+    [billing_city] => Guwahati
+    [billing_state] => Assam
+    [billing_zip] => 781005
+    [billing_country] => India
+    [billing_tel] => 8474839766
+    [billing_email] => ajupi.baruah@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 25/10/2017 17:05:14
+    [bin_country] => 
+)

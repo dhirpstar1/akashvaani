@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 10234
+    [tracking_id] => 106264487845
+    [bank_ref_no] => 7153046466
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Wallet
+    [card_name] => Paytm
+    [status_code] => null
+    [status_message] => Txn Successful.
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => RAKESH KUMAR SINGH
+    [billing_address] => Flat no 119 HEWO Apartment 
+    [billing_city] => Faridabad
+    [billing_state] => Haryana
+    [billing_zip] => 121002
+    [billing_country] => India
+    [billing_tel] => 8860089629
+    [billing_email] => radiology.rakesh@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 10/08/2017 23:10:47
+    [bin_country] => 
+)

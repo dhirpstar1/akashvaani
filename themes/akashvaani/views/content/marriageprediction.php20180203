@@ -1,0 +1,604 @@
+<div class="card">
+     <style type="text/css">
+.see_details{ color: #666 !important;
+    border: 1px solid #666;
+    border-radius: 50px;
+   padding: 15px;width: 140px;}
+.buy_now{ color: #fff !important;
+border: 1px solid #ff3366;
+border-radius: 50px;
+background-color: #ff3366 !important;
+padding: 15px;
+width: 140px;}	
+
+
+.planet_house{
+
+    color: #666 !important;
+
+    border: 1px solid #666;
+
+    border-radius: 50px;
+
+    padding: 5px;
+
+    width: 80px;
+
+}
+
+.planet_house:hover{ background-color:#ff3366!important; color:#ffffff!important; border: 1px solid #ff3366;}
+
+.planet_house_active{ background-color:#ff3366!important; color:#ffffff!important; border: 1px solid #ff3366;}
+
+</style>
+<div class="panel-group" id="accordion">
+    
+    <div class="panel panel-default">
+      <div class="card-header white-text"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse7" class="general_analysis"> About Yourself Based on your charts</a> <a class="float-xs-right general_analysis" data-toggle="collapse" data-parent="#accordion"  href="#collapse7"><i class="fa fa-chevron-circle-down resultdown" aria-hidden="true"></i></a> </div>
+      <div id="collapse7" class="panel-collapse collapse in">
+        <div class="panel-body">
+          <div class="col-md-12">
+            <div class="grid-col-12">
+              <div class="blocks">
+                <h4 style="font-weight:300">Your ascendant sign is
+                  <?=$ascendant;?>
+                  (Personality and Thinking pattern) </h4>
+                <hr>
+                <p>
+                  <?=$general_ascendant_report;?>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-col-12">
+            <div class="col-md-12">
+              <div class="blocks">
+                <h4 style="font-weight:300">Your Planets Speaks(House Wise)</h4>
+                <hr>
+                <a href="javascript:void(0);" class="btn btn-xs planet_house planet_house_active" id="Sun">Sun</a> <a href="javascript:void(0);" class="btn btn-xs planet_house" id="Moon">Moon</a> <a href="javascript:void(0);" class="btn btn-xs planet_house" id="Venus">Venus</a> <a href="javascript:void(0);" class="btn btn-xs planet_house" id="Jupiter">Jupiter</a> <a href="javascript:void(0);" class="btn btn-xs planet_house" id="Saturn">Saturn</a> <a href="javascript:void(0);" class="btn btn-xs planet_house" id="Mars">Mars</a> </div>
+              <div class="col-md-12">
+                <p id="collapseResulthousetype"><?php //echo $general_house_report_jupiter->house_report; ?></p>
+              </div>
+            </div>
+            <div class="clear"  style="clear:both;"></div>
+            <div class="col-md-12">
+              <h4 style="font-weight:300">For specific question. Ask our astrologer.</h4>
+              <hr>
+              <h5 style="font-weight:200">Any Marriage related, Career or Health.</h5>
+              <p>You can ask any question regarding your Marriage, Career & Health. Questions like 'When will you get marriage' Why delay in marriage' etc.</p>
+              <p>You will receive answers in form of voice recording.</p>
+              <p> 
+              <a>
+              <h5>100% Privacy. Incredibly Simple. Satisfaction Guaranteed.</h5>
+              </a>
+              </p>
+              <p> <span>Introductory Price</span> <span class="cancel-price"><strike> Rs.399/-</strike></span> <span class="currnt-price" style="color:#0000FF;">Rs.299/-</span> </p>
+              <div class="col-md-12" style="padding:10px 0;">
+               
+<div class="col-md-12">
+                    <div class="col-md-4 col-sm-12" style="padding:0px;"><a id="button1" href="<?=base_url('/questions');?>" class="btn waves-effect waves-light buy_now pull-left">Ask Now</a></div>    
+                   
+                    <div class="col-md-4 col-sm-12" style="padding:0px;"><a id="button2" href="<?=base_url('/consult-online');?>" class="btn see_details">See Details</a></div>      
+
+
+
+<div class="col-md-12">
+<div class="col-md-12" style="padding: 0"><h4 style="color:#ff3366;"><strong>Special Offer for Limited Period<</strong></h4>
+                <br>   </div>
+
+                  <div class="col-md-12" style="padding: 0">
+                    <span>Price for Q1-</span>  
+                    <span class="currnt-price" style="color:#0000FF;"><?=get_currency();?><?=get_key_data('PER_QUESTION_PRICE', $cccode, false);?>/- , Q2- INR 150/-, Q3-INR 150/- ....</span>     
+                  </div>
+                   <br> <br>
+                   <div class="botton-area">
+                                    <a class="get_started" href="<?php echo base_url('/questions'); ?>">Ask Questions  <i class="fa fa-angle-right" aria-hidden="true"></i> </a>
+                                </div>
+
+</div>
+
+<?php /* ?>
+              <div class="col-md-12" style="padding: 10px 0 0 0;"><h4 style="color:#ff3366;"><strong>Special offer</strong></h4><br></div>
+                <div class="col-md-12" style="padding: 0">
+                  <span><b>Set of three Questions</b></span>  
+                  <span class="currnt-price" style="color:#0000FF;">Rs.499/-</span> 
+                </div>
+
+
+
+<div class="col-md-12" style="padding:10px 0;">  
+                   <div class="col-md-4 col-sm-12" style="padding:0px;"><a id="button1" href="<?=base_url('/questions?type=3');?>" class="btn waves-effect waves-light buy_now pull-left">Ask Now</a></div>    
+                   
+                    <div class="col-md-4 col-sm-12" style="padding:0px;"><a id="button2" href="<?=base_url('/consult-online');?>" class="btn see_details">See Details</a></div>          
+           
+    </div>
+
+
+    <div class="col-md-12" style="padding: 0">
+                    
+                      <span><b>Set of five Questions</b></span>  
+                    <span class="currnt-price" style="color:#0000FF;">Rs.799/-</span> 
+                    </div>
+
+                    <div class="col-md-12" style="padding:10px 0;">  
+                   <div class="col-md-4 col-sm-12" style="padding:0px;"><a id="button1" href="<?=base_url('/questions?type=5');?>" class="btn waves-effect waves-light buy_now pull-left">Ask Now</a></div>    
+                   
+                    <div class="col-md-4 col-sm-12" style="padding:0px;"><a id="button2" href="<?=base_url('/consult-online');?>" class="btn see_details">See Details</a></div>          
+           
+    </div>
+
+
+               
+<?php */ ?>
+</div>
+ <?php /* ?>
+
+                <div class="clear"  style="clear:both; padding-top: 20px;"></div>
+                <h4 style="font-weight:300">Your lifetime guide (25 pages)</h4>
+                <hr>
+                <p>This birth Report is specially designed to give you analysis based on your Charts.This is a beautiful piece of booklet about you. You can keep as lifetime guide. </p>
+                <p> <span>Introductory Price</span> <span class="cancel-price"><strike> Rs.500/-</strike></span> <span class="currnt-price" style="color:#0000FF;">Rs.299/-</span> </p>
+          
+                <div class="col-md-12" style="padding:10px 0;">
+                  <div class="col-md-4 col-sm-12" style="padding:0px;"><a id="buynow" href="javascript:void(0);" class="btn buy_now pull-left">Buy Now</a></div>
+                  <div class="col-md-4 col-sm-12"><a id="button2" href="<?=base_url('/full-reports');?>" class="btn see_details"  target="_blank">See Details</a></div>
+                  <div class="col-md-4 col-sm-12">
+                    <select name="select_langiage" class="form-control pull-left selectpicker" id="langauge_select">
+                      <option value="en">ENGLISH</option>
+                      <option value="hi">HINDI</option>
+                    </select>
+                  </div>
+                </div>
+                 <?php */ ?>
+                <div class="clear"  style="clear:both;"></div>
+      
+                <h4 style="font-weight:300">The story of your life (Extended)-70 pages</h4>
+                <hr>
+                <b>Your life answers and Guide- Planets and effects on your life</b>
+                <p>In addition to the above report. It is a detailed report about your personality, covers answers regarding various aspects of your life like Your Intelligence, education, Mind, Will power & emotions, Wealth, Knowledge, marriage, comfort.</p>
+                <p>Your life answers and Guide- Planets and effects on your life.</p>
+                <h5>Beautiful & Consolidated Life Report.</h5>
+                <p> <span>Introductory Price</span> <span class="cancel-price"><strike> Rs.1299/-</strike></span> <span class="currnt-price" style="color:#0000FF;">Rs.599/-</span> </p>
+      
+                <div class="col-md-12" style="padding:10px 0;">
+                  <div class="col-md-4 col-sm-12" style="padding:0px;"><a id="buynow_ex" href="javascript:void(0);" class="btn buy_now pull-left">Buy Now</a></div>
+                  <div class="col-md-4 col-sm-12"><a id="button2" href="<?=base_url('/full-extended-reports');?>" class="btn see_details" target="_blank">See Details</a></div>
+                  <div class="col-md-4 col-sm-12">
+                    <select name="select_langiage" class="form-control pull-left selectpicker" id="select_langiage_ex">
+                      <option value="en">ENGLISH</option>
+                      <option value="hi">HINDI</option>
+                    </select>
+                  </div>
+                </div>
+                  <div>
+                    <div class="col-md-12">
+                    <h4 style="color:#ff3366;">Special Commentary</h4> 
+                    <p style="font-weight:bold;color:#be7426;">The story of my Life report &amp; Commentary on your career (2 years Next) + Special career  issue you want to ask. by Expert Astrologer.</p>
+                    </div>
+                    <div class="col-md-12" style="padding: 0">
+                    <span>Special Price</span>  
+                    <span class="cancel-price">599 + 599 =<strike> Rs. 1198/-</strike></span> 
+                    <span class="currnt-price" style="color:#0000FF;">Rs.799/-</span> 
+                    <span class="pdf"> (PDF) <a class="waves-effect waves-light" data-toggle="modal" data-target="#sample2" style="text-decoration:underline;">Quick Detail</a></span>  
+                    </div>
+                    <div class="col-md-12" style="padding:10px 0;">  
+                   <div class="col-md-4 col-sm-12" style="padding:0px;"><a id="button1" href="<?=base_url('/questions?report=1');?>" class="btn buy_now pull-left">Buy Now</a>
+                   </div>          
+                   <div class="col-md-5 col-sm-12"><a id="button2" href="<?=base_url('/full-extended-reports');?>" class="btn waves-effect waves-light">Know More</a>
+                   </div>
+                 </div>
+                </div>
+               <div class="clear"  style="clear:both;"></div>
+              </div>
+            </div>
+            <script>
+
+$('#buynow').click(function(e){
+var url = '<?=base_url('/report');?>?lg=' + $('#langauge_select :selected').val()+ '&type=story_of_life_basic_report';
+ window.open(url, '_blank');
+ e.preventDefault();
+});
+$('#buynow_ex').click(function(e){
+var url = '<?=base_url('/report');?>?lg=' + $('#langauge_select_ex :selected').val()+ '&type=story_of_life_extended_report';
+ window.open(url, '_blank');
+ e.preventDefault();
+});
+
+$('.general_analysis').click(function(){
+//$('.planet_house_active').trigger('click');
+});
+
+
+$(document).ready(function() {
+      $('.planet_house_active').trigger('click');
+});
+
+
+	$('.planet_house').click(function(){
+	$(".planet_house").each(function() {
+   	$(this).removeClass('planet_house_active');
+	});
+	$(this).addClass('planet_house_active');
+	$('#collapseResulthousetype').html('<div align="center"><span class="fa fa-spin fa-circle-o-notch"></span></div>');  
+	$.ajax({
+        type: "POST",
+        url: "<?php echo site_url('service/manglik'); ?>",
+        data: $("#generate_horoscope").serialize()+ "&house_type=" + $(this).attr('id'),
+        success: function(data){
+		console.log(data);
+		//var value = $.parseJSON(data);
+           $('#collapseResulthousetype').html(data); 
+        },
+         error: function(resp) { }
+       });
+	});
+        $('#planetsignId').change(function(){
+	$('#collapseResultsigntype').html('<div align="center"><span class="fa fa-spin fa-circle-o-notch"></span></div>');  
+	$.ajax({
+        type: "POST",
+        url: "<?php echo site_url('service/manglik'); ?>",
+        data: $("#generate_horoscope").serialize()+ "&sign_type=" + $(this).val(),
+        success: function(data){
+		//var value = $.parseJSON(data);
+            $('#collapseResultsigntype').html(data); 
+        },
+         error: function(resp) { }
+   });
+});
+    </script>
+            <div class="clear"  style="clear:both;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  <div class="panel panel-default">
+  <div class="card-header white-text">
+         <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        kundali chart</a>
+        <a class="float-xs-right" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        <i class="fa fa-chevron-circle-down resultdown" aria-hidden="true"></i></a>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse in">
+      <div class="panel-body">
+        <div class="row">
+        
+                   <div class="col-md-6">
+              <!--Panel-->
+   <div class="card">
+            <div class="card-header danger-color-dark white-text">
+              Lagna Kundali
+            </div>
+            <div class="card-block"> 
+                  <div class="UI-II" style="overflow: hidden;">
+              <div id="lagnchart" style="width: 95%; margin: 0 auto;"></div>
+            </div>
+              </div>
+             </div>
+       </div>         
+        <!--/.Panel-->
+        
+           <div class="col-md-6">
+              <!--Panel-->
+   <div class="card">
+            <div class="card-header danger-color-dark white-text">
+              Navmansha Kundali
+            </div>
+            <div class="card-block"> 
+                  <div class="UI-II" style="overflow: hidden;">
+              <div id="navamanshachart" style="width: 95%; margin: 0 auto;"></div>
+            </div>
+              </div>
+             </div>
+       </div>         
+        <div class="col-md-6">
+              <!--Panel-->
+   <div class="card">
+            <div class="card-header danger-color-dark white-text">
+              Sun Kundali
+            </div>
+            <div class="card-block"> 
+                  <div class="UI-II" style="overflow: hidden;">
+              <div id="sunchart" style="width: 95%; margin: 0 auto;"></div>
+            </div>
+              </div>
+             </div>
+       </div>         
+        <!--/.Panel-->
+                                   <div class="col-md-6">
+                    <div class="card">
+    <div class="card-header danger-color-dark white-text">
+     Moon Kundali
+    </div>
+        <div class="card-block">
+                    <div class="UI-II" style="overflow: hidden;">
+              <div id="moonchart" style="width: 95%; margin: 0 auto;"></div>
+            </div>
+                </div>
+        </div>
+</div>
+</div>
+                  </div>
+        </div>
+
+ <script src="<?php echo base_url('/api/js/custom.js'); ?>"></script>
+    <script src="<?php echo base_url('/api/js/d3.min.js'); ?>"></script>
+    <script src="<?php echo base_url('/api/js/Chart.js'); ?>"></script>
+    <script src="<?php echo base_url('/api/js/SouthChart.js'); ?>"></script>
+    <script type="text/javascript">
+
+    var options = {
+        lineColor : '#e40046',
+        planetColor : '#000',
+        signColor : '#000',
+        width : 250
+    };
+
+  drawNorthChart(getPlanetArray(<?php echo json_encode($lagnchart);?>), getSignArray(<?php echo json_encode($lagnchart);?>), options,'#lagnchart');
+  drawNorthChart(getPlanetArray(<?php echo json_encode($moonchart);?>), getSignArray(<?php echo json_encode($moonchart);?>), options,'#moonchart');
+  drawNorthChart(getPlanetArray(<?php echo json_encode($navmansh);?>), getSignArray(<?php echo json_encode($navmansh);?>), options,'#navamanshachart');
+  drawNorthChart(getPlanetArray(<?php echo json_encode($sunchart);?>), getSignArray(<?php echo json_encode($sunchart);?>), options,'#sunchart');
+</script>
+  </div>
+      <?php /*?>
+  <div class="panel panel-default" style="display:none">
+   <div class="card-header white-text">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        Vimshottari Dasha</a>
+        <a class="float-xs-right" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        <i class="fa fa-chevron-circle-down resultdown" aria-hidden="true"></i></a>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">
+            <div class="row">
+      <div class="col-md-6">
+        <!--Panel-->
+        <div class="card">
+          <div class="card-header danger-color-dark white-text"> Current Vimshottari Dasha </div>
+          <div class="card-block">
+            <div class="UI-II">
+              <div class="Crnt-Dasha">
+               <?php foreach ($current_vdasha as $key => $current_vdasha_value){?> 
+                <div class="dashaFirstlevelData dashaData">
+                  <div class="dashaFirstLevel dashaPlanet pull-left ng-binding"><b><?php echo $current_vdasha_value->planet; ?></b></div>
+            <br />
+                  <p class="ng-binding"><?php echo $current_vdasha_value->start; ?> -- <?php echo $current_vdasha_value->end; ?></p>
+                </div>
+                <div style="clear:both;"></div>
+                <div></div>
+                
+                   <?php } ?>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/.Panel-->
+      </div>
+      <div class="col-md-6">
+        <!--Panel-->
+        <div class="card">
+          <div class="card-header danger-color-dark white-text"> Major Vimshottari Dasha </div>
+          <div class="card-block">
+            <div class="UI-II ng-scope">
+              <div class="table-bordered table-responsive">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Planet</th>
+                      <th>Start Date</th>
+                      <th>End Date</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <?php foreach ($major_vdasha as $key => $major_vdasha_value){?> 
+                 <tr>
+                      <td class="bold"><?php echo $major_vdasha_value->planet; ?></td>
+                      <td><?php echo $major_vdasha_value->start; ?></td>
+                      <td><?php echo $major_vdasha_value->end; ?></td>
+                    </tr>
+              <?php } ?>
+                   
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/.Panel-->
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+
+ <div class="panel panel-default">
+    <div class="card-header white-text">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+          Yogini Dasha</a>
+        <a class="float-xs-right" data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+        <i class="fa fa-chevron-circle-down resultdown" aria-hidden="true"></i></a>
+    </div>
+    <div id="collapse4" class="panel-collapse collapse">
+      <div class="panel-body">
+    <div class="row">
+      <div class="col-md-6">
+        <!--Panel-->
+        <div class="card">
+          <div class="card-header danger-color-dark white-text"> Current Yogini Dasha </div>
+          <div class="card-block">
+            <div class="UI-II">
+              <div class="Crnt-Dasha">
+                  <?php foreach ($current_yogini_dasha as $key => $current_yogini_dasha_value){?> 
+              
+                <div class="dashaFirstlevelData dashaData">
+                  <div class="dashaFirstLevel dashaPlanet pull-left ng-binding"><b><?php echo $current_yogini_dasha_value->dasha_name; ?></b></div>
+               <br />
+                  <p class="ng-binding"><?php echo $current_yogini_dasha_value->start_date; ?> -- <?php echo $current_yogini_dasha_value->end_date; ?></p>
+                </div>
+                <div style="clear:both;"></div>
+                <div></div>
+        <?php } ?>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/.Panel-->
+      </div>
+      <div class="col-md-6">
+        <!--Panel-->
+        <div class="card">
+          <div class="card-header danger-color-dark white-text"> Major Yogini Dasha </div>
+          <div class="card-block">
+            <div class="UI-II ng-scope">
+              <div class="table-bordered table-responsive">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Dasha </th>
+                      <th>Start Date</th>
+                      <th>End Date</th>
+                      <th>Duration</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  <?php foreach ($major_yogini_dasha as $key => $major_yogini_dasha_value){?> 
+                    <tr>
+                      <td class="bold"><?php echo $major_yogini_dasha_value->dasha_name; ?></td>
+                      <td><?php echo $major_yogini_dasha_value->start_date; ?></td>
+                      <td><?php echo $major_yogini_dasha_value->end_date; ?></td>
+                      <td><?php echo $major_yogini_dasha_value->duration; ?>year</td>
+                    </tr>
+                   <?php } ?> 
+                    
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/.Panel-->
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+   <div class="panel panel-default">
+    <div class="card-header white-text">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+          Char Dasha</a>
+        <a class="float-xs-right" data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+        <i class="fa fa-chevron-circle-down resultdown" aria-hidden="true"></i></a>
+    </div>
+    <div id="collapse5" class="panel-collapse collapse">
+      <div class="panel-body">
+    <div class="row">
+      <div class="col-md-6">
+        <!--Panel-->
+        <div class="card">
+          <div class="card-header danger-color-dark white-text"> Current Char Dasha </div>
+          <div class="card-block">
+            <div class="UI-II">
+              <div class="Crnt-Dasha">
+               <?php foreach ($current_chardasha as $key => $current_chardasha_value){ if($current_chardasha_value->sign_name){?> 
+                <div class="dashaFirstlevelData dashaData">
+                  <div class="dashaFirstLevel dashaPlanet pull-left ng-binding"><b><?php echo $current_chardasha_value->sign_name; ?></b></div>
+                  <br /><p class="ng-binding"><?php echo $current_chardasha_value->start_date; ?> -- <?php echo $current_chardasha_value->end_date; ?></p>
+                </div>
+                <div style="clear:both;"></div>
+                <div></div>
+                 <?php }} ?> 
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/.Panel-->
+      </div>
+      <div class="col-md-6">
+        <!--Panel-->
+        <div class="card">
+          <div class="card-header danger-color-dark white-text"> Major Char Dasha </div>
+          <div class="card-block">
+            <div class="UI-II ng-scope">
+              <div class="table-bordered table-responsive">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Sign </th>
+                      <th>Start Date</th>
+                      <th>End Date</th>
+                      <th>Duration</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                   <?php foreach ($major_chardasha as $key => $major_chardasha_value){?> 
+                    <tr>
+                     <td class="bold"><?php echo $major_chardasha_value->sign_name; ?></td>
+                      <td><?php echo $major_chardasha_value->start_date; ?></td>
+                      <td><?php echo $major_chardasha_value->end_date; ?></td>
+                      <td><?php echo $major_chardasha_value->duration; ?>years</td>
+                    </tr>
+                     <?php } ?> 
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/.Panel-->
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+  <?php */?>
+  
+  
+  <?php /* ?>
+   <div class="panel panel-default">
+    <div class="card-header white-text">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+          Planet Details</a>
+        <a class="float-xs-right" data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+        <i class="fa fa-chevron-circle-down resultdown" aria-hidden="true"></i></a>
+    </div>
+    <div id="collapse6" class="panel-collapse collapse">
+      <div class="panel-body">
+    <div class="table-responsive table-bordered">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Planet</th>
+            <th>R</th>
+            <th>Sign</th>
+            <th>Sign Lord</th>
+            <th>Degree</th>
+            <th>Nakshatra</th>
+            <th>Nakshatra Lord</th>
+            <th>House</th>
+          </tr>
+        </thead>
+        <tbody>
+          <?php foreach($planets as $planet){ ?>
+          <tr>
+            <td><?php echo $planet->name; ?></td>
+            <td><?php if($planet->isRetro == 'true'){ echo 'R';} else{ echo '-'; } ?></td>
+            <td><?php echo $planet->sign; ?></td>
+            <td><?php echo $planet->signLord; ?></td>
+            <td><?php echo $planet->normDegree; ?></td>
+            <td><?php echo $planet->nakshatra; ?></td>
+            <td><?php echo $planet->nakshatraLord; ?></td>
+            <td><?php echo $planet->house; ?></td>
+          </tr>
+          <?php } ?>
+        </tbody>
+      </table>
+    </div>
+      </div>
+    </div>
+  </div>
+      <?php */ ?>
+</div>
+</div>

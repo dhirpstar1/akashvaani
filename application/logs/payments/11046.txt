@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 11046
+    [tracking_id] => 106270218521
+    [bank_ref_no] => 958514
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => Visa Debit Card
+    [status_code] => 0
+    [status_message] => Transaction Successful
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Umang
+    [billing_address] => university road
+    [billing_city] => Rajkot
+    [billing_state] => Gujarat
+    [billing_zip] => 360005
+    [billing_country] => India
+    [billing_tel] => 9586829251
+    [billing_email] => um6111@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => 05
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 24/08/2017 11:17:44
+    [bin_country] => INDIA
+)

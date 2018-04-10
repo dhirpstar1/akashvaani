@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 14837
+    [tracking_id] => 106287471386
+    [bank_ref_no] => 007483
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => Visa Debit Card
+    [status_code] => null
+    [status_message] => SUCCESS
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Rizwana Ahmed
+    [billing_address] => IRCTC Office, 4D Mandovi Apartment, 4th Floor, Opp. Ravindra Bhawan, Ambari, Guwahati, Assam 
+    [billing_city] => Guwahati
+    [billing_state] => Assam
+    [billing_zip] => 781001 
+    [billing_country] => India
+    [billing_tel] => 9957644158
+    [billing_email] => riva_11186@yahoo.co.in
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 11/10/2017 22:26:33
+    [bin_country] => INDIA
+)

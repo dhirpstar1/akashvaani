@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 12655
+    [tracking_id] => 106278093909
+    [bank_ref_no] => null
+    [order_status] => Failure
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => RuPay
+    [status_code] => null
+    [status_message] => General error.
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Meenakshi
+    [billing_address] => H.no386
+    [billing_city] => New Delhi
+    [billing_state] => New Delhi
+    [billing_zip] => 110021
+    [billing_country] => India
+    [billing_tel] => 9312464435
+    [billing_email] => Cutestmini14@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 245
+    [billing_notes] => 
+    [trans_date] => 14/09/2017 22:20:33
+    [bin_country] => INDIA
+)

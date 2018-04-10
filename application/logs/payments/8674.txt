@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 8674
+    [tracking_id] => 106252401061
+    [bank_ref_no] => null
+    [order_status] => Invalid
+    [failure_message] => 
+    [payment_mode] => null
+    [card_name] => null
+    [status_code] => 
+    [status_message] => 31010:billing_tel: Invalid Parameter.
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => df
+    [billing_address] => 
+    [billing_city] => 
+    [billing_state] => 
+    [billing_zip] => 
+    [billing_country] => 
+    [billing_tel] => 232
+    [billing_email] => dfa@afda.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => 
+    [retry] => null
+    [response_code] => 
+    [billing_notes] => 
+    [trans_date] => null
+    [bin_country] => 
+)

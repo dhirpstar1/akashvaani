@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 14230
+    [tracking_id] => 106284949570
+    [bank_ref_no] => IGACDEYSQ3
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => State Bank of India
+    [status_code] => null
+    [status_message] => Completed Successfully
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => RAVITHEJA TETALI
+    [billing_address] => 9-6-96/4, SATYAM RESIDENCY-102, OPPOSITE SIVAJIPARK MAINGATE,
+    [billing_city] => Vishakhapatnam
+    [billing_state] => Andhra Pradesh
+    [billing_zip] => 530017
+    [billing_country] => India
+    [billing_tel] => 91-9849448979
+    [billing_email] => tlrambabu@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 05/10/2017 07:23:36
+    [bin_country] => 									
+)

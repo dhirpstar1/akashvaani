@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 13565
+    [tracking_id] => 106282248487
+    [bank_ref_no] => 034420
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Credit Card
+    [card_name] => Visa
+    [status_code] => null
+    [status_message] => SUCCESS
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Sugandha atrey
+    [billing_address] => 208, Sector1, Type 3 Sadiq Nagar
+    [billing_city] => New Delhi
+    [billing_state] => New Delhi
+    [billing_zip] => 110049
+    [billing_country] => India
+    [billing_tel] => 8971469933
+    [billing_email] => sugandha.atrey@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 27/09/2017 01:26:46
+    [bin_country] => INDIA
+)

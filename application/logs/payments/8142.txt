@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 8142
+    [tracking_id] => 106248048108
+    [bank_ref_no] => 991833
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => State Bank of India
+    [status_code] => 0
+    [status_message] => Transaction Successful
+    [currency] => INR
+    [amount] => 299.0
+    [billing_name] => vedant
+    [billing_address] => 3/25 kush lodge west patel Nagar
+    [billing_city] => New Delhi
+    [billing_state] => New Delhi
+    [billing_zip] => 110008
+    [billing_country] => India
+    [billing_tel] => 7987883599
+    [billing_email] => iamatom8@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 299.0
+    [eci_value] => 05
+    [retry] => null
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 04/07/2017 16:07:04
+    [bin_country] => 
+)

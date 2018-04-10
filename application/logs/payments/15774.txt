@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 15774
+    [tracking_id] => 106290834050
+    [bank_ref_no] => 172944617791
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => HDFC Bank
+    [status_code] => null
+    [status_message] => null
+    [currency] => INR
+    [amount] => 599.0
+    [billing_name] => Ankur Pandey
+    [billing_address] => Plot no. 9, Mangesh Colony, Civil Lines 
+    [billing_city] => Nagpur
+    [billing_state] => Maharashtra
+    [billing_zip] => 440001
+    [billing_country] => India
+    [billing_tel] => 9730066059
+    [billing_email] => ankurtpandey@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 599.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 21/10/2017 23:25:31
+    [bin_country] => 
+)

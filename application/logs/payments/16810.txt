@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 16810
+    [tracking_id] => 106294189791
+    [bank_ref_no] => null
+    [order_status] => Failure
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => MasterCard Debit Card
+    [status_code] => null
+    [status_message] => NOT CAPTURED
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Dipanjan Das
+    [billing_address] => Diwali oil Corporation Vill Basudevpur po Khanjanchak Ps Durgachak 
+    [billing_city] => HALDIA WEST BANGAL 
+    [billing_state] => West Bengal 
+    [billing_zip] => 721602
+    [billing_country] => India
+    [billing_tel] => 9836000408
+    [billing_email] => dipanjands600@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 31/10/2017 15:50:58
+    [bin_country] => INDIA
+)

@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 16311
+    [tracking_id] => 106292563366
+    [bank_ref_no] => 219729
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => Maestro Debit Card
+    [status_code] => null
+    [status_message] => SUCCESS
+    [currency] => INR
+    [amount] => 796.0
+    [billing_name] => Baishali Bordhan
+    [billing_address] => LANKA postal campus,  lanka post office
+    [billing_city] => LANKA 
+    [billing_state] => Assam
+    [billing_zip] => 782446
+    [billing_country] => India
+    [billing_tel] => 9435257526
+    [billing_email] => bbordhan@yahoo.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 796.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 26/10/2017 22:36:06
+    [bin_country] => INDIA
+)

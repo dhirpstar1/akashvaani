@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 15892
+    [tracking_id] => 106291204726
+    [bank_ref_no] => 0047828595
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => Kotak Mahindra Bank
+    [status_code] => null
+    [status_message] => null
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Kamaljit kaur
+    [billing_address] => Chandigarh
+    [billing_city] => Chandigarh
+    [billing_state] => Chandigarh
+    [billing_zip] => 160055
+    [billing_country] => India
+    [billing_tel] => 9878967053
+    [billing_email] => kamaljitkaurlakhian@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 23/10/2017 10:29:36
+    [bin_country] => 
+)

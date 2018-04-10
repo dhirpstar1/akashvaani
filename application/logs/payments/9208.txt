@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 9208
+    [tracking_id] => 106256721623
+    [bank_ref_no] => 027437
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => Visa Debit Card
+    [status_code] => 0
+    [status_message] => Transaction Successful
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => chandan kumar
+    [billing_address] => darbhanga
+    [billing_city] => Darbhanga
+    [billing_state] => Bihar
+    [billing_zip] => 846004
+    [billing_country] => India
+    [billing_tel] => 910240380
+    [billing_email] => chandan.jha87@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => 05
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 23/07/2017 13:24:58
+    [bin_country] => INDIA
+)

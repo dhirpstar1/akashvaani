@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 14593
+    [tracking_id] => 106286560816
+    [bank_ref_no] => 353660
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => State Bank of India
+    [status_code] => null
+    [status_message] => SUCCESS
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Swati Tomar
+    [billing_address] => Ofd estate raipur
+    [billing_city] => Dehra Dun
+    [billing_state] => Uttaranchal
+    [billing_zip] => 248008
+    [billing_country] => India
+    [billing_tel] => 08126121823
+    [billing_email] => Swatitomar698@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 09/10/2017 15:30:31
+    [bin_country] => INDIA
+)

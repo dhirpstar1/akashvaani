@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 15301
+    [tracking_id] => 106289074043
+    [bank_ref_no] => 100000000000000000000568917295
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => RuPay
+    [status_code] => null
+    [status_message] => null
+    [currency] => INR
+    [amount] => 299.0
+    [billing_name] => Pavithra
+    [billing_address] => 9/1-130,subramania nagar mettur
+    [billing_city] => Mettur 
+    [billing_state] => Tamilnadu
+    [billing_zip] => 636402
+    [billing_country] => India
+    [billing_tel] => 9003681542
+    [billing_email] => vijayasekar.pavi@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 299.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 16/10/2017 12:25:53
+    [bin_country] => INDIA
+)

@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 16974
+    [tracking_id] => 106294857770
+    [bank_ref_no] => 7306470696
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Wallet
+    [card_name] => Paytm
+    [status_code] => null
+    [status_message] => Txn Successful.
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Ridhi
+    [billing_address] => C-19 Rajeev Nagar 
+    [billing_city] => Raipur 
+    [billing_state] => Chattisgarh
+    [billing_zip] => 492001
+    [billing_country] => India
+    [billing_tel] => 7389339967
+    [billing_email] => ridhijoshi81@yahoo.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 02/11/2017 10:13:22
+    [bin_country] => 
+)

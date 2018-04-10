@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 15193
+    [tracking_id] => 106288670217
+    [bank_ref_no] => null
+    [order_status] => Failure
+    [failure_message] => 
+    [payment_mode] => Wallet
+    [card_name] => Paytm
+    [status_code] => null
+    [status_message] => Looks like you cancelled the payment. You can try again now by adding money in your wallet or choose another payment method. If you faced any issues in completing the payment, please contact us
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Kanika Panchal
+    [billing_address] => 34-a, jeewan nagar, new delhi-110014
+    [billing_city] => New Delhi
+    [billing_state] => New Delhi
+    [billing_zip] => 110014
+    [billing_country] => India
+    [billing_tel] => 9811702663
+    [billing_email] => kanikapanchal94@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 15/10/2017 06:40:24
+    [bin_country] => 									
+)

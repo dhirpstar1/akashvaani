@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 8354
+    [tracking_id] => 106249899389
+    [bank_ref_no] => null
+    [order_status] => Failure
+    [failure_message] => 
+    [payment_mode] => Wallet
+    [card_name] => Paytm
+    [status_code] => null
+    [status_message] => Looks like you cancelled the payment. You can try again now or if you faced any issues in completing the payment, please contact us
+    [currency] => INR
+    [amount] => 1100.0
+    [billing_name] => test
+    [billing_address] => no adress
+    [billing_city] => no city
+    [billing_state] => uttar pradesh
+    [billing_zip] => no pincode
+    [billing_country] => India
+    [billing_tel] => 12345678987
+    [billing_email] => test@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 1100.0
+    [eci_value] => null
+    [retry] => null
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 08/07/2017 09:59:00
+    [bin_country] => 
+)

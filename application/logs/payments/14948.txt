@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 14948
+    [tracking_id] => 106287919840
+    [bank_ref_no] => 526251318
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => Axis Bank
+    [status_code] => null
+    [status_message] => null
+    [currency] => INR
+    [amount] => 597.0
+    [billing_name] => Aamira naz
+    [billing_address] => House 254
+    [billing_city] => Rajnandgaon C
+    [billing_state] => Chattisgarh
+    [billing_zip] => 491441
+    [billing_country] => India
+    [billing_tel] => 8817695257
+    [billing_email] => aamira.naz@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 597.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 12/10/2017 23:22:44
+    [bin_country] => 
+)

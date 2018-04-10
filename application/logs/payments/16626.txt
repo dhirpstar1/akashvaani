@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 16626
+    [tracking_id] => 106293526540
+    [bank_ref_no] => 008249
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => MasterCard Debit Card
+    [status_code] => null
+    [status_message] => SUCCESS
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Shashank Kumar
+    [billing_address] => Sector 
+    [billing_city] => Noida 
+    [billing_state] => Uttar Pradesh
+    [billing_zip] => 201301
+    [billing_country] => India
+    [billing_tel] => 9873763047
+    [billing_email] => shashank897@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 29/10/2017 21:56:39
+    [bin_country] => INDIA
+)

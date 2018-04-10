@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 16905
+    [tracking_id] => 106294627514
+    [bank_ref_no] => 228437
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => State Bank of India
+    [status_code] => null
+    [status_message] => SUCCESS
+    [currency] => INR
+    [amount] => 299.0
+    [billing_name] => Khushboo gohel
+    [billing_address] => 26 uday society old padra rd vadodara gujarat 
+    [billing_city] => Vadodara
+    [billing_state] => Gujarat 
+    [billing_zip] => 390007
+    [billing_country] => India
+    [billing_tel] => 8141674361
+    [billing_email] => gohilkhushboo0@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 299.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 01/11/2017 16:13:43
+    [bin_country] => INDIA
+)

@@ -1,0 +1,650 @@
+  <div class="container cntnr1">
+   <hr>
+    <section id="about" class="text-xs-center wow bounceIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: bounceIn;">
+
+      <div class="card">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-10 astrohead">
+              <span class="name">What are you looking for</span>
+              <!-- <span class="tagline">Find And Experience<br> The Best Astrology Services.</span> -->
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+              <div id="serviceDiv" class="col-md-11 srchdrop">
+
+                <div class="card srvcbox">
+                  <a href="https://www.akashvaani.com/astrologer" id="Astrological Consultation" class="dropdown-item waves-effect waves-light" onClick="linkselect(this.id)">Astrological Consultation</a>
+                  <a href="<?php echo base_url('/astrology/marriage-kundali-matching'); ?>" id="Kundali Milan" class="dropdown-item waves-effect waves-light" onClick="linkselect(this.id)">Kundali Milan</a>
+                   <a href="<?php echo base_url('/astrology/online-marriage-prediction'); ?>" id="2017 Marriage Report" class="dropdown-item waves-effect waves-light" onClick="linkselect(this.id)">2017 Marriage Report</a>
+                </div>
+
+              </div>
+              <div id="custom-search-input">
+                <div class="input-group col-md-12">
+                  <input id="mydiv" type="text" class="form-control input-lg" placeholder="Astrological Services" onClick="showserviceDiv()" onfocus="blur()" />
+                  <span class="input-group-btn">
+                    <button class="btn btn-info btn-lg srch" type="button">
+                      <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+     <hr class="firstheadhr">
+    <h2 class="h2-responsive firsthead">Astrological Services</h2>
+    <main>
+      <div class="row">
+        <div class="col-md-9">
+             <div class="row">
+            <!--First columnn-->
+
+            <div class="col-md-4">
+              <!--Card-->
+              <div class="card">
+
+                <!--Card image-->
+                <div class="view overlay hm-white-slight">
+                  <img src="<?php echo base_url('/assets/astrology/'); ?>/img/marriagecard.jpg" class="img-fluid" alt="" style="position:relative">
+                  <div class="col-md-12 col-xs-12 servicetitle"> <h4 class="card-title serviceh">Marriage</h4></div>
+
+                  <a>
+                    <div class="mask waves-effect waves-light"></div>
+                  </a>
+                </div>
+                <!--/.Card image-->
+
+                <!--Card content-->
+                <div class="card-block astrcard">
+                  <!--Title-->
+                  <hr>
+                  <!--Text-->
+                  <p class="card-text">
+                    <div class="row marglink">
+                      <div class="col-md-6 col-xs-6">
+                        <h5 class="blue-text"><a href="<?php echo base_url('/astrology/marriage-kundali-matching'); ?>"> Kundali Milan<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+                       </h5>
+                        <h5 class="blue-text"><a href="<?php echo base_url('/astrology/manglik-dosha-solution'); ?>">Manglik Dosh<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                        <h5 class="blue-text"><a href="<?php echo base_url('/astrology/child-pregnancy'); ?>">Child & Pregnancy<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      </div>
+                      <div class="col-md-6 col-xs-6 astrcardh5" style="padding-right: 0">
+                        <h5 class="blue-text"><a href="<?php echo base_url('/astrology/online-marriage-prediction'); ?>">Marriage Prediction<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                        <!-- <h5 class="blue-text"><a href="<?php echo base_url('#'); ?>">Marriage Problem<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5> -->
+                        <h5 class="blue-text"><a href="<?php echo base_url('/astrology/love-marriage-relationships'); ?>">Love Marriage<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+                <!--/.Card content-->
+
+              </div>
+              <!--/.Card-->
+            </div>
+
+            <!--First columnn-->
+
+
+            <div class="col-md-4">
+              <!--Card-->
+              <div class="card">
+
+                <!--Card image-->
+                <div class="view overlay hm-white-slight">
+                  <img src="<?php echo base_url('/assets/astrology/'); ?>/img/careercard.jpg" class="img-fluid" alt="" style="position:relative">
+                  <div class="col-md-12 col-xs-12 servicetitle"> <h4 class="card-title serviceh">Career</h4></div>
+
+                  <a>
+                    <div class="mask waves-effect waves-light"></div>
+                  </a>
+                </div>
+                <!--/.Card image-->
+
+                <!--Card content-->
+                <div class="card-block text-xs-center">
+                  <!--Title-->
+                  <hr>
+                  <!--Text-->
+                  <p class="card-text">
+                    <h5 class="blue-text"><a href="<?php echo base_url('/astrology/online-career-and-job'); ?>">Jobs & Career</a> </h5>
+                    <h5 class="blue-text"> <a href="#">Prediction & Analysis</a> </h5>
+                  </p>
+                </div>
+                <!--/.Card content-->
+
+              </div>
+              <!--/.Card-->
+            </div>
+            <!--Second columnn-->
+
+            <!--Third columnn-->
+
+
+            <div class="col-md-4">
+              <!--Card-->
+              <div class="card">
+
+                <!--Card image-->
+                <div class="view overlay hm-white-slight">
+                  <img src="<?php echo base_url('/assets/astrology/'); ?>/img/healthcard.jpg" class="img-fluid" alt="" style="position:relative">
+                  <div class="col-md-12 col-xs-12 servicetitle"> <h4 class="card-title serviceh">Health</h4></div>
+
+                  <a>
+                    <div class="mask waves-effect waves-light"></div>
+                  </a>
+                </div>
+                <!--/.Card image-->
+
+                <!--Card content-->
+                <div class="card-block text-xs-center">
+                  <!--Title-->
+                  <hr>
+                  <!--Text-->
+                  <p class="card-text">
+                     <h5 class="blue-text"><a href="<?php echo base_url('/astrology/medical-and-health'); ?>">Health</a> </h5>
+                    <h5 class="blue-text"> <a href="#">Prediction & Analysis</a> </h5>
+                  </p>
+                </div>
+                <!--/.Card content-->
+
+              </div>
+              <!--/.Card-->
+            </div>
+
+            <!--Third columnn-->
+          </div>
+         
+        </div>
+           <div class="col-md-3 asknow">
+ <div class="card text-xs-center z-depth-2">
+    <div class="card-header sidecard white-text">
+      Ask From Our Expert
+    </div>
+  </div>
+  <div class="card wow fadeInUp shadowless" style="visibility: visible; animation-name: fadeInUp;">
+   <?php echo form_open('service/booking', array('class' => 'form-horizontal', 'id' => 'sendenquiry1')); ?> 
+    <?php echo form_input(array('type' => 'hidden', 'name' => 'type', 'value' => 'phone')); ?> 
+    <?php echo form_input(array('type' => 'hidden', 'name' => 'category_id', 'value' => 1)); ?>
+        <?php echo form_input(array('type' => 'hidden', 'name' => 'reference_page', 'value' => 'Astrology Page')); ?> 
+        <?php echo form_input(array('type' => 'hidden', 'name' => 'reference_heading', 'value' => 'Astrology')); ?> 
+    <div class="card-block">
+     <div class="row">
+       <div class="col-md-12">
+
+        <div class="md-form wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+          <i class="fa fa-user prefix"></i>
+          <input type="text" id="name" name="first_name" class="form-control" required>
+          <label for="name">Your Name</label>
+        </div>
+
+      </div>
+      <div class="col-md-12">
+
+        <div class="md-form wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+          <i class="fa fa-phone prefix"></i>
+          <input type="text" id="phone" name="phone" class="form-control" required>
+          <label for="phone">Phone No.</label>
+        </div>
+
+      </div>
+      <div class="col-md-12">
+       <div class="md-form wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+        <i class="fa fa-pencil prefix"></i>
+        <textarea type="text" id="qsn" class="md-textarea" name="description"></textarea>
+        <label for="qsn">Ask Your Question</label>
+      </div>
+    </div>
+
+  </div>
+
+  <button type="submit" class="btn btn-primary wow fadeInRight waves-effect waves-light" style="visibility: visible; animation-name: fadeInRight;border-radius: 35px;background: #ff3366;">Submit<span class="mui-btn__ripple-container"><span class="mui-ripple"></span></span></button>
+
+ <?php echo form_close(); ?>
+</div>
+ <script>
+    $('form#sendenquiry1').submit(function(e) {
+    var form = $(this);
+    e.preventDefault();
+  //$('#enquiry_result1').html('<div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>');  
+    $.ajax({
+        type: "POST",
+        url: "<?php echo site_url('service/booking'); ?>",
+        data: form.serialize(),
+        success: function(data){ //
+      window.location.replace(data);  
+        },
+         error: function(resp) { alert(JSON.stringify(resp)); }
+   });
+});
+</script> 
+</div>
+</div>
+      </div>
+    </main>
+</div>
+
+<hr class="firstheadhr">
+<?=$get_report_section;?>
+<br />
+<section class="section" style="background-image: url('<?php echo base_url('/assets/astrology/'); ?>/img/online.jpg');background-size:cover">
+    <!--First row-->
+    <div class="container">
+    <div class="row">
+
+        <!--First column-->
+        <div class="col-md-12 mb-r">
+            <!--Card-->
+            <div class="card-overlay">
+
+                <!--Content-->
+                <div class="white-text text-xs-center">
+                    <div class="card-block">
+                        <h3 style="font-size: 40px;margin-top: 50px;margin-bottom: 45px;">Consult An Astrologer</h3>
+                        <p>At Akashvaani our decade experienced astrologers will guide you to find solutions for every problem and will suggest the remedies to reduce the effect for a better life.</p>
+                        <a class="btn btn-lg btn-outline-white" data-toggle="modal" id="bookingConsultation" data-target="#myModal" style="margin-top: 25px;margin-bottom: 25px; border-radius:35px"><i style="margin-right:6px" class="fa fa-phone" aria-hidden="true"></i>Book Consultation</a>
+                    </div>
+                </div>
+
+            </div>
+            <!--/.Card-->
+        </div>
+    </div>
+    <!--/First row-->
+    </div>
+</section>
+<?php echo $serviceForm; ?>
+<div class="container">
+ <hr class="firstheadhr">
+    <h2 class="h2-responsive firsthead">Why Akashvaani</h2>
+<section class="section feature-box">
+
+  <!--First row-->
+  <div class="row features-big">
+    <!--First column-->
+    <div class="col-md-4 mb-r wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+      <span class="text-center"><img src="<?php echo base_url('/assets/astrology/'); ?>/img/akashvaani.png" alt="fully responsive" style="display:inline;margin-bottom: 25px;box-shadow:none"></span>
+      <h4 class="feature-title">About Akashvaani</h4>
+      <p class="grey-text">Akashvaani is the best platform to discover and book for any kind of Puja, astrological consultation, Vastu services and other vedic services</p>
+    </div>
+    <!--/First column-->
+
+    <!--Second column-->
+    <div class="col-md-4 mb-r wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+       <span class="text-center"><img src="<?php echo base_url('/assets/astrology/'); ?>/img/professionals.png" alt="fully responsive" style="display:inline;margin-bottom: 25px;box-shadow:none"></span>
+      <h4 class="feature-title">Qualified Professionals</h4>
+      <p class="grey-text">Best network of astrologers, Pandit & vedic professionals. Highly experienced. Qualified & certified.</p>
+    </div>
+    <!--/Second column-->
+
+    <!--Third column-->
+    <div class="col-md-4 mb-r wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+       <span class="text-center"><img src="<?php echo base_url('/assets/astrology/'); ?>/img/easy-booking.png" alt="fully responsive" style="display:inline;margin-bottom: 25px;box-shadow:none"></span>
+      <h4 class="feature-title">Quick & Easy Booking</h4>
+      <p class="grey-text">Quick & easy booking. Everything at one platform. Security of money. Detailed reports on your mobile.</p>
+    </div>
+    <!--/Third column-->
+  </div>
+  <!--/First row-->
+
+</section>
+</div>
+  
+   <section class="footer_texture m-t-65">
+              <div class="container sbcrptn">
+                <div class="row">
+                  <div class="col-md-6 col-xs-12 footer_section_align">
+                    <span class="text-white font18">Get Your </span><span class="pink-text font24"> Daily Astrological feed<span class="text-white font18">,</span> Daily Spiritual feed </span><span class="text-white font18"></span><span class="text-white font18">Directly In Your Inbox</span>
+                  </div>
+                  <div class="col-md-6 col-xs-12 footer_section_align">
+
+                    <form method="post" action="#" id="subscribe">
+                      <div class="form-group">
+
+                        <div class="input-group label_align">
+
+                         
+ <?php echo form_input(array('type' => 'email', 'name' => 'email', 'placeholder' => 'Email Address', 'class' => 'form-control input-lg input_email sub_input', 'required' => 'required')); ?>
+
+                          <span class="input-group-addon subscribe_align">
+                            <button type="submit" class="subscribe btn btn-sm  waves-effect waves-light">
+                              <span>
+                                <img src="<?php echo base_url('/assets/astrology/'); ?>/img/mail-sent.png" alt="mailicon">
+                              </span>
+                            </button>
+                          </span>
+                        </div>
+                      </div> <div id="subscribereturn"></div>
+                    </form>
+                  </div>
+                  <script>
+         
+         
+               $('form#subscribe').submit(function(e) {
+    var form = $(this);
+    e.preventDefault();
+  $('#subscribereturn').html('<div align="center"><span class="fa fa-spin fa-circle-o-notch"></span></div>'); 
+    $.ajax({
+        type: "POST",
+        url: "<?php echo site_url('service/subscribe'); ?>",
+        data: form.serialize(), // <--- THIS IS THE CHANGE
+        success: function(data){
+            //$('#feed-container').prepend(data);
+      $('#subscribereturn').html('<span class="text-white font18">'+ data +'</span>');
+    $('#subscribe')[0].reset();
+      
+        },
+         error: function(resp) { alert(JSON.stringify(resp)); }
+   });
+
+});
+               
+               </script>
+            
+                </div>
+              </div>
+            </section>
+            <div class="container">
+            <hr class="firstheadhr">
+    <h2 class="h2-responsive firsthead">Our Top Astrologers</h2>
+
+<section class="section team-section "> 
+
+  <!--Section heading-->
+  <!--Section sescription-->
+ 
+
+  <div class="row text-xs-center">
+
+    <!--First column-->
+    <div class="col-md-1"></div>
+    <div class="col-md-3 mb-r">
+      <div class="avatar">
+        <img src="<?php echo base_url('/assets/astrology/'); ?>/img/sunil.png" style="width:200px;box-shadow:none">
+      </div>
+      <h4>Sunil Vashist</h4>
+
+    
+
+    </div>
+    <!--/First column-->
+
+    <!--Second column-->
+    <div class="col-md-3 mb-r">
+      <div class="avatar">
+         <img src="<?php echo base_url('/assets/astrology/'); ?>/img/maina.png" style="width:200px;box-shadow:none">
+      </div>
+      <h4>Maina Bhatnagar</h4>
+
+    
+    </div>
+    <!--/Second column-->
+
+    <!--Third column-->
+    <div class="col-md-3 mb-r">
+      <div class="avatar">
+         <img src="<?php echo base_url('/assets/astrology/'); ?>/img/manoj.png" style="width:200px;box-shadow:none">
+      </div>
+      <h4>Manoj Bhandari</h4>
+
+   
+    </div>
+    <!--/Third column-->
+  </div>
+
+</section>
+  <hr class="firstheadhr">
+    <h2 class="h2-responsive firsthead">What Our customers Say</h2>
+<section class="section">
+    
+    <!--Section heading-->
+  
+
+    
+    <div class="row">
+        <!--Carousel Wrapper-->
+        <div id="multi-item-example" class="carousel testimonial-carousel slide carousel-multi-item wow fadeIn" data-ride="carousel">
+
+            <!--Controls-->
+            <div class="controls-top" style="margin-bottom:5%">
+                <a class="btn-floating btn-small mdb-color" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+                <a class="btn-floating btn-small mdb-color" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+            </div>
+            <!--/.Controls-->
+
+            <!--Indicators-->
+            <ol class="carousel-indicators testimonial-indicators">
+                <li data-target="#multi-item-example" data-slide-to="0" class="active mdb-color"></li>
+                <li data-target="#multi-item-example" data-slide-to="1" class="mdb-color"></li>
+                <li data-target="#multi-item-example" data-slide-to="2" class="mdb-color"></li>
+            </ol>
+            <!--/.Indicators-->
+
+            <!--Slides-->
+            <div class="carousel-inner testimonial-iner" role="listbox">
+
+                <!--First slide-->
+                <div class="carousel-item active">
+                    <!--First column-->
+                    <div class="col-md-4">
+
+                        <div class="testimonial">
+                            <!--Avatar-->
+                           
+                            <!--Content-->
+                            <h4>Pardeep,Delhi</h4>
+                            <p><i class="fa fa-quote-left"></i> I Wanted An Advice Regarding Marriage Issue. Found Out About Akashvaani.Com On Internet. I Called Them And In Less Than 5 Minutes I Was Talking To Expert Marriage Astrologer . I Got An Advice Based On My Birth Details On Call. It Was More Than Satisfying Experience. It Could Not Have Been Easier And Better Than This</p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star-half-full"> </i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--/First column-->
+
+                    <!--Second column-->
+                    <div class="col-md-4 hidden-sm-down">
+                        <div class="testimonial">
+                            <!--Avatar-->
+                           
+                            <!--Content-->
+                            <h4>Sonali, Gurgaon</h4>
+                            <p><i class="fa fa-quote-left"></i> I Wanted An Advice Regarding Marriage Issue. Found Out About Akashvaani.Com On Internet. I Called Them And In Less Than 5 Minutes I Was Talking To Expert Marriage Astrologer . I Got An Advice Based On My Birth Details On Call. It Was More Than Satisfying Experience. It Could Not Have Been Easier And Better Than This.</p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/Second column-->
+                    
+                    <!--Third column-->
+                    <div class="col-md-4 hidden-sm-down">
+                        <div class="testimonial">
+                            <!--Avatar-->
+                         
+                            <!--Content-->
+                            <h4>Rahul, Delhi</h4>
+                            <p><i class="fa fa-quote-left"></i> Thank You Akashvaani For Giving Me Instant Service When I Was In Dilemma Of Switching My Job. They Helped In Choosing The Right Decision.</p>
+                            
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star-o"> </i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/Third column-->
+
+                </div>
+                <!--/.First slide-->
+
+                <!--Second slide-->
+                <div class="carousel-item">
+                    <!--First column-->
+                    <div class="col-md-4">
+
+                        <div class="testimonial">
+                            <!--Avatar-->
+                          
+                            <!--Content-->
+                            <h4>Shikha, Gurgaon</h4>
+                            <p><i class="fa fa-quote-left"></i>I Was Much Tensed About My Job Success. I Got My Consultation From This Website, Believe Me Within 3 Months Of Remedies Suggested By Astrologer I Got Promoted In My Company. They Have Best Customer Service Team. </p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star-half-full"> </i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--/First column-->
+
+                    <!--Second column-->
+                    <div class="col-md-4 hidden-sm-down">
+                        <div class="testimonial">
+                            <!--Avatar-->
+                           
+                            <!--Content-->
+                            <h4>Sukriti, Noida</h4>
+                            <p><i class="fa fa-quote-left"></i> Akashvaani Is Worth Taking Service. I Was Doubtful About The Payment Security, But They Are Trustworthy. I Am Satisfied That I Have Invested At Right Place.</p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/Second column-->
+
+                    <!--Third column-->
+                    <div class="col-md-4 hidden-sm-down">
+                        <div class="testimonial">
+                            <!--Avatar-->
+                            
+                            <!--Content-->
+                            <h4>Lekha Sharma, Gurgaon</h4>
+                            <p><i class="fa fa-quote-left"></i> I Was Jobless For Last One Year, Irrespective Of My Qualification My Luck Was Not With Me. Then I Contacted Akashvaani.Com. They Told Me About My Dasha And A Simple Remedy. After Two Months I Got Job. I Am Amazed To See This Positive Result.</p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star-o"> </i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/Third column-->
+
+                </div>
+                <!--/.Second slide-->
+
+                <!--Third slide-->
+                <div class="carousel-item">
+                    <!--First column-->
+                    <div class="col-md-4">
+
+                        <div class="testimonial">
+                            <!--Avatar-->
+                          
+                            <!--Content-->
+                            <h4>Atul, Delhi</h4>
+                            <p><i class="fa fa-quote-left"></i>I Was Very Worried About My Husband’s Health. He Was Not Getting Rid Of Disease. Astrologer From Akashvaani Helped Me In Finding The Problems. I Am Really Grateful To His Guidance And His Knowledge Overwhelmed Me.</p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--/First column-->
+
+                    <!--Second column-->
+                    <div class="col-md-4 hidden-sm-down">
+                        <div class="testimonial">
+                            <!--Avatar-->
+                           
+                            <!--Content-->
+                            <h4>Rajbala, Gurgaon</h4>
+                            <p><i class="fa fa-quote-left"></i> Excellent Service Offered By Akasvaani.Com. Astrologer Heard All Problems Patiently, Guided Me About My Stars And Solutions. It Was Truly A Good Experience. </p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star-half-full"> </i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/Second column-->
+
+                    <!--Third column-->
+                    <div class="col-md-4 hidden-sm-down">
+                        <div class="testimonial">
+                            <!--Avatar-->
+                           
+                            <!--Content-->
+                            <h4>Khushboo, Delhi</h4>
+                            <p><i class="fa fa-quote-left"></i> I Was Very Worried About My Husband’s Health. He Was Not Getting Rid Of Disease. Astrologer From Akashvaani Helped Me In Finding The Problems. I Am Really Grateful To His Guidance And His Knowledge Overwhelmed Me. </p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star-o"> </i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/Third column-->
+
+                </div>
+                <!--/.Third slide-->
+
+            </div>
+            <!--/.Slides-->
+
+        </div>
+        <!--/.Carousel Wrapper-->
+    </div>
+</section>
+</div>

@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 16103
+    [tracking_id] => 106291889892
+    [bank_ref_no] => 486309
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => Visa Debit Card
+    [status_code] => null
+    [status_message] => SUCCESS
+    [currency] => INR
+    [amount] => 399.0
+    [billing_name] => Rishab Sethi
+    [billing_address] => D-41, AJAY ENCLAVE
+    [billing_city] => New Delhi
+    [billing_state] => New Delhi
+    [billing_zip] => 110018
+    [billing_country] => India
+    [billing_tel] => 09810130119
+    [billing_email] => rsethi2688@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 399.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 25/10/2017 00:35:43
+    [bin_country] => INDIA
+)

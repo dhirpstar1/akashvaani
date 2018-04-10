@@ -1,0 +1,55 @@
+Array
+(
+    [order_id] => 17084
+    [tracking_id] => 106295175089
+    [bank_ref_no] => IGACHMXEY6
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => State Bank of India
+    [status_code] => null
+    [status_message] => Completed Successfully
+    [currency] => INR
+    [amount] => 995.0
+    [billing_name] => father
+    [billing_address] => vill chindaliya
+    [billing_city] => Mohindergarh
+    [billing_state] => Haryana
+    [billing_zip] => 123001
+    [billing_country] => India
+    [billing_tel] => 8800929104
+    [billing_email] => sunilcrp2013@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 995.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 03/11/2017 07:52:07
+    [bin_country] => 
+
+
+
+
+
+
+
+
+
+
+)

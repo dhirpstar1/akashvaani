@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 14673
+    [tracking_id] => 106286869659
+    [bank_ref_no] => 200000000000000000000560971734
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => RuPay
+    [status_code] => null
+    [status_message] => null
+    [currency] => INR
+    [amount] => 299.0
+    [billing_name] => Chigiri Kalyan Kumar
+    [billing_address] => 7-4-341 kashmeergadda near vigneshwara girls hostel
+    [billing_city] => Karimnagar
+    [billing_state] => Telangana
+    [billing_zip] => 505001
+    [billing_country] => India
+    [billing_tel] => 8978833557
+    [billing_email] => Kalyanc840@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 299.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 10/10/2017 12:34:03
+    [bin_country] => INDIA
+)

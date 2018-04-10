@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 7715
+    [tracking_id] => 106244568638
+    [bank_ref_no] => IGABNXAYQ8
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => State Bank of India
+    [status_code] => null
+    [status_message] => Completed Successfully
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Mritunjay Singh
+    [billing_address] => 702, K2, Happy Home complex, Mira road
+    [billing_city] => Mumbai
+    [billing_state] => Mumbai
+    [billing_zip] => 401107
+    [billing_country] => India
+    [billing_tel] => 9821330103
+    [billing_email] => inbox.mrityunjay@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => null
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 27/06/2017 13:39:20
+    [bin_country] => 
+)

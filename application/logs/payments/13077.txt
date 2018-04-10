@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 13077
+    [tracking_id] => 106279883186
+    [bank_ref_no] => null
+    [order_status] => Failure
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => Axis Bank
+    [status_code] => 
+    [status_message] => null
+    [currency] => INR
+    [amount] => 398.0
+    [billing_name] => Minu Anwar
+    [billing_address] => B2/41, NABARD NAGAR, THAKUR COMPLEX, KANDIVALI EAST
+    [billing_city] => Mumbai
+    [billing_state] => Maharashtra
+    [billing_zip] => 400101
+    [billing_country] => India
+    [billing_tel] => 9594292111
+    [billing_email] => ajay156_mathew@rediffmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 398.0
+    [eci_value] => 
+    [retry] => N
+    [response_code] => 
+    [billing_notes] => 
+    [trans_date] => 20/09/2017 10:13:22
+    [bin_country] => 
+)

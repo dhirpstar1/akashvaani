@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 13734
+    [tracking_id] => 106283060556
+    [bank_ref_no] => 004060
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => Visa Debit Card
+    [status_code] => 0
+    [status_message] => Transaction Successful
+    [currency] => INR
+    [amount] => 599.0
+    [billing_name] => Akansha Bhatnagar
+    [billing_address] => Mahagun
+    [billing_city] => NOIDA
+    [billing_state] => UTTAR PRADESH
+    [billing_zip] => 201301
+    [billing_country] => India
+    [billing_tel] => 7620794803
+    [billing_email] => akanbhatnagar02@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 599.0
+    [eci_value] => 05
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 29/09/2017 14:12:28
+    [bin_country] => INDIA
+)

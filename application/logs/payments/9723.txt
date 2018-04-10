@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 9723
+    [tracking_id] => 106260431635
+    [bank_ref_no] => 1262991177
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => ICICI Bank
+    [status_code] => null
+    [status_message] => SUCCESS
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => BULBUL PRIYADARSHINI SAHOO
+    [billing_address] => C/O B K SAHOO AT /PO KUSUPUR DIST-CUTTACK
+    [billing_city] => Cuttack 
+    [billing_state] => Orisa
+    [billing_zip] => 754205
+    [billing_country] => India
+    [billing_tel] => 08763348141
+    [billing_email] => bulbul.sahoo65@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 01/08/2017 16:24:31
+    [bin_country] => 
+)

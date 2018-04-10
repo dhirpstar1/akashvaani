@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 14734
+    [tracking_id] => 106287083276
+    [bank_ref_no] => 1310322814
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => ICICI Bank
+    [status_code] => null
+    [status_message] => SUCCESS
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Mayank
+    [billing_address] => Srt 20 Prakesh Nagar
+    [billing_city] => Hyderabad
+    [billing_state] => Andhra Pradesh
+    [billing_zip] => 500010
+    [billing_country] => India
+    [billing_tel] => 9052445645
+    [billing_email] => mayankmishra39@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 10/10/2017 21:10:40
+    [bin_country] => 
+)

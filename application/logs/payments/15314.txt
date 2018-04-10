@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 15314
+    [tracking_id] => 106289122917
+    [bank_ref_no] => 728914381173
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Unified Payments
+    [card_name] => UPI
+    [status_code] => 
+    [status_message] => Success
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Rita
+    [billing_address] => D-82
+    [billing_city] => Ahmedabad 
+    [billing_state] => Gujarat
+    [billing_zip] => 382330
+    [billing_country] => India
+    [billing_tel] => 07387751858
+    [billing_email] => Basixengg@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => 
+    [retry] => N
+    [response_code] => 
+    [billing_notes] => 
+    [trans_date] => 2017-10-16 14:32:42.147
+    [bin_country] => 
+)

@@ -1,0 +1,932 @@
+<link href="<?=base_url('/assets/ruby/css/ruby.css');?>" rel="stylesheet">
+<link href="<?=base_url('/assets/ruby/css/style.css');?>" rel="stylesheet">
+<link href="<?=base_url('/assets/ruby/css/product.css');?>" rel="stylesheet">
+<link href="<?=base_url('/assets/ruby/css/bootstrap-slider.css');?>" rel="stylesheet">
+
+<div id="myfilter" class="filter">
+  <a href="javascript:void(0)" class="closebtn" onclick='document.getElementById("myfilter").style.height = "0%"'>&times;&nbsp close</a>
+  <div class="filer-content">
+   <div class="container">
+       <div class="row">
+           <div class="col-md-12">
+           <div class="filter-text">
+            <h2>Select Filter</h2>
+           </div>
+           <div class="carat-filter">
+              <p>Select Carat</p>
+            <b id="ex2text1">0</b><input id="ex2" type="text" class="span2" value="" data-slider-min="0" data-slider-max="9" data-slider-step="1" data-slider-value="[1,9]"/> <b id="ex2text2">9</b>
+           </div>
+          <div class="shape-filter">
+              <p>Select Shape</p>
+                        <div class="sunshine-list">
+                      <div class="horoscope-category">
+        <div class="home-feature-products">
+            <div class="container">
+                <div class="row content-zindex sunshine-slide wow fadeInUp">
+                    <div class="mobile-swipe">
+                    <div class="resCarousel" data-items="1,3,5,5" data-slide="5" id="ResSlid2">
+                        <div class="resCarousel-inner" style="width: 1368px;">
+                           <div class="item" onclick="selectShape(this)">
+                                <div class="feature-products-box" tabindex="0">
+                                    <a href="#" tabindex="-1">
+                                  <div class="sign_circle bg-aries">
+                                <img src="https://www.akashvaani.com/assets/astrology/img/round.png" alt="image-missing" class="rotate">
+                            </div>
+                                        <div class="feature-products-box-txt">
+                                            <div class="feature-products-box-title text-center">
+                                                <h2>Cushion</h2>
+                                               
+                                            </div>
+                                        </div>
+                                      
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="item" onclick="selectShape(this)">
+                                <div class="feature-products-box" tabindex="0">
+                                    <a href="#" tabindex="-1">
+                                       <div class="sign_circle bg-taurus">
+                                <img src="https://www.akashvaani.com/assets/astrology/img/cushion.png" alt="image-missing" class="rotate">
+                            </div>
+                                        <div class="feature-products-box-txt">
+                                            <div class="feature-products-box-title text-center">
+                                                <h2>Round</h2>
+                                                
+                                            </div>
+                                        </div>
+                                       
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="item" onclick="selectShape(this)">
+                                <div class="feature-products-box" tabindex="0">
+                                    <a href="#" tabindex="-1">
+                                       <div class="sign_circle bg-gemini">
+                                <img src="https://www.akashvaani.com/assets/astrology/img/oval.png" alt="image-missing" class="rotate">
+                            </div>
+                                        <div class="feature-products-box-txt">
+                                            <div class="feature-products-box-title text-center">
+                                                <h2>Oval</h2>
+                                                
+                                            </div>
+                                        </div>
+                                       
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="item" onclick="selectShape(this)">
+                                <div class="feature-products-box" tabindex="0">
+                                    <a href="#" tabindex="-1">
+                                        <div class="sign_circle bg-cancer">
+                                <img src="https://www.akashvaani.com/assets/astrology/img/heart.png" alt="image-missing" class="rotate">
+                            </div>
+                                        <div class="feature-products-box-txt">
+                                            <div class="feature-products-box-title text-center">
+                                                <h2>Heart</h2>
+                                                
+                                            </div>
+                                        </div>
+                                      
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="item" onclick="selectShape(this)">
+                                <div class="feature-products-box" tabindex="0">
+                                    <a href="#" tabindex="-1">
+                                       <div class="sign_circle bg-leo">
+                                <img src="https://www.akashvaani.com/assets/astrology/img/asscher.png" alt="image-missing" class="rotate">
+                            </div>
+                                        <div class="feature-products-box-txt">
+                                            <div class="feature-products-box-title text-center">
+                                                <h2>Asscher</h2>
+                                               
+                                            </div>
+                                        </div>
+                                       
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="item" onclick="selectShape(this)">
+                                <div class="feature-products-box" tabindex="0">
+                                    <a href="#" tabindex="-1">
+                                        <div class="sign_circle bg-virgo">
+                                <img src="https://www.akashvaani.com/assets/astrology/img/pear.png" alt="image-missing" class="rotate">
+                            </div>
+                                        <div class="feature-products-box-txt">
+                                            <div class="feature-products-box-title text-center">
+                                                <h2>Pear</h2>
+                                               
+                                            </div>
+                                        </div>
+                                      
+                                    </a>
+                                </div>
+                            </div>
+    <div class="item" onclick="selectShape(this)">
+                                <div class="feature-products-box" tabindex="0">
+                                    <a href="#" tabindex="-1">
+                                        <div class="sign_circle bg-libra">
+                                <img src="https://www.akashvaani.com/assets/astrology/img/princess.png" alt="image-missing" class="rotate">
+                            </div>
+                                        <div class="feature-products-box-txt">
+                                            <div class="feature-products-box-title text-center">
+                                                <h2>Princess</h2>
+                                               
+                                            </div>
+                                        </div>
+                                      
+                                    </a>
+                                </div>
+                            </div>
+                       
+
+  <div class="item" onclick="selectShape(this)">
+                                <div class="feature-products-box" tabindex="0">
+                                    <a href="#" tabindex="-1">
+                                        <div class="sign_circle bg-scorpio">
+                                <img src="https://www.akashvaani.com/assets/astrology/img/cushion.png" alt="image-missing" class="rotate">
+                            </div>
+                                        <div class="feature-products-box-txt">
+                                            <div class="feature-products-box-title text-center">
+                                                <h2>Radiant</h2>
+                                               
+                                            </div>
+                                        </div>
+                                      
+                                    </a>
+                                </div>
+                            </div>
+                       
+                        </div>
+                  
+                        
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        </div>
+    </div>
+          </div>
+          <div class="origin-filter">
+              <p>Select Origin</p>
+                        <div class="origin-list">
+                      <div class="horoscope-category">
+        <div class="home-feature-products">
+            <div class="container">
+                <div class="row content-zindex sunshine-slide wow fadeInUp">
+                    <div class="mobile-swipe">
+                    <div class="resCarousel" data-items="1,3,5,5" data-slide="5" id="ResSlid2">
+                        <div class="resCarousel-inner" style="width: 1368px;">
+                           <div class="item" onclick="selectShape(this)">
+                                <div class="feature-products-box" tabindex="0">
+                                    <a href="#" tabindex="-1">
+                                  <div class="sign_circle bg-aries">
+                                <img src="https://www.akashvaani.com/assets/astrology/img/Afganistan.png" alt="image-missing" class="rotate">
+                            </div>
+                                    
+                                      
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="item" onclick="selectShape(this)">
+                                <div class="feature-products-box" tabindex="0">
+                                    <a href="#" tabindex="-1">
+                                       <div class="sign_circle bg-taurus">
+                                <img src="https://www.akashvaani.com/assets/astrology/img/Australia.png" alt="image-missing" class="rotate">
+                            </div>
+                                       
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="item" onclick="selectShape(this)">
+                                <div class="feature-products-box" tabindex="0">
+                                    <a href="#" tabindex="-1">
+                                       <div class="sign_circle bg-gemini">
+                                <img src="https://www.akashvaani.com/assets/astrology/img/Brazil.png" alt="image-missing" class="rotate">
+                            </div>
+                                       
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="item" onclick="selectShape(this)">
+                                <div class="feature-products-box" tabindex="0">
+                                    <a href="#" tabindex="-1">
+                                        <div class="sign_circle bg-cancer">
+                                <img src="https://www.akashvaani.com/assets/astrology/img/cambodia.png" alt="image-missing" class="rotate">
+                            </div>
+                                       
+                                      
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="item" onclick="selectShape(this)">
+                                <div class="feature-products-box" tabindex="0">
+                                    <a href="#" tabindex="-1">
+                                       <div class="sign_circle bg-leo">
+                                <img src="https://www.akashvaani.com/assets/astrology/img/Colombia.png" alt="image-missing" class="rotate">
+                            </div>
+                                      
+                                       
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="item" onclick="selectShape(this)">
+                                <div class="feature-products-box" tabindex="0">
+                                    <a href="#" tabindex="-1">
+                                        <div class="sign_circle bg-virgo">
+                                <img src="https://www.akashvaani.com/assets/astrology/img/India.png" alt="image-missing" class="rotate">
+                            </div>
+                                     
+                                      
+                                    </a>
+                                </div>
+                            </div>
+    <div class="item" onclick="selectShape(this)">
+                                <div class="feature-products-box" tabindex="0">
+                                    <a href="#" tabindex="-1">
+                                        <div class="sign_circle bg-libra">
+                                <img src="https://www.akashvaani.com/assets/astrology/img/Japan.png" alt="image-missing" class="rotate">
+                            </div>
+                                       
+                                      
+                                    </a>
+                                </div>
+                            </div>
+                       
+
+  <div class="item" onclick="selectShape(this)">
+                                <div class="feature-products-box" tabindex="0">
+                                    <a href="#" tabindex="-1">
+                                        <div class="sign_circle bg-scorpio">
+                                <img src="https://www.akashvaani.com/assets/astrology/img/Macedonia.png" alt="image-missing" class="rotate">
+                            </div>
+                                      
+                                      
+                                    </a>
+                                </div>
+                            </div>
+                         <div class="item" onclick="selectShape(this)">
+                                <div class="feature-products-box" tabindex="0">
+                                    <a href="#" tabindex="-1">
+                                        <div class="sign_circle bg-scorpio">
+                                <img src="https://www.akashvaani.com/assets/astrology/img/Madagascar.png" alt="image-missing" class="rotate">
+                            </div>
+                                      
+                                      
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                  
+                        
+                    </div>
+                    <button class="leftLst" tabindex="0"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+                    <button class="rightLst" tabindex="0"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        </div>
+    </div>
+          </div>
+ <div class="carat-filter">
+              <p>Select Price</p>
+            <b id="ex3text1">0</b><input id="ex3" type="text" class="span2" value="" data-slider-min="0" data-slider-max="10000" data-slider-step="100" data-slider-value="[5000,10000]"/> <b id="ex3text2">10000</b>
+           </div>
+
+           <div class="search-filter">
+             <button class="btn">Done</button>
+               <button id="tap" type="button" class="btn" onClick="myFunction10()" style="padding: 10px; display: inline-flex;bottom: 0px; float:right;">next </button>
+           </div>
+           </div>
+       </div>
+   </div>
+  </div>
+
+
+<div id="contact_form" class="" style="display:none;">
+    <div class="col-md-4"></div>
+        <div class="col-md-4">
+       
+                     
+<div class="col-md-12 rightsidebar desktopsidebar">
+ <form action="<?=base_url('/service/product_enquiry');?>" class="form-horizontal" id="productenquiry" method="post" accept-charset="utf-8">
+ <input name="carat" value="" id="form_carat" type="hidden">
+ <input name="shape" value="" id="form_shape" type="hidden">
+ <input name="origin" id="form_origin" value="" type="hidden">
+ <input name="product_id" id="product_id" value="" type="hidden">
+  <input name="product_name" id="product_name" value="" type="hidden">
+   <input name="refrence_page" id="refrence_page" value="<?=$catdata->name;?>_category_page" type="hidden">
+  
+  <div class="modal-body">       
+      <div class="card wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"> 
+ 
+        <div class="card-block">
+         <div class="row" style="padding: 0 0 20px;">
+          <div class="col-md-12">
+        <div class="card-header sidecard white-text"> Send Enquiry</div>
+        </div>
+        <br /><br />
+        </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="md-form wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;"> <i class="fa fa-user prefix"></i>
+                <input id="name" name="name" class="form-control" required="" type="text">
+                <label for="name" class="">Your Name</label>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="md-form wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;"> <i class="fa fa-phone prefix"></i>
+                <input id="phone" name="phone" class="form-control" required="" type="text">
+                <label for="phone">Phone No.</label>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="md-form wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;"> <i class="fa fa-email prefix"></i>
+                <input id="email" name="email" class="form-control" required="" type="text">
+                <label for="phone">Email</label>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="md-form wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;"> <i class="fa fa-pencil prefix"></i>
+                <textarea type="text" id="qsn" class="md-textarea" name="message"></textarea>
+                <label for="qsn">Your message.</label>
+              </div>
+            </div>
+          </div>
+         
+                    
+        </div>
+
+    </div>      <div class="modal-footer">
+                <button id="prevmessage" type="button" class="btn btn-secondary wow fadeInRight waves-effect waves-light" style="visibility: visible; animation-name: fadeInRight;border-radius: 35px;background: #ff3366;">Back</button>
+
+                 <button type="submit" id="ask_enquiry" class="btn btn-secondary wow fadeInRight waves-effect waves-light" style="visibility: visible; animation-name: fadeInRight;border-radius: 35px;background: #ff3366;">Submit<span class="mui-btn__ripple-container"><span class="mui-ripple"></span></span></button>
+                 
+                 <div id="enquiry_result"></div>
+                 
+                 
+            </div>
+            </form>
+            </div>
+
+
+        
+
+
+</div>
+    <!--Main Navigation-->
+
+        <!--Mask-->
+       <div class="view hm-black-strong" style='background: url("<?php echo base_url('/uploads/images/full/'.$catdata->image); ?>") no-repeat center center fixed; background-size: 100%;'>
+            <div class="full-bg-img flex-center">
+                <ul>
+                    <li>
+                        <h1 class="h1-responsive">What are you looking for..</h1>
+                    </li>
+                    <li>
+                        <a type="button" class="btn search-btn" onclick="searchFilter()">Search like (ruby rings,ruby products) ....<i class="fa fa-search" aria-hidden="true"></i></a>
+                    </li>
+                   <ul class="popular-search">
+                       <li>Popular Searches:</li>
+                       <li><a href="#">Ruby</a></li>
+                       <li><a href="#">searchkey1</a></li>
+                       <li><a href="#">searchkey2</a></li>
+                       <li><a href="#">searchkey3</a></li>
+                       <li><a href="#">searchkey4</a></li>
+                   </ul>
+                </ul>
+            </div>
+        </div>
+        <!--/.Mask-->
+    <!--Main Navigation-->
+<script type="text/javascript" src="<?=base_url('/assets/js/jcarousel/dist/jquery.jcarousel.js');?>"></script>
+<script type="text/javascript" src="<?=base_url('/assets/js/jcarousel/examples/responsive/jcarousel.responsive.js');?>"></script>
+<link href="<?=base_url('/assets/js/jcarousel/examples/responsive/jcarousel.responsive.css');?>" rel="stylesheet">
+<br><br><br>
+<div class="ruby-container">
+ 
+<div class="container">    
+     <div class="wrapper">
+         
+    <div class="jcarousel">
+        <ul><?php foreach($categories as $key => $category): ?>
+            <li> <div class="item_new" align="center" ><a href="<?=base_url('/productsbycat/'.$catdata->slug.'/'.$category->slug);?>" tabindex="-1">
+                     <div class="feature-products-box" tabindex="<?=$key;?>"> 
+                      
+                         <img width="150" height="150" src="<?php echo base_url(($category->image) ? 'uploads/images/full/'.$category->image : '/assets/astrology/img/gemcat.jpg'); ?>" alt="<?=$item->name;?>" style="width: 120px;height: 180px">
+                      <div class="products-box-title">
+                        <h2><?=$category->name;?></h2> 
+                      </div> 
+                     </div>
+                         </a>
+                   
+                    </div> </li>
+                        <li> <div class="item_new" align="center" ><a href="<?=base_url('/productsbycat/'.$catdata->slug.'/'.$category->slug);?>" tabindex="-1">
+                     <div class="feature-products-box" tabindex="<?=$key;?>"> 
+                      
+                         <img width="150" height="150" src="<?php echo base_url(($category->image) ? 'uploads/images/full/'.$category->image : '/assets/astrology/img/gemcat.jpg'); ?>" alt="<?=$item->name;?>" style="width: 120px;height: 180px">
+                      <div class="products-box-title">
+                        <h2><?=$category->name;?></h2> 
+                      </div> 
+                     </div>
+                         </a>
+                   
+                    </div> </li>
+         <?php endforeach; ?>
+        </ul>
+         <div class="slider-left-arrow-container"></div>
+              <div class="slider-right-arrow-container"></div>
+              <a href="javascript:void(0);" class="jcarousel-control-prev"><div class="slider-left-arrow-container leftLst"><i style="padding-top:15px;" class="fa fa-angle-left" aria-hidden="true"></i></div></a>
+        <a href="javascript:void(0);" class="jcarousel-control-next"><div class="slider-right-arrow-container rightLst"><i style="padding-top:15px;" class="fa fa-angle-right" aria-hidden="true"></i></a>
+    </div>
+     </div>
+</div>
+
+
+<hr>
+<div class="ruby-product"  style="display:none;">
+    <div class="home-feature-products">
+      <div class="container">
+        <div class="row content-zindex  wow fadeInUp">
+          <h1>Buy
+            <?=$catdata->name;?>
+            Product</h1>
+          <div class="mobile-swipe">
+            <div class="resCarousel" data-items="1,3,5,5" data-slide="5" id="ResSlid2">
+              <div class="resCarousel-inner" style="transform: translateX(0px); width: 2360px;">
+                <?php foreach($products as $item): ?>
+                <div class="item" style="width: 200px;">
+                  <div class="feature-products-box" tabindex="0"> <a href="<?=base_url('/product/'.$item->slug);?>" tabindex="-1">
+                    <div class="feature-products-img"> <img src="<?php echo base_url(($item->primary_image) ? 'uploads/images/full/'.$item->primary_image : '/assets/astrology/img/gemcat.jpg'); ?>" alt="<?=$item->name;?>"> </div>
+                    <div class="feature-products-box-txt">
+                      <div class="feature-products-box-title">
+                        <h2>
+                          <?=$item->name;?>
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="overlay">
+                      <div class="overlay-content">
+                        <h3>
+                          <?=$item->name;?>
+                        </h3>
+                        <p>
+                          <?=substr($item->description, 0, 50);?>
+                        </p>
+                        <span class="btn btn-overlay">Explore <i class="fa fa-angle-double-right" aria-hidden="true"></i></span> </div>
+                    </div>
+                    </a> </div>
+                </div>
+                <?php endforeach; ?>
+              </div>
+              <div class="slider-left-arrow-container"></div>
+              <div class="slider-right-arrow-container"></div>
+              <button class="leftLst" tabindex="0"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+              <button class="rightLst" tabindex="0"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="divider-new"  style="display:none;"> <a id="show-products_next" class="btn btn-rounded waves-effect waves-light">Show more</a> </div>
+  <section class="container ft-cards-2" style="display:none;">
+  <header class="sec-heading">
+    <h2>Our Top Trending Products</h2>
+    <span class="subheading">Lorem ipsum dolor sit amet, consectetur</span> </header>
+  <div class="row">
+    <?php foreach($products as $key => $item): ?>
+    <?php if($key == 2): ?>
+    <div class="more-products col-md-12">
+      <?php endif; ?>
+      <div class="col-md-6">
+        <!--First column-->
+        <div class="col-md-5 mb-r">
+          <!--Featured image-->
+          <div class="view overlay hm-white-slight"> <img src="<?php echo base_url(($item->primary_image) ? 'uploads/images/full/'.$item->primary_image : '/assets/astrology/img/gemcat.jpg'); ?>" alt="<?=$item->name;?>" width="200"> <a>
+            <div class="mask"></div>
+            </a> </div>
+        </div>
+        <!--/First column-->
+        <!--Second column-->
+        <div class="col-md-7 mb-r">
+          <!--Excerpt-->
+          <h4>
+            <?=$item->name;?>
+          </h4>
+          <p>
+            <?=substr($item->description, 0, 50);?>
+          </p>
+          <a class="btn btn-primary btn-rounded waves-effect waves-light" href="<?=base_url('product/'.$item->slug); ?>">See more</a> </div>
+        <!--/Second column-->
+      </div>
+      <?php endforeach; ?>
+      <?php if(count($categories) > 2): ?>
+    </div>
+    <?php endif; ?>
+    <div style="clear:both;"></div>
+    <div style="text-align:center;"> <a id="show-products" class="btn btn-primary btn-rounded waves-effect waves-light">Show more</a> <a id="hide-products" class="btn btn-primary btn-rounded waves-effect waves-light">Show less</a> </div>
+    </section>
+
+
+  
+          <hr>
+          <div class="ruby-content">
+      <?php foreach($add_info as $key => $item): ?>
+      <div class="row">
+        <header class="sec-heading">
+          <h2>
+            <?=$item->title;?>
+          </h2>
+        </header>
+        <!--First column-->
+        <div class="col-md-4 mb-r">
+          <!--Featured image-->
+          <div class="view overlay hm-white-slight"> <img src="<?php echo base_url('uploads/images/full/'.$item->image); ?>" class="img-fluid" alt="">
+            </p>
+            <a>
+            <div class="mask waves-effect waves-light"></div>
+            </a> </div>
+        </div>
+        <!--/First column-->
+        <div class="col-md-1 col-xs-12 mb-r"></div>
+        <!--Second column-->
+        <div class="col-md-7 mb-r">
+          <!--Excerpt-->
+          <?=substr($item->text, 0, 500);?>
+          <a data-toggle="modal" data-target="#readmore<?=$key;?>" style="color: blue;">Read more(+)</a> </div>
+        <!--/Second column-->
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="readmore<?=$key;?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <!--Content-->
+          <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+              <h4 class="modal-title w-100" id="myModalLabel">
+                <?=$item->title;?>
+              </h4>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+              <p>
+                <?=$item->text;?>
+              </p>
+            </div>
+            <!--Footer-->
+            <div class="modal-footer"> <a type="button" class="btn btn-secondary" data-dismiss="modal">Show Products</a>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> Close </button>
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
+      <!-- Modal -->
+      <?php endforeach; ?>
+    </div>
+
+</div>
+<div class="apointment">
+    <div class="container">
+      <!--First row-->
+      <div class="row mb-3 fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+        <!--First column-->
+        <div class="col-lg-12 text-xs-center smooth-scroll">
+          <!--Icon-->
+          <i class="fa fa-check fa-4x light-blue-text pt-1 pb-2"></i>
+          <!--Title-->
+          <h2 class="mb-2">Gems you should wear. Ask an Expert.</h2>
+          <!--Description-->
+          <p class="text-muted">At "Akashvaani" Our experienced and renowned Astrologers will study your charts in depth . They will suggest you which gems you should wear.</p>
+          <!--Button-->
+          <a class="btn btn-lg btn-outline-white waves-effect waves-light" data-toggle="modal" data-target="#myModal" style="margin-top: 25px;margin-bottom: 25px; border-radius:35px"><i style="margin-right:6px" class="fa fa-phone" aria-hidden="true"></i>Ask and Buy</a> </div>
+        <!--/First column-->
+      </div>
+      <!--/First row-->
+    </div>
+  </div>
+  
+  
+  
+  
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Provide your contact details </h4>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+              
+<!-- Nav tabs -->
+
+
+<!-- Tab panels -->
+  <form action="<?=base_url('/service/booking');?>" class="form-horizontal" id="sendenquiry1000" method="post" accept-charset="utf-8">
+ 
+    <input type="hidden" name="category_id" value="1"  />
+        <input type="hidden" name="reference_page" value="<?=$catdata->name;?> Gems Page"  />
+ 
+<div class="tab-content" style="padding:1rem">
+      <!--Panel 5-->
+    <div class="tab-pane fade in active" id="pane25" role="tabpanel">
+  <p><strong>Provide your contact details</strong></p>
+
+       <div class="row">
+       <div class="col-md-12">
+
+        <div class="md-form wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+          <i class="fa fa-user prefix"></i>
+          <input type="text" id="form1" class="form-control" name="first_name" required>
+          <label for="form1">Your Name</label>
+        </div>
+
+      </div>
+      <div class="col-md-12">
+
+        <div class="md-form wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+          <i class="fa fa-phone prefix"></i>
+          <input type="text" id="form2" class="form-control" name="phone" required>
+          <label for="form2">Your Phone</label>
+        </div>
+
+      </div>
+       <div class="col-md-12">
+
+        <div class="md-form">
+    <i class="fa fa-envelope prefix"></i>
+    <input type="email" id="form9" class="form-control validate" name="email" required>
+    <label for="form9" data-error="wrong" data-success="right">Your email</label>
+</div>
+
+      </div>
+  
+  </div>
+<div class="modal-footer">
+<div id="enquiry_result2">...</div>
+                <button type="submit" id="finishdone" class="btn btn-secondary">Send</button>
+            </div>
+    </div>
+    <!--/.Panel 5-->
+    
+</div>
+</form> <script>
+    $('form#sendenquiry1000').submit(function(e) {
+    var form = $(this);
+    e.preventDefault();
+  $('#enquiry_result2').html('<div align="center"><span class="fa fa-spin fa-circle-o-notch"></span></div>');  
+    $.ajax({
+        type: "POST",
+        url: "<?=base_url('/service/booking');?>",
+        data: form.serialize(),
+        success: function(data){ 
+    $('#enquiry_result2').html('Thank you for providing your details.'); 
+    $('#myModal').modal('hide'); 
+        },
+         error: function(resp) { 
+     //alert(JSON.stringify(resp)); 
+     }
+   });
+});
+
+    $('form#productenquiry').submit(function(e) {
+    var form = $(this);
+
+    $('#enquiry_result').html('<div align="center"><span class="fa fa-spin fa-circle-o-notch"></span></div>');  
+    //$('#ask_enquiry').css('visibility', 'hidden');
+    $.ajax({
+        type: "POST",
+        url: "<?=base_url('/service/product_enquiry'); ?>",
+        data: form.serialize(),
+        success: function(data){ //
+      $('#enquiry_result').html('<div align="center">'+data+'</div>');  
+        },
+         error: function(resp) {  }
+   });
+      e.preventDefault(); 
+});
+$('#prevmessage').click(function(){
+        $('#contact_form').hide();    
+        $('#variables').show(); 
+});
+    function myFunction10(){
+        
+        var low = document.getElementById('lower-value1').innerHTML; // 0
+        var high = document.getElementById('upper-value1').innerHTML;  // 1
+        $('#form_carat').val(low+'-'+high);
+        $('#variables').hide();   
+        $('#contact_form').show();      
+    }
+</script>
+
+            </div>
+            <!--Footer-->
+        </div>
+        <!--/.Content-->
+    </div>
+</div>  
+  
+
+
+
+<div class="page-section p-130-cont bg-gray" style="display:none;">
+          <div class="container">
+            <div class="row">
+            
+              <div class="col-md-12">
+                <div>
+                  <h2 class="section-title2 mb-45 text-center p-0">What People Say</h2>
+                </div>
+              </div>
+             
+            </div>
+            <div class="row">
+            
+              <div class="col-sm-6">
+                <div class="mb-30">
+                  <div class="ts4-text-cont">
+                    Maecenas at interdum odio. Curabitur consectetur interdum lectus, sit amet ultrices arcu maximus non. Quisque a mauris id nibh facilisis dictum. Duis lobortis lorem consectetur, lobortis.
+                  </div>
+                  <div class="ts4-author-cont clearfix">
+                    <div class="ts4-author-img">
+                      <img src="img/ts-author3.jpg" class="img-circle" alt="img">
+                    </div>
+                    <div class="ts4-author-info">
+                      <div class="ts-name">Emma Banks</div>
+                      <div class="ts-type">Invision Inc</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="mb-30">
+                  <div class="ts4-text-cont">
+                    Etiam varius quis magna eu efficitur. Proin non ortor ante. Nullam vel orci dictum, bibendum nequena, ultrices metus. Praesent a mauris Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </div>
+                  <div class="ts4-author-cont clearfix">
+                    <div class="ts4-author-img">
+                      <img src="img/ts-author.jpg" class="img-circle" alt="img">
+                    </div>
+                    <div class="ts4-author-info">
+                      <div class="ts-name">Amanda Pollock</div>
+                      <div class="ts-type">Doogle Inc</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+            
+            <div class="row">
+            
+              <div class="col-sm-6">
+                <div class="mb-30">
+                  <div class="ts4-text-cont">
+                    Cras in tincidunt tellus. Integer eget massa nulla. Nullam mattis pellentesque turpis. In at luctus turpis. Vivamus dapibus feugiat lacus, id tincidunt arcu. Praesent commodo urna sit amet neque. 
+                  </div>
+                  <div class="ts4-author-cont clearfix">
+                    <div class="ts4-author-img">
+                      <img src="img/ts-author2.jpg" class="img-circle" alt="img">
+                    </div>
+                    <div class="ts4-author-info">
+                      <div class="ts-name">Colin Little</div>
+                      <div class="ts-type">CEO, Pixate</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="mb-30">
+                  <div class="ts4-text-cont">
+                    Etiam varius quis magna eu efficitur. Proin non ortor ante. Nullam vel orci dictum, bibendum nequena, ultrices metus. Praesent a mauris Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </div>
+                  <div class="ts4-author-cont clearfix">
+                    <div class="ts4-author-img">
+                      <img src="img//ts-author4.jpg" class="img-circle" alt="img">
+                    </div>
+                    <div class="ts4-author-info">
+                      <div class="ts-name">Robert Jackson</div>
+                      <div class="ts-type">Founder, Drillbox</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+        </div>
+        <hr>
+<div class="container">
+  <section class="top-posts">
+      <h1 class="text-center font-up font-bold mt-1 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;margin-bottom:100px;">Top Posts</h1>
+      <div class="row">
+        <?php foreach($posts as $post): //print_r($post);?>
+        <!--First column-->
+        <div class="col-lg-3 col-md-12 mb-r">
+          <!--Featured image-->
+          <div class="view overlay hm-white-slight mb-2"> <img src="<?=resizedUrl(base_url('uploads/images/medium/'.$post->primaryimage['filename']), 265, 150); ?>"> <a>
+            <div class="mask waves-effect waves-light"></div>
+            </a> </div>
+          <!--Excerpt-->
+          <a href="" class="indigo-text">
+          <h5><i class="fa fa-star-half-o"></i>Lifestyle</h5>
+          </a>
+          <div class="col-md-12" style="height:80px;"> <a href="<?=base_url('/blog/'.$post->slug);?>">
+            <h4>
+              <?=substr($post->name, 0, 100);?>
+            </h4>
+            </a> </div>
+          <p>by <a><strong>Aksahvaani</strong></a>,
+            <?=date('d/m/Y', strtotime($post->date));?>
+          </p>
+          <p>
+            <?=$post->excerpt;?>
+          </p>
+          <a class="btn btn-primary btn-rounded waves-effect waves-light">Read more</a> </div>
+        <!--/First column-->
+        <?php endforeach; ?>
+      </div>
+    </section>
+</div>
+</div>
+<!-- Modal -->
+<div class="myfilter" style="display: none;"></div>
+<!-- Modal -->
+    <!-- SCRIPTS -->
+   <!-- JQuery -->
+    <!-- Popper -->
+    <script type="text/javascript" src="<?=base_url('/assets/ruby/js/bootstrap-slider.js');?>"></script>
+
+    <script type="text/javascript">
+
+
+function closeNav() {   console.log('ok');
+    document.getElementById("myfilter").style.height = "0%";
+}
+
+  $("#ex2").slider({});
+
+$("#ex2").on("slide", function(slideEvt) {
+  console.log(slideEvt.value);
+  $("#ex2text1").text(slideEvt.value[0]);
+  $("#ex2text2").text(slideEvt.value[1]);
+});
+  $("#ex3").slider({});
+  $("#ex3").on("slide", function(slideEvt) {
+  console.log(slideEvt.value);
+  $("#ex3text1").text(slideEvt.value[0]);
+  $("#ex3text2").text(slideEvt.value[1]);
+});
+
+      function searchFilter() {
+    document.getElementById("myfilter").style.height = "100%";
+}
+
+
+
+$( ".origin-list .rightLst" ).click(function() {
+ var obj = $('.origin-list .resCarousel-inner');
+ var transformMatrix = obj.css("-webkit-transform") ||
+   obj.css("-moz-transform")    ||
+   obj.css("-ms-transform")     ||
+   obj.css("-o-transform")      ||
+   obj.css("transform");
+ var matrix = transformMatrix.replace(/[^0-9\-.,]/g, '').split(',');
+var x = matrix[12] || matrix[4];//translate x
+ if(x==undefined){
+        $(".origin-list .resCarousel-inner").css("transform","translateX(-126px)");
+ }
+ else{
+        var y = x-126;
+        $(".origin-list .resCarousel-inner").css("transform","translateX("+y+"px)");
+ }
+});
+$( ".origin-list .leftLst" ).click(function() {
+        $(".origin-list .resCarousel-inner").css("transform","translateX(0px)");
+});
+
+function selectShape(data){
+  $(data).toggleClass("item-select");
+}
+</script>

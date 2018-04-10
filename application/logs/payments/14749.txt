@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 14749
+    [tracking_id] => 106287113646
+    [bank_ref_no] => null
+    [order_status] => Failure
+    [failure_message] => 
+    [payment_mode] => Wallet
+    [card_name] => Paytm
+    [status_code] => null
+    [status_message] => Looks like you cancelled the payment. You can try again now or if you faced any issues in completing the payment, please contact us
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Archit
+    [billing_address] => Maurya enclave
+    [billing_city] => Delhi
+    [billing_state] => New Delhi
+    [billing_zip] => 110034
+    [billing_country] => India
+    [billing_tel] => 9717271697
+    [billing_email] => Archit89us@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 10/10/2017 22:34:00
+    [bin_country] => 
+)

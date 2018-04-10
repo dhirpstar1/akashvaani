@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 16223
+    [tracking_id] => 106292272210
+    [bank_ref_no] => IGACGHWGH1
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => State Bank of India
+    [status_code] => null
+    [status_message] => Completed Successfully
+    [currency] => INR
+    [amount] => 399.0
+    [billing_name] => Sthitaprajna Jena
+    [billing_address] => 302, Ekamra villa, sundarpada
+    [billing_city] => bbsr
+    [billing_state] => Orisa
+    [billing_zip] => 751002
+    [billing_country] => India
+    [billing_tel] => 8088690084
+    [billing_email] => iamonlyforu.friends@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 399.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 26/10/2017 08:43:11
+    [bin_country] => 
+)

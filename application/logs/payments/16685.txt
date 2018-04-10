@@ -1,0 +1,55 @@
+Array
+(
+    [order_id] => 16685
+    [tracking_id] => 106293694270
+    [bank_ref_no] => R51241
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => Visa Debit Card
+    [status_code] => null
+    [status_message] => SUCCESS
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Mallika Sehajpal
+    [billing_address] => L 15 Sarita Vihar New Delhi 110076
+    [billing_city] => Delhi
+    [billing_state] => Delhi
+    [billing_zip] => 110076
+    [billing_country] => India
+    [billing_tel] => 9582308115
+    [billing_email] => mallika0004@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 30/10/2017 12:39:39
+    [bin_country] => INDIA
+
+
+
+
+
+
+
+
+
+
+)

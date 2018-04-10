@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 14430
+    [tracking_id] => 106285868912
+    [bank_ref_no] => 100772
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => MasterCard Debit Card
+    [status_code] => null
+    [status_message] => SUCCESS
+    [currency] => INR
+    [amount] => 599.0
+    [billing_name] => reuben
+    [billing_address] => Sohna Road Gurgaon
+    [billing_city] => Gurgaon
+    [billing_state] => Haryana
+    [billing_zip] => 122018
+    [billing_country] => India
+    [billing_tel] => 9818764266
+    [billing_email] => reuben0325@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 599.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 07/10/2017 16:25:30
+    [bin_country] => INDIA
+)

@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 13381
+    [tracking_id] => 106281604239
+    [bank_ref_no] => 94214
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => YES Bank
+    [status_code] => null
+    [status_message] => Merchant transaction successfull
+    [currency] => INR
+    [amount] => 299.0
+    [billing_name] => Arun kiran
+    [billing_address] => Plot no 26 flat no 101 icon hibiscus Pragathinagar hyderabad
+    [billing_city] => Hyderabad
+    [billing_state] => Telangana
+    [billing_zip] => 500090
+    [billing_country] => India
+    [billing_tel] => 7097367262
+    [billing_email] => kiran.saphcm69@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 299.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 25/09/2017 09:29:17
+    [bin_country] => 
+)

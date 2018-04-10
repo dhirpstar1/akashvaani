@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 9572
+    [tracking_id] => 106259337270
+    [bank_ref_no] => 200000000000000000000470877080
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => RuPay
+    [status_code] => null
+    [status_message] => null
+    [currency] => INR
+    [amount] => 299.0
+    [billing_name] => Deependra
+    [billing_address] => 115 Ranjeet Nagar jaipur
+    [billing_city] => Jaipur
+    [billing_state] => Rajasthan
+    [billing_zip] => 302012
+    [billing_country] => India
+    [billing_tel] => 9314643795
+    [billing_email] => deependrainfrance@yahoo.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 299.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 29/07/2017 23:20:53
+    [bin_country] => INDIA
+)

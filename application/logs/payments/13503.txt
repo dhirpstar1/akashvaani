@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 13503
+    [tracking_id] => 106282133552
+    [bank_ref_no] => IGACBYMEX9
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => State Bank of India
+    [status_code] => null
+    [status_message] => Completed Successfully
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => KAMALDEEP
+    [billing_address] => 320 PHASE 1 URBAN ESTATE CHANDIGARH ROAD
+    [billing_city] => LUDHIANA
+    [billing_state] => PUNJAB
+    [billing_zip] => 141010
+    [billing_country] => India
+    [billing_tel] => 9814544468
+    [billing_email] => sharma_kamal8@yahoo.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 26/09/2017 17:45:48
+    [bin_country] => 
+)

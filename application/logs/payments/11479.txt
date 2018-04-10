@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 11479
+    [tracking_id] => 106272761891
+    [bank_ref_no] => 7190547170
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Wallet
+    [card_name] => Paytm
+    [status_code] => null
+    [status_message] => Txn Successful.
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Sivaranjan Goswami
+    [billing_address] => Gandhi Basti Tiniali
+    [billing_city] => Guwahati
+    [billing_state] => Assam
+    [billing_zip] => 781003
+    [billing_country] => India
+    [billing_tel] => 9476617041
+    [billing_email] => sivgos@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 31/08/2017 01:04:12
+    [bin_country] => 
+)

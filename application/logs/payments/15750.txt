@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 15750
+    [tracking_id] => 106290747909
+    [bank_ref_no] => null
+    [order_status] => Failure
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => Visa Debit Card
+    [status_code] => null
+    [status_message] => IPAY0100126 - Brand not enabled.
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Raunak
+    [billing_address] => 30 Rue Jean baptiste Semanaz
+    [billing_city] => Paris
+    [billing_state] => Il de France
+    [billing_zip] => 93310
+    [billing_country] => France
+    [billing_tel] => 33758485982
+    [billing_email] => raunak869@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 21/10/2017 18:05:11
+    [bin_country] => INDIA
+)

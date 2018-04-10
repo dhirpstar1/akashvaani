@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 13530
+    [tracking_id] => 106282223363
+    [bank_ref_no] => IGACBZMQM5
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => State Bank of India
+    [status_code] => null
+    [status_message] => Completed Successfully
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Amar pal
+    [billing_address] => Shinde ki chawani
+    [billing_city] => Gwalior
+    [billing_state] => Madhya Pradesh
+    [billing_zip] => 474009
+    [billing_country] => India
+    [billing_tel] => 09617320888
+    [billing_email] => amarr244@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 26/09/2017 22:32:09
+    [bin_country] => 
+)

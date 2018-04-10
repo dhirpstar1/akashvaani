@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 14290
+    [tracking_id] => 106285207247
+    [bank_ref_no] => null
+    [order_status] => Failure
+    [failure_message] => 
+    [payment_mode] => Wallet
+    [card_name] => Paytm
+    [status_code] => null
+    [status_message] => Invalid account details.
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Kulwinder kaur
+    [billing_address] => VPO Ladhewali 
+    [billing_city] => Jalandhar
+    [billing_state] => Punjab
+    [billing_zip] => 144007
+    [billing_country] => India
+    [billing_tel] => 7528993838
+    [billing_email] => Tigermpsingh@yahoo.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 05/10/2017 18:43:21
+    [bin_country] => 
+)

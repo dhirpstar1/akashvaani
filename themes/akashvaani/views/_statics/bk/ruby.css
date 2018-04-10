@@ -1,0 +1,239 @@
+/* YOUR CUSTOM STYLES */
+
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+.view {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.flex-center {
+    color: #fff;
+}
+.search-btn{
+	width: 100%;
+	color: #999!important;
+	text-align: left;
+	border-radius: 30px;
+	border:2px solid #666;
+	background-color: #fff;
+}
+.search-btn i{
+	float: right;
+}
+.myfilter{
+	height: 100%;
+	width: 100%;
+	background-color:#fff;
+}
+.popular-search{
+	display: -webkit-inline-box;
+}
+.popular-search li{
+	margin-right: 15px;
+}
+.popular-search li a{
+	color: #999;
+	text-decoration: underline;
+}.filter {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.filter-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.filter a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.filter a:hover, .filter a:focus {
+    color: #f1f1f1;
+}
+
+.filter .closebtn {
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+.filer-content{
+        padding: 0 80px;
+}
+.filter-text h2{
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    border-bottom:1px solid #ddd;
+}
+#ex1Slider .slider-selection {
+    background: #333;
+}
+.slider.slider-horizontal{
+    width: 85%!important;
+}
+.carat-filter b{
+    margin: 0 15px;
+}
+.carat-filter p{
+    text-align: center;
+    font-weight: 600;
+}
+.slider-track{
+    background: #FF527B!important;
+}
+.slider-selection{
+    background: #ccc!important;
+}
+.filter-content.home-feature-products .resCarousel {
+    padding: 0px;
+}
+
+.filer-content .feature-products-box-title h2{
+    font-size: 14px!important;
+    font-weight: 600;
+}
+.filer-content .home-feature-products{
+    padding: 0!important;
+}
+.shape-filter{
+    margin-top: 30px;
+}
+.shape-filter p{
+    text-align: center;
+    font-weight: 600;
+}
+.origin-filter{
+    margin-top: 30px;
+}
+.origin-filter p{
+    text-align: center;
+    font-weight: 600;
+}
+.leftLst {
+    border: 1px solid #cecece;
+    cursor: pointer;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    left: 0;
+    width: 30px;
+    height: 60px;
+    box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, 0.1);
+    padding: 0px;
+    background: #ffffff;
+    outline: none;
+}
+.leftLst i {
+    font-size: 26px;
+}
+.rightLst {
+    border: 1px solid #cecece;
+    cursor: pointer;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    width: 30px;
+    height: 60px;
+    box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, 0.1);
+    padding: 0px;
+    background: #ffffff;
+    outline: none;
+}
+.rightLst i {
+    font-size: 26px;
+}
+#myfilter{
+    overflow: auto;
+}
+.carat-filter{
+    margin-top: 50px;
+}
+.filter .closebtn {
+    font-size: 20px;
+    top: 15px;
+    right: 35px;
+}
+.filter .closebtn:hover{
+    color: #333;
+}
+.shape-filter .item:hover{
+    background: #33a1ff;
+}
+.shape-filter .item-select{
+    background: #33a1ff;
+}
+.origin-filter .item:hover{
+    background: #33a1ff;
+}
+.origin-filter .item-select{
+    background: #33a1ff;
+}
+.search-filter button{
+    background: #ff3366;
+    float: right;
+    margin-top: 40px;
+}
+.profile-img{
+        float: left;
+    border-radius: 35px;
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+}
+.u-name{
+    font-size: 11px;
+}
+@media (max-width: 736px) and (min-width: 320px){
+    .filer-content{
+        padding: 0;
+    }
+    .leftLst, .rightLst{
+        display: none;
+    }
+    .slider.slider-horizontal{
+        width: 60%!important;
+    }
+    .full-bg-img ul{
+        width: 90%;
+    }
+    .popular-search{
+        display: block;
+    }
+}
+@media screen and (max-height: 450px) {
+  .filter {overflow-y: auto;}
+  .filter a {font-size: 20px}
+  .filter .closebtn {
+    font-size: 20px;
+    top: 15px;
+    right: 35px;
+  }
+}

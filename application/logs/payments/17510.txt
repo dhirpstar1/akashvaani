@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 17510
+    [tracking_id] => 106296399216
+    [bank_ref_no] => IGACIBYEC3
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => State Bank of India
+    [status_code] => null
+    [status_message] => Completed Successfully
+    [currency] => INR
+    [amount] => 398.0
+    [billing_name] => Nikhil Raj
+    [billing_address] => Deoghar
+    [billing_city] => Deoghar
+    [billing_state] => Jharkhand
+    [billing_zip] => 814112
+    [billing_country] => India
+    [billing_tel] => 7854808150
+    [billing_email] => nikhilkiitb@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 398.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 06/11/2017 19:30:15
+    [bin_country] => 
+)

@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 16214
+    [tracking_id] => 106292244391
+    [bank_ref_no] => 510393
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Credit Card
+    [card_name] => Visa
+    [status_code] => null
+    [status_message] => SUCCESS
+    [currency] => INR
+    [amount] => 599.0
+    [billing_name] => Sudipta saha
+    [billing_address] => 117 r d st
+    [billing_city] => Kolkata
+    [billing_state] => West Bengal
+    [billing_zip] => 700004
+    [billing_country] => India
+    [billing_tel] => 9903302517
+    [billing_email] => sudiptasaha19@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 599.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 26/10/2017 01:02:47
+    [bin_country] => INDIA
+)

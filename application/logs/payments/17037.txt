@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 17037
+    [tracking_id] => 106295051913
+    [bank_ref_no] => 009914
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => MasterCard Debit Card
+    [status_code] => null
+    [status_message] => SUCCESS
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Anita
+    [billing_address] => House no. 1668 urban estate
+    [billing_city] => Jind
+    [billing_state] => Haryana
+    [billing_zip] => 126102
+    [billing_country] => India
+    [billing_tel] => 9467641626
+    [billing_email] => anita_sheokand@yahoo.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 02/11/2017 18:34:24
+    [bin_country] => INDIA
+)

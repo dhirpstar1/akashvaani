@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 8688
+    [tracking_id] => 106252470263
+    [bank_ref_no] => IGABQLSVL8
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => State Bank of India
+    [status_code] => null
+    [status_message] => Completed Successfully
+    [currency] => INR
+    [amount] => 398.0
+    [billing_name] => Moumala Ghosh Biswas
+    [billing_address] => C-415, 3rd floor, New Ashok Nagar, Delhi
+    [billing_city] => Delhi
+    [billing_state] => New Delhi
+    [billing_zip] => 110096
+    [billing_country] => India
+    [billing_tel] => 09560802380
+    [billing_email] => moumala.ghosh@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 398.0
+    [eci_value] => null
+    [retry] => null
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 13/07/2017 14:02:17
+    [bin_country] => 
+)

@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 10017
+    [tracking_id] => 106262841908
+    [bank_ref_no] => IGABTZHFJ7
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => State Bank of India
+    [status_code] => null
+    [status_message] => Completed Successfully
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => rima ghosh
+    [billing_address] => Rohra Plaza, Flat No. 11, 4 th Floor, J.C.Ghosh Sarani. Chinsurah, Hooghly
+    [billing_city] => Hooghly
+    [billing_state] => West Bengal
+    [billing_zip] => 712101
+    [billing_country] => India
+    [billing_tel] => 9088660055
+    [billing_email] => ghosh3412@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 07/08/2017 10:48:54
+    [bin_country] => 
+)

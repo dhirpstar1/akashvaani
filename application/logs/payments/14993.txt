@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 14993
+    [tracking_id] => 106288034253
+    [bank_ref_no] => 910447
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => MasterCard Debit Card
+    [status_code] => null
+    [status_message] => SUCCESS
+    [currency] => INR
+    [amount] => 299.0
+    [billing_name] => Piku
+    [billing_address] => 401 ramkutir chs
+    [billing_city] => Mumbai
+    [billing_state] => Maharashtra
+    [billing_zip] => 400028
+    [billing_country] => India
+    [billing_tel] => 9029080844
+    [billing_email] => prachikudtarkar@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 299.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 13/10/2017 11:46:25
+    [bin_country] => INDIA
+)

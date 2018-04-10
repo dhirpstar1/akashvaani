@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 10030
+    [tracking_id] => 106262958513
+    [bank_ref_no] => null
+    [order_status] => Failure
+    [failure_message] => 
+    [payment_mode] => Wallet
+    [card_name] => Paytm
+    [status_code] => null
+    [status_message] => Looks like you cancelled the payment. You can try again now or if you faced any issues in completing the payment, please contact us
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Umesh
+    [billing_address] => Indu
+    [billing_city] => Hyderabad
+    [billing_state] => Telangana
+    [billing_zip] => 500068
+    [billing_country] => India
+    [billing_tel] => 7760686468
+    [billing_email] => umesh28021992@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 07/08/2017 15:08:39
+    [bin_country] => 
+)

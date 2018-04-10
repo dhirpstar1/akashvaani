@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 15703
+    [tracking_id] => 106290538018
+    [bank_ref_no] => IGACFONUA5
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => State Bank of India
+    [status_code] => null
+    [status_message] => Completed Successfully
+    [currency] => INR
+    [amount] => 398.0
+    [billing_name] => Suneeta Mishra
+    [billing_address] => C/O Dr. Manorama Satpathy, Near Ramji Mandir
+    [billing_city] => Bolangir
+    [billing_state] => Orisa
+    [billing_zip] => 767001
+    [billing_country] => India
+    [billing_tel] => 9658500096
+    [billing_email] => suneeta5988@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 398.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 21/10/2017 01:14:27
+    [bin_country] => 
+)

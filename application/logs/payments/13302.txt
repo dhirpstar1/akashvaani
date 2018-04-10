@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 13302
+    [tracking_id] => 106281257342
+    [bank_ref_no] => 0046562553
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => Kotak Mahindra Bank
+    [status_code] => null
+    [status_message] => null
+    [currency] => INR
+    [amount] => 299.0
+    [billing_name] => Saheb Kapoor
+    [billing_address] => Wz-31 2nd floor new delhi
+    [billing_city] => New delhi
+    [billing_state] => Delhi
+    [billing_zip] => 11006
+    [billing_country] => India
+    [billing_tel] => 8800780156
+    [billing_email] => sahebkapoor22@outlook.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 299.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 23/09/2017 23:01:42
+    [bin_country] => 
+)

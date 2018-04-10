@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 16924
+    [tracking_id] => 106294727852
+    [bank_ref_no] => 173052207007
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => HDFC Bank
+    [status_code] => null
+    [status_message] => null
+    [currency] => INR
+    [amount] => 399.0
+    [billing_name] => Lokesh Lohi
+    [billing_address] => Sector-2,bhilai 
+    [billing_city] => Durg 
+    [billing_state] => Chattisgarh
+    [billing_zip] => 490001
+    [billing_country] => India
+    [billing_tel] => 9406117644
+    [billing_email] => lokeshlohi1@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 399.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 01/11/2017 20:15:50
+    [bin_country] => 
+)

@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 13696
+    [tracking_id] => 106282896726
+    [bank_ref_no] => 110783
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => Maestro Debit Card
+    [status_code] => 0
+    [status_message] => Transaction Successful
+    [currency] => INR
+    [amount] => 599.0
+    [billing_name] => Mousumi Dhal
+    [billing_address] => Golden Tower.First Floor.Flat.6.Duckbunglow Road
+    [billing_city] => Midnapore
+    [billing_state] => West Bengal
+    [billing_zip] => 721101
+    [billing_country] => India
+    [billing_tel] => 9681105823
+    [billing_email] => dhalmousumi0@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 599.0
+    [eci_value] => 02
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 28/09/2017 23:12:55
+    [bin_country] => INDIA
+)

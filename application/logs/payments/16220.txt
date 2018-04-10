@@ -1,0 +1,55 @@
+Array
+(
+    [order_id] => 16220
+    [tracking_id] => 106292268821
+    [bank_ref_no] => null
+    [order_status] => Initiated
+    [failure_message] => 
+    [payment_mode] => Credit Card
+    [card_name] => Visa
+    [status_code] => 
+    [status_message] => card not supported
+    [currency] => INR
+    [amount] => 399.0
+    [billing_name] => Sthitaprajna Jena
+    [billing_address] => 302, Ekamra villa, sundarpada
+    [billing_city] => Bhubaneswar
+    [billing_state] => Orisa
+    [billing_zip] => 751002
+    [billing_country] => India
+    [billing_tel] => 8088690084
+    [billing_email] => iamonlyforu.friends@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 399.0
+    [eci_value] => 
+    [retry] => null
+    [response_code] => 
+    [billing_notes] => 
+    [trans_date] => 26/10/2017 08:29:31
+    [bin_country] => 
+
+
+
+
+
+
+
+
+
+
+)

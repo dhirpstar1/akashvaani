@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 8249
+    [tracking_id] => 106249035185
+    [bank_ref_no] => 7083680701
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Wallet
+    [card_name] => Paytm
+    [status_code] => null
+    [status_message] => Txn Successful.
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Jyotirmayee
+    [billing_address] => Gangotri nagar
+    [billing_city] => Bhubaneswar 
+    [billing_state] => Orisa
+    [billing_zip] => 751009
+    [billing_country] => India
+    [billing_tel] => 9776708484
+    [billing_email] => jyotipradhan971@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => null
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 06/07/2017 15:13:23
+    [bin_country] => 
+)

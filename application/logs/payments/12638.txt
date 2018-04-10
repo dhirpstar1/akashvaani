@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 12638
+    [tracking_id] => 106277983539
+    [bank_ref_no] => 172577867129
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => HDFC Bank
+    [status_code] => null
+    [status_message] => null
+    [currency] => INR
+    [amount] => 398.0
+    [billing_name] => Bopanna
+    [billing_address] => #5, 2nd cross, ground floor, karchakanahalli
+    [billing_city] => Bangalore
+    [billing_state] => Karnataka
+    [billing_zip] => 560084
+    [billing_country] => India
+    [billing_tel] => 9844942936
+    [billing_email] => lavinbopanna@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 398.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 14/09/2017 17:14:19
+    [bin_country] => 
+)

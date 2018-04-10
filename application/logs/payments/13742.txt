@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 13742
+    [tracking_id] => 106283095792
+    [bank_ref_no] => 131727259650372
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => Punjab National Bank
+    [status_code] => null
+    [status_message] => SUCCESS
+    [currency] => INR
+    [amount] => 398.0
+    [billing_name] => Parul Sharma
+    [billing_address] => House no. 468, Krishna Enclave, Dhakoli
+    [billing_city] => Zirakpur 
+    [billing_state] => Punjab 
+    [billing_zip] => 160104
+    [billing_country] => India
+    [billing_tel] => 9592723184
+    [billing_email] => psharma.99.86@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 398.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 29/09/2017 15:52:48
+    [bin_country] => 
+)

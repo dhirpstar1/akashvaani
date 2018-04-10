@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 14453
+    [tracking_id] => 106285960239
+    [bank_ref_no] => 7259989539
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Wallet
+    [card_name] => Paytm
+    [status_code] => null
+    [status_message] => Txn Successful.
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Bindu
+    [billing_address] => Hyderabad
+    [billing_city] => Hyderabad
+    [billing_state] => Andhra Pradesh
+    [billing_zip] => 500016
+    [billing_country] => India
+    [billing_tel] => 9494653443
+    [billing_email] => minozworks24by7@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 07/10/2017 20:36:34
+    [bin_country] => 
+)

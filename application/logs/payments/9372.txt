@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 9372
+    [tracking_id] => 106257707876
+    [bank_ref_no] => 203815
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => Visa Debit Card
+    [status_code] => 0
+    [status_message] => Transaction Successful
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Shampa Chakrabarty
+    [billing_address] => South city residence  tower 4 Flat 3 G
+    [billing_city] => Kolkata
+    [billing_state] => West Bengal
+    [billing_zip] => 700068
+    [billing_country] => India
+    [billing_tel] => 09830388205
+    [billing_email] => elcartcal@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => 05
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 25/07/2017 20:46:29
+    [bin_country] => INDIA
+)

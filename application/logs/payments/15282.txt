@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 15282
+    [tracking_id] => 106288967020
+    [bank_ref_no] => null
+    [order_status] => Initiated
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => Visa Debit Card
+    [status_code] => 
+    [status_message] => card not supported
+    [currency] => INR
+    [amount] => 299.0
+    [billing_name] => Komal
+    [billing_address] => 7 Boscombe Circus
+    [billing_city] => London 
+    [billing_state] => Middlesex
+    [billing_zip] => NW9 5EJ
+    [billing_country] => United Kingdom
+    [billing_tel] => 07742660754
+    [billing_email] => komal28@hotmail.co.uk
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 299.0
+    [eci_value] => 
+    [retry] => null
+    [response_code] => 
+    [billing_notes] => 
+    [trans_date] => 16/10/2017 02:50:01
+    [bin_country] => 
+)

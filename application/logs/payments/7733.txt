@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 7733
+    [tracking_id] => 106244878246
+    [bank_ref_no] => 8kzhmlu6CEbjsd_106244878246_1
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Wallet
+    [card_name] => FreeCharge
+    [status_code] => null
+    [status_message] => null
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => vinayaka kumar
+    [billing_address] => 39-5, s k d r colony, near pakeer palli
+    [billing_city] => kadapa
+    [billing_state] => andhra pradesh
+    [billing_zip] => 516002
+    [billing_country] => India
+    [billing_tel] => 9885272499
+    [billing_email] => vinayak.k1@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => null
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 28/06/2017 00:58:00
+    [bin_country] => 
+)

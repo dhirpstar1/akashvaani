@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 11091
+    [tracking_id] => 106270436527
+    [bank_ref_no] => IGABWWAEE7
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => State Bank of India
+    [status_code] => null
+    [status_message] => Completed Successfully
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Pranav
+    [billing_address] => Katihar
+    [billing_city] => Katihar
+    [billing_state] => Bihar
+    [billing_zip] => 854105
+    [billing_country] => India
+    [billing_tel] => 8051581306
+    [billing_email] => PRANAVK346@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 24/08/2017 19:01:45
+    [bin_country] => 
+)

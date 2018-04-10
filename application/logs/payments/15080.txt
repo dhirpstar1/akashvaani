@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 15080
+    [tracking_id] => 106288300906
+    [bank_ref_no] => 301575
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => State Bank of India
+    [status_code] => null
+    [status_message] => SUCCESS
+    [currency] => INR
+    [amount] => 599.0
+    [billing_name] => ALOK RANJAN SRIVASTAVA
+    [billing_address] => 222 d/1k jagmal ka hata rajroopur
+    [billing_city] => allahabad
+    [billing_state] => uttar pradesh
+    [billing_zip] => 211016
+    [billing_country] => India
+    [billing_tel] => 7007983316
+    [billing_email] => alok4430@rediffmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 599.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 14/10/2017 01:39:46
+    [bin_country] => INDIA
+)

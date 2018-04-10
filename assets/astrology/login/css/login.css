@@ -1,0 +1,75 @@
+/* YOUR CUSTOM STYLES */
+/*login tabs*/
+.login_tab{
+	text-align: center;
+    border: 0;
+    padding: .7rem;
+    margin-bottom: -20px;
+    z-index: 2;
+    position: relative;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+}
+.login_tab li {
+    width: 50%;
+}
+.login_tab .nav-link.active{
+	background-color: rgba(255,255,255,.2);
+    color: #fff;
+    border-color: #ddd #ddd #fff;
+}
+.login_tab .nav-link {
+    border: 0;
+    color: #fff;
+}
+.login_tab_content{
+	padding: 2rem 1rem 1rem;
+    z-index: 1
+}
+.login_tab_content .btn-deep-purple{
+	width: 100%;
+}
+.social-login{
+	text-align:center;
+	font-size:12px;
+	margin-bottom: 30px;
+}
+.social-login p{
+	margin:15px 0;
+}
+.social-login ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+.social-login ul li{
+	width:33%;
+	float:left;
+    clear:fix;
+}
+.social-login ul li a{
+	font-size:13px;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 0;
+	display:block;
+}
+.social-login ul li:nth-child(1) a{
+	background:#3b5998;
+}
+.social-login ul li:nth-child(2) a{
+	background:#e74c3d;
+}
+.social-login ul li:nth-child(3) a{
+	background:#3698d9;
+}
+.radio label{
+	padding-left: 5px;
+    display: inline-block;
+    line-height: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.radio input{
+	margin-left:20px;
+}
+/**/

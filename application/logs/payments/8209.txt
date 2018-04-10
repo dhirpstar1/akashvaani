@@ -1,0 +1,55 @@
+Array
+(
+    [order_id] => 8209
+    [tracking_id] => 106248592836
+    [bank_ref_no] => null
+    [order_status] => Initiated
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => Visa Debit Card
+    [status_code] => 
+    [status_message] => card not supported
+    [currency] => INR
+    [amount] => 995.0
+    [billing_name] => Aqib Bashir
+    [billing_address] => 30 Staniforth Street - Heights Birmingham Block F Flat 1200 Room B
+    [billing_city] => Birmingham
+    [billing_state] => West Midlands
+    [billing_zip] => B4 7DR
+    [billing_country] => United Kingdom
+    [billing_tel] => 447771488472
+    [billing_email] => aquib4u@hotmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 995.0
+    [eci_value] => 
+    [retry] => null
+    [response_code] => 
+    [billing_notes] => 
+    [trans_date] => 05/07/2017 17:31:14
+    [bin_country] => 
+
+
+
+
+
+
+
+
+
+
+)

@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 18261
+    [tracking_id] => 106299445117
+    [bank_ref_no] => 029921
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => Visa Debit Card
+    [status_code] => null
+    [status_message] => SUCCESS
+    [currency] => INR
+    [amount] => 599.0
+    [billing_name] => Anshuli Tiwari
+    [billing_address] => Plot no 33 ashwini layout Jubilee Hills 
+    [billing_city] => Hyderabad 
+    [billing_state] => Telangana 
+    [billing_zip] => 500096
+    [billing_country] => India
+    [billing_tel] => 9989306586
+    [billing_email] => anshulitiwari92@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 599.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 15/11/2017 07:51:34
+    [bin_country] => INDIA
+)

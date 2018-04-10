@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 15040
+    [tracking_id] => 106288185168
+    [bank_ref_no] => 032762
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => Visa Debit Card
+    [status_code] => null
+    [status_message] => SUCCESS
+    [currency] => INR
+    [amount] => 599.0
+    [billing_name] => Dheeraj malhotra
+    [billing_address] => Flat no.4462-B,achievers villas,sector 49,sainik colony
+    [billing_city] => Faridabad
+    [billing_state] => Haryana
+    [billing_zip] => 121001
+    [billing_country] => India
+    [billing_tel] => 9873637391
+    [billing_email] => dm042211@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 599.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 13/10/2017 18:19:35
+    [bin_country] => INDIA
+)

@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /fuel/
+Disallow: /dev/
+Disallow: /akashvaaniproducts/
+Disallow: /api/
+Disallow: /hapi/
+Disallow: /newdesign/
+
+Disallow: /cart/summary
+Disallow: /astrology-prediction-2018
+Disallow: /checkout/payment/
+sitemap: https://www.akashvaani.com/sitemap.xml

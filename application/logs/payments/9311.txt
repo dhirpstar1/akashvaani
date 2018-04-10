@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 9311
+    [tracking_id] => 106257361707
+    [bank_ref_no] => 7120308961
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Wallet
+    [card_name] => Paytm
+    [status_code] => null
+    [status_message] => Txn Successful.
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Ayan
+    [billing_address] => M/D Emmanuel house CHALTLANG
+    [billing_city] => Aizwal
+    [billing_state] => Mizoram
+    [billing_zip] => 796012
+    [billing_country] => India
+    [billing_tel] => 8259030468
+    [billing_email] => anachamp2003@yahoo.co.in
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 25/07/2017 00:29:51
+    [bin_country] => 
+)

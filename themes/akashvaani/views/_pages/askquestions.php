@@ -1,0 +1,544 @@
+<link rel="stylesheet" href="<?php echo base_url('/assets/astrology/css/form.css'); ?>" media="all"  type="text/css"/>
+<style type="text/css">  
+.selected_list{max-height: 200px;
+overflow: auto;}
+body{
+ overflow-x: hidden!important; 
+}
+</style>
+<!-- main -->
+<div class="container containerask" style="padding: 0; margin: 0px;">
+  <div class="row">
+    <div class="col-md-12 hidden-sm hidden-sx">
+      <ul id="qsnstepper" class="stepper stepper-horizontal">
+        <li id="stepper1" class="completed col-sm-12"> <a> <span class="circle">1</span> <span class="label askquestiontext">Select questions</span> </a> </li>
+        <li id="stepper2" class="active  col-sm-12"> <a> <span class="circle">2</span> <span class="label askquestiontext">Communications </span> </a> </li>
+        <li id="stepper3" class="active  col-sm-12"> <a> <span class="circle">3</span> <span class="label askquestiontext">Give your Birth Details</span> </a> </li>
+        <li id="stepper4" class="active  col-sm-12"> <a> <span class="circle">4</span> <span class="label askquestiontext">Payment</span> </a> </li>
+      </ul>
+      <hr>
+    </div>
+  </div>
+    <div class="row">
+    <div class="col-md-12" style="text-align:center;margin-bottom:3%">
+</div>
+  </div>
+
+<?php echo form_open('service/booking', array('class' => 'form-horizontal', 'id' => 'askquestion')); ?> 
+    <?php echo form_input(array('type' => 'hidden', 'name' => 'type', 'value' => 'phone')); ?> 
+        <?php echo form_input(array('type' => 'hidden', 'name' => 'category_id', 'value' => 1)); ?> 
+            <?php echo form_input(array('type' => 'hidden', 'name' => 'reference_page', 'value' => 'Question Page')); ?>
+<?php echo form_input(array('type' => 'hidden', 'name' => 'question_type', 'value' => $type)); ?>
+<?php echo form_input(array('type' => 'hidden', 'name' => 'report_type', 'value' => $report_type)); ?>
+<?php echo form_input(array('type' => 'hidden', 'name' => 'selected_heading', 'id' => 'selected_heading', 'value' => '')); ?>
+<input type="hidden" name="questions" id="questions" value='' />
+<!-- Tab panels -->
+<div class="tab-content">
+  <!--Panel 1-->
+
+  <div class="tab-pane fade in active askquestionpanel" id="pane21" role="tabpanel" >
+    <div class="row1">
+      <div class="col-md-6">
+        <div class="card-header white-text askselected" style="background-color:#ff3366">
+          <h3>Select Questions</h3>
+        </div>
+           <div class="panel-group" id="pane21new">
+    <?php  foreach( $questions_category as $keyqc => $question_category):  ?>           
+        <!-- category 1 -->
+    <div class="panel panel-default">
+      <div class="panel-heading cat-heading" data-toggle="collapse" data-parent="#accordion" data-parent="#pane21new" href="#collapse<?=$keyqc;?>">
+        <b class="panel-title col-md-11 col-xs-11">
+        <?=$question_category->name;?>
+        </b>
+        <i class="fa fa-angle-down down" aria-hidden="true"></i>
+      </div>
+      <div id="collapse<?=$keyqc;?>" class="panel-collapse collapse <?php if( $keyqc == 0){ ?>in <?php } ?>">
+        <div class="panel-body">
+ <ul class="list-group qsnlist <?php if($report_type): ?> qsnlistforreport <?php endif; ?>">
+        <?php if($report_type): ?>
+        <?php if( $question_category->id == 1 ){
+?>
+      <?php if($report_type == 3): ?> 
+<li class="list-group-item justify-content-between q0"> <span id="q12" class="float-xs-left col-md-10"> <question title="Kundali Matching" id="ques_12">
+         <b> Commentary on Kundali Matching </b>- Ashtakoot Guna-Milan analysis, Manglik Analysis, Final words from astrologer based on the report, Remedies if there is an issue in Kundali Analysis.
+            </span> <span class="tag red float-xs-right q0"><a class="q1"  onClick="addQsnnew(12)" style="color:#fff;background-color:#ff3366">ADD(+) </a></span> </li>
+<?php else: ?> 
+      <li class="list-group-item justify-content-between q0"> <span id="q11" class="float-xs-left col-md-10"> <question title="Marriage & Relationship" id="ques_11">
+          <b>Not married </b>- Commentary on your marriage(When are good yoga for marriage, More chances - Love or arrange, How would be the partner etc.) 
+            </span> <span class="tag red float-xs-right q0"><a class="q11"  onClick="addQsnnew(11)" style="color:#fff;background-color:#ff3366">ADD(+) </a></span> </li>
+       
+         <li class="list-group-item justify-content-between q0"> <span id="q12" class="float-xs-left col-md-10"> <question title="Marriage & Relationship" id="ques_12">
+         <b> Already Married </b>- Commentary on your Marriage(Your relationship with your partner, Mental compatibility, Longevity , Suggestions to improve the relationship.)
+            </span> <span class="tag red float-xs-right q0"><a class="q1"  onClick="addQsnnew(12)" style="color:#fff;background-color:#ff3366">ADD(+) </a></span> </li>
+<?php endif; ?>
+
+<?php } elseif($question_category->id == 4 ){ ?>
+
+      <li class="list-group-item justify-content-between q0"> <span id="q11" class="float-xs-left col-md-10"> <question title="Marriage & Relationship" id="ques_23">
+          <b>Money & Finance </b>-  Commentary on your Financial situation, Salary hike, New house/Car Debt situation, share market, loan, and Remedies for financial growth. 
+            </span> <span class="tag red float-xs-right q0"><a class="q11"  onClick="addQsnnew(23)" style="color:#fff;background-color:#ff3366">ADD(+) </a></span> </li>
+       
+         <li class="list-group-item justify-content-between q0"> <span id="q12" class="float-xs-left col-md-10"> <question title="Marriage & Relationship" id="ques_24">
+         <b>Business </b>-  Commentary on your New venture, Successful business, relation with partner in business, business area that suits you, Legal situation status and growth in business.
+            </span> <span class="tag red float-xs-right q0"><a class="q1"  onClick="addQsnnew(24)" style="color:#fff;background-color:#ff3366">ADD(+) </a></span> </li>
+
+   <?php } else { ?>
+<li class="list-group-item justify-content-between q0"> <span id="q0" class="float-xs-left col-md-10"> <question title="<?=$question_category->name;?>" id="ques_<?=$question_category->id;?>">
+          <?=$question_category->description;?></question>
+            </span> <span class="tag red float-xs-right q0"><a class="q1"  onClick="addQsnnew(<?=$question_category->id;?>)" style="color:#fff;background-color:#ff3366">ADD(+) </a></span> </li>
+             <?php  } ?>
+     
+
+       <?php else: ?>
+          <?php foreach($questions as $key => $question): if($question->question_category_id == $question_category->id): ?>
+          <li class="list-group-item justify-content-between q<?php echo ($key+1); ?>"> <span id="q<?php echo ($key+1); ?>" class="float-xs-left col-md-10">Q<?php echo ($key+1); ?>.
+            <question><?php echo $question->question; ?></question>
+            </span> <span class="tag red float-xs-right q<?php echo ($key+1); ?>"><a class="q<?php echo ($key+1); ?>" onClick="addQsnOne(this)" style="color:#fff;background-color:#ff3366">ADD(+) </a></span>                </li>
+          <?php endif; endforeach; ?>
+       <?php endif; ?>   
+        </ul>
+        </div>
+      </div>
+    </div>
+    <?php endforeach; ?>    
+     <!-- category 1 -->
+       
+  </div> 
+  
+       <?php if(!$report_type): ?> 
+        <div style="height:40px"></div>
+        <input type="hidden" id="setbox" value="">
+        <div class="col-md-12" style="text-align:center" id="own_question_div">
+        <div class="md-form"> <i class="fa fa-pencil prefix"></i>
+            <textarea type="text" id="own" name="own" class="md-textarea"></textarea>
+            <label for="own">Enter Your Question</label>
+          </div>
+          <button type="button" class="btn btn-default btn-rounded" onClick="addOwnfrom();">Add Your Own</button>
+          </div>
+        <?php endif; ?>  
+<script type="text/javascript">
+var alert = true;
+
+$( "#own" ).on("click", function() {
+     //console.log( $("#own").val());
+
+    if($("#own").val() == '' && $('#setbox').val() == ''){ 
+      $('#setbox').val('set');
+   $('#alertModal').modal('show');
+    }
+    $("#own").focus();
+   // $(document).off('focusin');
+});
+
+function addOwnfrom(opr =''){ 
+   var count = $('ul.selected_list li').length;
+   var selected_heading = $('#selected_heading').val();
+   
+   if(selected_heading){
+       var selected_heading_data = selected_heading+'<br>';
+   }else{
+       var selected_heading_data ='';
+   }
+   
+    var qsn = count + 1;
+    var c = $("#own" + opr).val();
+
+   <?php if($report_type): ?>              
+ if(qsn>1){
+    // bootbox.alert('You Can Select Max One Questions');
+
+
+
+bootbox.alert('You Can Select Max One Questions.' ).find('.modal-content').css({
+   // 'background-color': '#f99',
+  //  'font-weight' : 'bold',
+  //  'color': '#F00',
+    //'font-size': '2em',
+    'margin-top': function (){
+        var w = $( window ).height();
+        var b = $(".modal-dialog").height();
+        // should not be (w-h)/2
+        var h = (w-b)/2;
+        return h+"px";
+    }
+});
+
+
+     $("#b"+qsn).remove();
+    }
+    else{ 
+    $("#total").html(qsn);
+    }
+<?php endif; ?>
+
+if( opr == '' ){
+  $("#total").html(qsn);
+  parent.call_from_child(qsn);
+	if(c){
+    $('.selected_list').append('<li id=b'+qsn+' class="list-group-item justify-content-between">'+selected_heading_data+'Q'+qsn+'.<question>'+c+'</question><span class="tag red float-xs-right"><a class=b'+qsn+' onClick=removeOwn(this); style="color:#fff">Remove(&#x2717;)</a></span></li>');
+	$("#own" + opr).val('');
+	}else{ 
+		  //  bootbox.alert('Please enter your quetion.');
+
+bootbox.alert('Please enter your quetion.' ).find('.modal-content').css({
+   // 'background-color': '#f99',
+  //  'font-weight' : 'bold',
+  //  'color': '#F00',
+    //'font-size': '2em',
+    'margin-top': function (){
+        var w = $( window ).height();
+        var b = $(".modal-dialog").height();
+        // should not be (w-h)/2
+        var h = (w-b)/2;
+        return h+"px";
+    }
+});
+
+		}
+}else{
+  if(c){ var selected_heading_html = selected_heading_data +'Q'+qsn+'.'+c;  
+  } else {
+    var selected_heading_html = selected_heading_data;
+  }
+   $('.selected_list').append('<li id=b'+qsn+' class="list-group-item justify-content-between"><span><question>'+selected_heading_html+'</question></span><span class="tag red float-xs-right"><a class=b'+qsn+' onClick=removeOwn(this); style="color:#fff">Remove(&#x2717;)</a></span></li>');
+  $("#own" + opr).val('');
+}
+$(".empty").css('display', 'none');
+ $('#alertModal_new').modal('hide');
+}
+
+
+</script>
+<!-- Modal --> 
+<div class="modal fade" id="alertModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Body-->
+            <div class="modal-body">
+              <p style="font-size: 22px;"><b>Right way to ask One Question.</b></p>
+              <p>Q1.When will I get married?  <span style="font-size:30px;color:green;float:right">&#10004;</span></p>
+              <p style="font-size: 22px;"><b>Not a right way.</b></p>
+              <p><b>Q1.Tell Me about my marriage delay?</b>Should i go for bussiness or job? <span style="font-size:30px;color:red;float:right">&#x2716;</span></p>
+              <p>Only the first part will be answered. You can add another question for asking different question.</p>
+            </div>
+            <!--Footer-->
+            <div class="modal-footer">
+                <button type="button" id="hidemodel" class="btn" data-dismiss="modal" style="border-radius:30px;background:#ff3366">Got it!</button>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+<!-- /.Live preview-->
+
+<!-- Modal --> 
+<div class="modal fade" id="alertModal_new" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Body-->
+            <div class="modal-body">
+              <p style="font-size: 22px;"><b> Enter if you have any specific issue.<br>  Please enter issue related to <span id="question_related">Married</span> only.</b></p>
+              </div>
+
+        <div style="height:10px"></div>
+        <div class="col-md-12" style="text-align:center" id="own_question_div">
+        <div class="md-form"> <i class="fa fa-pencil prefix"></i>
+            <textarea type="text" id="ownoptional" name="ownoptional" class="md-textarea"></textarea>
+            <label for="own">Enter your issue (Optional)</label>
+          </div>
+         
+          </div>
+          <div style="clear:both;"></div>
+            <!--Footer-->
+            <div class="modal-footer">
+               <button type="button" class="btn" style="border-radius:30px;background:#ff3366" onClick="addOwnfrom('optional');">Continue with commentary</button>
+               
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+<!-- /.Live preview-->
+
+      </div>
+      <div class="col-md-6 qsncart">
+        <div class="card-header white-text askselected" style="background-color:#ff3366">
+          <h3>Selected Question(<span id="total">0</span><?php if($type): echo '/'.$type; endif; ?>)</h3>
+        </div>
+          <ul class="list-group selected_list" id="selected_list"></ul>
+        <div class="col-md-12" style="text-align:center">
+          <hr>
+   <div class="empty"></div>
+        </div>
+
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button id="next1new" type="button" class="btn nxt">Next</button>
+    </div>
+  </div>
+
+ 
+  <!--/.Panel 1-->
+  <!--Panel 2-->
+  <div class="tab-pane fade" id="pane22" role="tabpanel">
+    <div class="card-block_new">
+      <!--Header-->
+      <div style="height:50px"></div>
+      <div class="col-md-3"></div>
+      <div class="col-md-6 col-xs-12">
+        <!--Form with header-->
+        <div class="card">
+          <div class="card-block">
+            <!--Header-->
+            <div class="form-header blue-gradient">
+              <h3>Enter Your Details</h3>
+            </div>
+            <!--Body-->
+            <div class="md-form"> <i class="fa fa-user prefix"></i>
+              <input type="text" id="name" class="form-control required" name="first_name" value="<?=($current_customer->firstname) ? $current_customer->firstname.' '.$current_customer->lastname : '';?>" required>
+              <label for="name">Your name</label>
+            </div>
+            <div class="md-form"> <i class="fa fa-envelope prefix"></i>
+              <input type="email" id="email" class="form-control required" name="email" value="<?=$current_customer->email;?>"  required>
+              <label for="email">Your email</label>
+            </div>
+            <div class="md-form"> <i class="fa fa-phone prefix"></i>
+              <input type="text" id="form2" class="form-control required" name="phone" value="<?=$current_customer->phone;?>"  required>
+              <label for="form2">Phone No.</label>
+            </div>
+            
+            <div class="md-form"> <i class="fa fa-intersex prefix pull-left"></i>
+            <label for="form2">Gender</label>
+            <div style="clear:both;"></div>
+
+               <div class="col-md-12" style="padding-top:10px;">
+                  <div class="col-md-3">&nbsp;</div>
+                  <div class="col-md-3 col-xs-6"><input id="male" name="gender" value="male" checked="checked" type="radio">&nbsp;Male </div>
+                <div class="col-md-3"><input id="female" name="gender" value="female" type="radio">&nbsp;Female </div>
+                <div class="col-md-3">&nbsp;</div>
+                </div>
+            
+            </div>
+            
+            <div style="clear:both;"></div>
+            
+            
+          </div>
+        </div>
+        <!--/Form with header-->
+      </div>
+
+    </div><div style="clear:both;"></div>
+    <div class="modal-footer">
+      <button id="prev1" type="button" class="btn prv">Prev</button>
+      <button id="next2" type="button" class="btn nxt">Next</button>
+    </div>
+  </div>
+  <!--/.Panel 2-->
+  <!--Panel 3-->
+  <div class="tab-pane fade" id="pane23" role="tabpanel">
+    <!--Naked Form-->
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs md-pills pills-default tab_form" role="tablist">
+      <li class="nav-item"> <a class="nav-link active" id="individual" data-toggle="tab" href="#panel31" role="tab"><i class="fa fa-user fa-2x"></i><br>
+        Individual</a> </li>
+      <li class="nav-item"> <a class="nav-link" id="couple" data-toggle="tab" href="#panel32" role="tab"><i class="fa fa-heart fa-2x"></i><br>
+        Couple</a> </li>
+    </ul>
+    <!-- Tab panels -->
+    <div class="tab-content">
+      <!--Panel 1-->
+      <div class="tab-pane fade in show active" id="panel31" role="tabpanel"><?=$invidual_form;?> </div>
+      <!--/.Panel 1-->
+      <!--Panel 2-->
+      <div class="tab-pane fade" id="panel32" role="tabpanel"></div>
+      <!--/.Panel 2-->
+    </div>
+    <script>
+                
+function test(){
+  $('#next1new').trigger('click');
+}
+
+        function addQsnnew(cls) { 
+            
+           console.log($('ul#selected_list').children('li').length);
+            if($('ul#selected_list').children('li').length > 0){
+bootbox.alert('Please remove your previous selection.' ).find('.modal-content').css({
+   // 'background-color': '#f99',
+  //  'font-weight' : 'bold',
+  //  'color': '#F00',
+    //'font-size': '2em',
+    'margin-top': function (){
+        var w = $( window ).height();
+        var b = $(".modal-dialog").height();
+        // should not be (w-h)/2
+        var h = (w-b)/2;
+        return h+"px";
+    }
+});
+
+            }         
+            else {
+            $('#selected_heading').val($('#ques_' + cls).html());
+            $('#question_related').text($('#ques_' + cls).attr('title'));  
+            $('#alertModal_new').modal('show');
+        }
+        }
+        
+        
+         $('#alertModal_new_comm').on('click', function(){
+        //$('#own').trigger('click');
+        var count = $('ul.selected_list li').length;
+        
+        var qsn = count + 1;
+        
+        var selected_heading = $('#selected_heading').val();
+         
+         $('.selected_list').append('<li id=b'+qsn+' class="list-group-item justify-content-between"><question>'+selected_heading+'.</question><span class="tag red float-xs-right"><a class=b'+qsn+' onClick=removeOwn(this); style="color:#fff">Remove(&#x2717;)</a></span></li>');
+
+         $('html, body').animate({
+        scrollTop: $("#pane21").offset().top - 150
+    }, 2000);
+        });
+        
+        
+        $('#alertModal_new_ok').on('click', function(){
+        //$('#own').trigger('click');
+        $('#own').focus();
+         $('html, body').animate({
+        scrollTop: $("#own_question_div").offset().top - 100
+    }, 2000);
+        });
+        
+        $('#next1new').on('click', function(){ 
+            
+          //bootbox.alert('ok');	
+            
+	if($('.selected_list').html() == ''){					 
+	//bootbox.alert('Please select questions.');	
+
+
+bootbox.alert('Please select questions.' ).find('.modal-content').css({
+   // 'background-color': '#f99',
+  //  'font-weight' : 'bold',
+  //  'color': '#F00',
+    //'font-size': '2em',
+    'margin-top': function (){
+        var w = $( window ).height();
+        var b = $(".modal-dialog").height();
+        // should not be (w-h)/2
+        var h = (w-b)/2;
+        return h+"px";
+    }
+});
+
+	}
+        <?php if($report_type){ ?>  
+           else if(1 < $('ul#selected_list').children('li').length){
+             bootbox.alert('Please select only one question.');
+            }      
+        <?php } ?>
+        <?php if($type){ ?>
+        else if($('ul#selected_list').children('li').length < <?=$type;?>){
+        bootbox.alert('Please select atleast <?=$type;?> questions.');
+    }  else if($('ul#selected_list').children('li').length > <?=$type;?>){
+        bootbox.alert('You can select max <?=$type;?> questions.');
+    }<?php } ?>
+        else{
+	window.scrollTo(0, 0);
+    $('#step1').removeClass('active');
+    $('#pane21').removeClass('active in');
+    $('#step2').addClass('active');
+    $('#pane22').addClass('active in');
+    $('#stepper2').removeClass('active');
+    $('#stepper2').addClass('completed');
+	   $('#questions').val($('.selected_list').html());
+	}
+});
+        
+        
+    $('form#askquestion').submit(function(e) {
+    var form = $(this);
+    e.preventDefault();
+  $('#loadingdiv').html('<div align="center"><span class="fa fa-spin fa-circle-o-notch"></span></div>');  
+      $.ajax({
+        type: "POST",
+        url: "<?php echo site_url('service/booking_question'); ?>",
+        data: form.serialize(),
+        success: function(data){ //  
+    //alert(data);
+      $('#payment_summery').html(data);
+      $('#loadingdiv').html('');
+      window.scrollTo(0, 0);
+      $('#pane24').addClass('active in');
+      $('#pane23').removeClass('active in');
+      $('#step3').removeClass('active');
+      $('#step4').addClass('active');
+      $('#stepper4').removeClass('active');
+      $('#stepper4').addClass('completed');
+       },
+         error: function(resp) { alert(JSON.stringify(resp)); }
+   });
+});
+         
+     
+$('.nav-link').click(function(){
+if($(this).attr('id') == 'individual'){
+$('#panel31').load('<?php echo base_url('service/loadview/'); ?>/' + $(this).attr('id'));
+$('#panel32').html('<div class="col-md-12" align="center"><span class="fa fa-spin fa-circle-o-notch"></span></div>');
+}else{
+$('#panel32').load('<?php echo base_url('service/loadview/'); ?>/' + $(this).attr('id'));
+$('#panel31').html('<div class="col-md-12" align="center"><span class="fa fa-spin fa-circle-o-notch"></span></div>');
+}
+});      
+    
+
+
+ function addQsnOne(cls) { 
+  var a = $("#"+cls.className).html();
+    $("."+cls.className).css('opacity', '0.6');
+    $("."+cls.className).css('pointer-events', 'none');
+
+    $('.selected_list').append('<li id=q'+ cls.className +' class="list-group-item justify-content-between">'+a+'<span class="tag red float-xs-right"><a class="q'+cls.className+'" onClick=qsnRemove(this); style="color:#fff">Remove(✖)</a></span></li>');
+    var count = $('ul.selected_list li').length;
+
+    $("#total").html(count);
+    parent.call_from_child(count);
+    $(".empty").css('display', 'none');
+}
+
+  <?php if($report_type == 3): ?>
+     $(document).ready(function(){
+        $('#couple').trigger('click');
+     });
+  <?php endif; ?>         
+       
+</script>
+    <!--Naked Form-->
+    <div class="modal-footer">
+      <div id="loadingdiv"></div>
+      <button id="prev2" type="button" class="btn prv">Prev</button>
+<?php /*?>      <button id="skip" type="button" class="btn skp">Skip</button>
+<?php */?>      <button id="next3" type="submit" class="btn nxt">Next</button>
+    </div>
+    <script type="text/javascript">
+$("#skip").click(function(){
+$('form#askquestion').submit();
+});
+</script>
+  </div>
+  <!--/.Panel 3-->
+  <!--Panel 4-->
+  <div class="tab-pane fade" id="pane24" role="tabpanel">
+    <div id="payment_summery"> </div>
+    
+  </div>
+</div>
+<?php echo form_close(); ?>
+<script type="text/javascript" src="<?php echo base_url('/assets/astrology/'); ?>/js/bootbox.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url('/assets/astrology/'); ?>/js/common.js"></script>
+</div>

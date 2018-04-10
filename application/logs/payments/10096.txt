@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 10096
+    [tracking_id] => 106263388513
+    [bank_ref_no] => 172201734158
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => HDFC Bank
+    [status_code] => null
+    [status_message] => null
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => priyanka
+    [billing_address] => gurgaon
+    [billing_city] => Gurgaon
+    [billing_state] => Haryana
+    [billing_zip] => 122001
+    [billing_country] => India
+    [billing_tel] => 8826065207
+    [billing_email] => priyankaa_sh@yahoo.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 08/08/2017 15:04:22
+    [bin_country] => 
+)

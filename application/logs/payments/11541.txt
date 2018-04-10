@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 11541
+    [tracking_id] => 106273008412
+    [bank_ref_no] => IGABXXJYJ5
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => State Bank of India
+    [status_code] => null
+    [status_message] => Completed Successfully
+    [currency] => INR
+    [amount] => 796.0
+    [billing_name] => tarun agrawal
+    [billing_address] => 255 - block - A TANSEN NAGAR
+    [billing_city] => Gwalior
+    [billing_state] => Madhya Pradesh
+    [billing_zip] => 474002
+    [billing_country] => India
+    [billing_tel] => 9009308761
+    [billing_email] => nipepe00@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 796.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 31/08/2017 17:56:53
+    [bin_country] => 
+)

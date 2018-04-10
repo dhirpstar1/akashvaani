@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 16720
+    [tracking_id] => 106293867425
+    [bank_ref_no] => 625347
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Credit Card
+    [card_name] => Visa
+    [status_code] => null
+    [status_message] => SUCCESS
+    [currency] => INR
+    [amount] => 796.0
+    [billing_name] => Nikita Jain
+    [billing_address] => 1644 sector -3
+    [billing_city] => Faridabad
+    [billing_state] => Haryana
+    [billing_zip] => 121004
+    [billing_country] => India
+    [billing_tel] => 8130526008
+    [billing_email] => jnikita56@yahoo.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 796.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 30/10/2017 19:14:43
+    [bin_country] => INDIA									
+)

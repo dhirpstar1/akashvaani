@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 14039
+    [tracking_id] => 106284180013
+    [bank_ref_no] => 0046942609
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => Kotak Mahindra Bank
+    [status_code] => null
+    [status_message] => null
+    [currency] => INR
+    [amount] => 398.0
+    [billing_name] => Shivani Gupta
+    [billing_address] => F-136 a/1 Laxmi nagar
+    [billing_city] => Delhi
+    [billing_state] => New Delhi
+    [billing_zip] => 110092
+    [billing_country] => India
+    [billing_tel] => 9711260398
+    [billing_email] => shivani_0120@yahoo.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 398.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 03/10/2017 03:34:37
+    [bin_country] => 
+)

@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 16833
+    [tracking_id] => 106294320468
+    [bank_ref_no] => 7303680264
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Wallet
+    [card_name] => Paytm
+    [status_code] => null
+    [status_message] => Txn Successful.
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Ayushi Singh
+    [billing_address] => 93, Anand Nagar
+    [billing_city] => Indore
+    [billing_state] => Madhya Pradesh
+    [billing_zip] => 452001
+    [billing_country] => India
+    [billing_tel] => 9584777768
+    [billing_email] => singh.ayushi66@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 31/10/2017 20:29:40
+    [bin_country] => 
+)

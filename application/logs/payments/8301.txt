@@ -1,0 +1,55 @@
+Array
+(
+    [order_id] => 8301
+    [tracking_id] => 106249347974
+    [bank_ref_no] => 7084872103
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Wallet
+    [card_name] => Paytm
+    [status_code] => null
+    [status_message] => Txn Successful.
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => pratikshya mishra
+    [billing_address] => gk jewel city, Survey 4, Kudlu Road, Purappana Agrahara, Sai Meadows, Parappana Agrahara, Bengaluru, Karnataka 560068
+    [billing_city] => bangalore
+    [billing_state] => karnataka
+    [billing_zip] => 560068
+    [billing_country] => India
+    [billing_tel] => 8951451520
+    [billing_email] => pratikshyamishra1503@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => null
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 07/07/2017 09:18:22
+    [bin_country] => 
+
+
+
+
+
+
+
+
+
+
+)

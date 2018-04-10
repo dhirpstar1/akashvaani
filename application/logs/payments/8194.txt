@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 8194
+    [tracking_id] => 106248486885
+    [bank_ref_no] => null
+    [order_status] => Failure
+    [failure_message] => 
+    [payment_mode] => Wallet
+    [card_name] => Paytm
+    [status_code] => null
+    [status_message] => Looks like you cancelled the payment. You can try again now by adding money in your wallet or choose another payment method. If you faced any issues in completing the payment, please contact us
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => MOHAN
+    [billing_address] => Thillai Ganga Nagar
+    [billing_city] => Chennai
+    [billing_state] => Tamil Nadu
+    [billing_zip] => 600061
+    [billing_country] => India
+    [billing_tel] => 9840277374
+    [billing_email] => sreemohanbabu@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => null
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 05/07/2017 14:01:18
+    [bin_country] => 
+)

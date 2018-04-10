@@ -1,0 +1,125 @@
+<h2><?php echo $page_title; ?></h2>
+<div class="text-left"> 
+     <a href="<?=base_url('/admin/settings/send_messages/register');?>" class="btn btn-primary">Registered</a>
+        <a href="<?=base_url('/admin/settings/send_messages/enquiry');?>" class="btn btn-primary">Get Enquiry</a>
+        <a href="<?=base_url('/admin/settings/send_messages/report');?>" class="btn btn-primary">Try to Get Report</a>
+        <a href="<?=base_url('/admin/settings/send_messages/payreport');?>" class="btn btn-primary">Pay For Report</a>
+</div>
+<div class="text-right">
+    
+    <div class="span4 proj-div btn btn-primary" data-toggle="modal" data-target="#GSCCModal">Send Emails</div>
+
+</div>
+
+<?php if(count($listings) > 0): ?>
+
+<table class="table table-striped">
+    <thead>
+        <tr><td colspan="4" style="text-align:center"><?php echo CI::pagination()->create_links();?></td></tr>
+        <tr>
+            <th><input type="checkbox" name="select_all" id="select_all"></th>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+    <?php foreach($listings as $listing): ?>
+        <tr><td><input type="checkbox" name="select_list" class="checkbox" customer_name="<?=$listing->firstname;?>" email="<?=$listing->email;?>"></td>
+            <td><?php echo $listing->firstname; ?> <?php echo $listing->lastname; ?></td>
+            <td class="text-left">
+               <?php echo $listing->email; ?>
+            </td>
+        </tr>
+    <?php endforeach; ?>
+     <tr><td colspan="4" style="text-align:center"><?php echo CI::pagination()->create_links();?></td></tr>
+    </tbody>
+</table>
+
+<?php endif; ?>
+
+
+
+<div id="GSCCModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+         
+ <div class="modal-dialog">
+    <div class="modal-content">
+        <form action="<?php echo site_url('admin/settings/send_message_form/');?>" method="post" id="send_emails">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+        <h4 class="modal-title" id="myModalLabel">Send Emails</h4>
+      </div>
+      <div class="modal-body">
+         <div class="col-md-12"> Subject:- 
+            <input type="text" placeholder="Subject" value="Test" id="subject" name="subject" class="form-control"> 
+        </div><br><br>
+        <div class="col-md-12"> Template ID:
+            <input type="text" placeholder="Template Id" value="6b674720-b326-4cc6-b416-ec7c767052e8" id="template_id" name="template_id" class="form-control"> 
+        </div>
+       
+       <br><br><br>
+      </div>
+      <div class="modal-footer"> <div class="col-md-8"><span id="response">...</span></div>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <input type="submit" value="Send Email" name="send_email" class="btn btn-primary">
+      </div>
+    </div>
+    </form>
+  </div>
+   
+</div>
+
+<script type="text/javascript">
+
+$('#send_emails').submit(function(event){
+
+             jsonObj = [];
+                $.each($("input[name='select_list']:checked"), function(){            
+                    item = {}
+                    item ["customer_name"] = $(this).attr("customer_name");
+                    item ["email"] = $(this).attr("email");
+                    jsonObj.push(item);
+
+                });
+
+                $.ajax({
+     type: 'POST',
+     //dataType: "json",
+     //contentType: "application/json; charset=utf-8",
+     url:$(this).attr("action"),
+        data: { 
+            'template_id': $('#template_id').val(), 
+            'subject': $('#subject').val(), 
+            'receivers': jsonObj 
+        },
+    success: function(msg){
+        $('#response').text(msg);
+console.log(msg);
+    }
+});
+
+ //alert(JSON.stringify(jsonObj));
+
+event.preventDefault();
+});
+
+
+
+  
+    //select all checkboxes
+$("#select_all").change(function(){  //"select all" change
+    $(".checkbox").prop('checked', $(this).prop("checked")); //change all ".checkbox" checked status
+});
+
+//".checkbox" change
+$('.checkbox').change(function(){
+    //uncheck "select all", if one of the listed checkbox item is unchecked
+    if(false == $(this).prop("checked")){ //if this item is unchecked
+        $("#select_all").prop('checked', false); //change "select all" checked status to false
+    }
+    //check "select all" if all checkbox items are checked
+    if ($('.checkbox:checked').length == $('.checkbox').length ){
+        $("#select_all").prop('checked', true);
+    }
+});
+
+</script>

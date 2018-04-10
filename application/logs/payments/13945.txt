@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 13945
+    [tracking_id] => 106283943855
+    [bank_ref_no] => 809940
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => Visa Debit Card
+    [status_code] => 0
+    [status_message] => Transaction Successful
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => jeena Nair
+    [billing_address] => kurla
+    [billing_city] => Mumbai
+    [billing_state] => Maharashtra
+    [billing_zip] => 400070
+    [billing_country] => India
+    [billing_tel] => 8983736110
+    [billing_email] => nairjeena8@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => 05
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 02/10/2017 11:22:25
+    [bin_country] => INDIA
+)

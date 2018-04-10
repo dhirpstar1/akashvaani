@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 16778
+    [tracking_id] => 106294045697
+    [bank_ref_no] => 173040785487
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => HDFC Bank
+    [status_code] => null
+    [status_message] => null
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => VANITA
+    [billing_address] => Borivali
+    [billing_city] => Mumbai
+    [billing_state] => Maharashtra
+    [billing_zip] => 400092
+    [billing_country] => India
+    [billing_tel] => 9819404819
+    [billing_email] => vanita23@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 31/10/2017 10:39:07
+    [bin_country] => 
+)

@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 15027
+    [tracking_id] => 106288160210
+    [bank_ref_no] => IGACENSXC0
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => State Bank of India
+    [status_code] => null
+    [status_message] => Completed Successfully
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => INDRAJIT BHATTACHARYA
+    [billing_address] => 5/1 BS ROAD KOL 75
+    [billing_city] => KolkataKOLKATA
+    [billing_state] => West Bengal
+    [billing_zip] => 700075
+    [billing_country] => India
+    [billing_tel] => 7044281945
+    [billing_email] => bhattacharya713@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 13/10/2017 17:10:04
+    [bin_country] => 
+)

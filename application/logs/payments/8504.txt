@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 8504
+    [tracking_id] => 106251286704
+    [bank_ref_no] => null
+    [order_status] => Failure
+    [failure_message] => 
+    [payment_mode] => Wallet
+    [card_name] => Paytm
+    [status_code] => null
+    [status_message] => Looks like you cancelled the payment. You can try again now by adding money in your wallet or choose another payment method. If you faced any issues in completing the payment, please contact us
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Suresh singh
+    [billing_address] => Plot no 19 block A hari vihar 
+    [billing_city] => Delhi110084
+    [billing_state] => New Delhi
+    [billing_zip] => 110084
+    [billing_country] => India
+    [billing_tel] => 9818967972
+    [billing_email] => Suresh1981_cct@yahoo.co.in
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => null
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 10/07/2017 20:33:45
+    [bin_country] => 
+)

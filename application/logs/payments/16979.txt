@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 16979
+    [tracking_id] => 106294881041
+    [bank_ref_no] => null
+    [order_status] => Failure
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => State Bank of India
+    [status_code] => 
+    [status_message] => IPAY0100293 - Transaction denied due to duplicate Merchant trackid
+    [currency] => INR
+    [amount] => 597.0
+    [billing_name] => Jay Piyush Varia
+    [billing_address] => Vaikunth-2
+    [billing_city] => Vadodara
+    [billing_state] => gujarat
+    [billing_zip] => 390022
+    [billing_country] => India
+    [billing_tel] => 9429536161
+    [billing_email] => jay_6793@yahoo.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 597.0
+    [eci_value] => 
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 02/11/2017 11:40:27
+    [bin_country] => INDIA
+)

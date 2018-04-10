@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 13543
+    [tracking_id] => 106282230992
+    [bank_ref_no] => null
+    [order_status] => Failure
+    [failure_message] => 
+    [payment_mode] => Unified Payments
+    [card_name] => UPI
+    [status_code] => null
+    [status_message] => Failed
+    [currency] => INR
+    [amount] => 599.0
+    [billing_name] => Deepak Chaudhari
+    [billing_address] => At post varadseem inside grampanchayat gate in wani wada,gut no-4.
+    [billing_city] => Bhusawal
+    [billing_state] => Maharashtra
+    [billing_zip] => 425311
+    [billing_country] => India
+    [billing_tel] => 9325693139
+    [billing_email] => deepakchaudhari425@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 599.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 26/09/2017 23:05:01
+    [bin_country] => 
+)

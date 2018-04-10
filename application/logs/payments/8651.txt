@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 8651
+    [tracking_id] => 106252265082
+    [bank_ref_no] => null
+    [order_status] => Initiated
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => Visa Debit Card
+    [status_code] => 
+    [status_message] => card not supported
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => LIGA AIZUPIETE
+    [billing_address] => Langas 9-1
+    [billing_city] => Riga
+    [billing_state] => Latvia
+    [billing_zip] => LV-1023
+    [billing_country] => Latvia
+    [billing_tel] => 37124401478
+    [billing_email] => idzite@inbox.lv
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => 
+    [retry] => null
+    [response_code] => 
+    [billing_notes] => 
+    [trans_date] => 12/07/2017 23:30:30
+    [bin_country] => 
+)

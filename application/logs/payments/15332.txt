@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 15332
+    [tracking_id] => 106289168162
+    [bank_ref_no] => 554033
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Credit Card
+    [card_name] => Visa
+    [status_code] => null
+    [status_message] => SUCCESS
+    [currency] => INR
+    [amount] => 599.0
+    [billing_name] => Ripu singala
+    [billing_address] => 242/2 radha Krishanahouse near shamal skylife ambika township opposite arihant apartment
+    [billing_city] => Rajkot
+    [billing_state] => Gujarat
+    [billing_zip] => 360005
+    [billing_country] => India
+    [billing_tel] => 9837999980
+    [billing_email] => ripumnit2005@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 599.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 16/10/2017 16:33:23
+    [bin_country] => INDIA
+)

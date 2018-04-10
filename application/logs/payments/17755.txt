@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 17755
+    [tracking_id] => 106297425543
+    [bank_ref_no] => IGACIPCSI1
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => State Bank of India
+    [status_code] => null
+    [status_message] => Completed Successfully
+    [currency] => INR
+    [amount] => 398.0
+    [billing_name] => manish
+    [billing_address] => 14222 Dallas Parkway
+    [billing_city] => Dallas
+    [billing_state] => Texas
+    [billing_zip] => 75254
+    [billing_country] => United States
+    [billing_tel] => 6823316294
+    [billing_email] => manishm0886@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 398.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 09/11/2017 14:34:56
+    [bin_country] => 
+)

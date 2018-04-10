@@ -1,0 +1,1239 @@
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Material Design Bootstrap</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <!-- Your custom styles (optional) -->
+    <link href="css/marriageprediction.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+
+</head>
+
+<body>
+
+
+    <!-- Start your project here-->
+
+<div id="mySidenav" class="sidenav">
+ <ul id="slide-out" class="side-nav fixed custom-scrollbar ps-container ps-theme-default ps-active-y">
+
+        <!-- Logo -->
+        <li>
+            <div class="logo-wrapper waves-light waves-effect waves-light">
+            <a href="#"><img src="img/logo1.png" class="img-fluid flex-center"></a>
+            </div>
+        </li>
+        <!--/. Logo -->
+
+        <!--Social-->
+        <li>
+            <ul class="social">
+                <li><a class="icons-sm fb-ic"><i class="fa fa-facebook"> </i></a></li>
+                <li><a class="icons-sm pin-ic"><i class="fa fa-pinterest"> </i></a></li>
+                <li><a class="icons-sm gplus-ic"><i class="fa fa-google-plus"> </i></a></li>
+                <li><a class="icons-sm tw-ic"><i class="fa fa-twitter"> </i></a></li>
+            </ul>
+        </li>
+        <!--/Social-->
+
+    
+
+        <!-- Side navigation links -->
+        <li>
+         <ul class="collapsible collapsible-accordion">
+        <li><a class="collapsible-header waves-effect arrow-r"><span class="home"></span> Home</a>
+
+        </li>
+        <li><a class="collapsible-header waves-effect arrow-r" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample"><span class="astrology"></span> Astrology<i class="fa fa-angle-down rotate-icon"></i></a>
+          <div class="collapse" id="collapseExample1">
+            <div class="collapseitem">
+              <ul>
+                <li><a class="collapsible-header waves-effect arrow-r" data-toggle="collapse" href="#marriage" aria-expanded="false" aria-controls="collapseExample"><span class="marriageicon"></span> Marriage<i class="fa fa-angle-down rotate-icon"></i></a>
+                  <div class="collapse" id="marriage">
+                    <div class="collapseitem">
+                      <ul>
+                        <li><a href="#" class="waves-effect">Kundali Milan</a>
+                        </li>
+                        <li><a href="#" class="waves-effect">Marriage Prediction</a>
+                        </li>
+                        <li><a href="#" class="waves-effect">Manglik Dosh</a>
+                        </li>
+                        <li><a href="#" class="waves-effect">Child & Pregnancy</a>
+                        </li>
+                        <li><a href="#" class="waves-effect">Marriage Problems</a>
+                        </li>
+                        <li><a href="#" class="waves-effect">Love Marriage</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li><a class="collapsible-header waves-effect arrow-r" data-toggle="collapse" href="#career" aria-expanded="false" aria-controls="collapseExample"><span class="careericon"></span> Carrer<i class="fa fa-angle-down rotate-icon"></i></a>
+                  <div class="collapse" id="career">
+                    <div class="collapseitem">
+                      <ul>
+                        <li><a href="#" class="waves-effect">Job & Career</a>
+                        </li>
+                        <li><a href="#" class="waves-effect">Prediction & Analysis</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+
+                <li><a class="collapsible-header waves-effect arrow-r" data-toggle="collapse" href="#health" aria-expanded="false" aria-controls="collapseExample"><span class="healthicon"></span> Health<i class="fa fa-angle-down rotate-icon"></i></a>
+                  <div class="collapse" id="health">
+                    <div class="collapseitem">
+                      <ul>
+                        <li><a href="#" class="waves-effect">Health</a>
+                        </li>
+                        <li><a href="#" class="waves-effect">Prediction & Analysis</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li><a class="collapsible-header waves-effect arrow-r"><span class="pujaicon"></span> Puja</a>
+
+        </li>
+        <li><a class="collapsible-header waves-effect arrow-r"><span class="articleicon"></span> Articles</a>
+
+        </li>
+        <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-magic"></i>Products</a>
+
+        </li>
+      </ul>
+        </li>
+        <!--/. Side navigation links -->
+
+    <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; height: 281px; right: 0px;"><div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 158px;"></div></div></ul>
+</div>
+  
+<!--Navbar-->
+<nav class="navbar navbar-fixed-top scrolling-navbar collapsenav">
+ <div class="float-xs-left menu1 bars">
+      <a id="barmenu" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars"></i></a>
+    </div>
+    <div class="breadcrumb-dn logo1">
+      <a href="#"><img src="img/logo1.png" class="img-fluid flex-center"></a>
+    </div>
+    <ul class="nav navbar-nav float-xs-left menu1">
+     <li class="nav-item ">
+      <a class="nav-link waves-effect waves-light"><span class="hidden-sm-down">Home</span></a>
+    </li>
+    <li class="nav-item dropdown">
+      <a id="contact" class="nav-link waves-effect waves-light contact"> <span class="hidden-sm-down">Astrology</span></a>
+
+    <div class="dropdown-content card">
+        <div class="row">
+          <div class="col-md-4">
+            <ul class="navlink">
+              <li style="font-weight: 500;color:#ec3333;">Marriage<i class="fa fa-caret-right" aria-hidden="true"></i></li><hr>
+              <li><a class="dropdown-item waves-effect waves-light">Kundali Milan</a></li>
+              <li><a class="dropdown-item waves-effect waves-light">Marriage Prediction</a></li>
+              <li><a class="dropdown-item waves-effect waves-light">manglik Dosh</a></li>
+              <li><a class="dropdown-item waves-effect waves-light">Child & Pregnancy</a></li>
+              <li><a class="dropdown-item waves-effect waves-light">Marriage Problems</a></li>
+              <li><a class="dropdown-item waves-effect waves-light">Love marriage</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+           <ul class="navlink">
+            <li style="font-weight: 500;color:#ec3333;">Health<i class="fa fa-caret-right" aria-hidden="true"></i></li><hr>
+            <li><a class="dropdown-item waves-effect waves-light">Health</a></li>
+            <li><a class="dropdown-item waves-effect waves-light">Prediction & Analysis</a></li>
+  
+          </ul>
+        </div>
+        <div class="col-md-4">
+         <ul class="navlink">
+          <li style="font-weight: 500;color:#ec3333;">Career<i class="fa fa-caret-right" aria-hidden="true"></i></li><hr>
+          <li><a class="dropdown-item waves-effect waves-light">Job & career</a></li>
+          <li><a class="dropdown-item waves-effect waves-light">Prediction & Analysis</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</li>
+<li class="nav-item ">
+  <a class="nav-link waves-effect waves-light"><span class="hidden-sm-down">Puja</span></a>
+</li>
+<li class="nav-item ">
+  <a class="nav-link waves-effect waves-light"> <span class="hidden-sm-down">Articles</span></a>
+</li>
+<li class="nav-item ">
+  <a class="nav-link waves-effect waves-light"> <span class="hidden-sm-down">Products</span></a>
+</li>
+
+</ul>
+<ul class="nav navbar-nav float-xs-right menu1">
+ <li class="nav-item dropdown">
+  <a class="signup nav-link dropdown-toggle waves-effect waves-light" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i>Account</a>
+  <div class="dropdown-menu dropdown-primary dd-right" aria-labelledby="dropdownMenu1" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+    <a class="dropdown-item waves-effect waves-light" data-toggle="modal" data-target="#signin">Sign In</a>
+    <a class="dropdown-item waves-effect waves-light" href="#">Sign Up</a>
+  </div>
+</li>
+</ul>
+
+</nav>
+
+<!--/.Navbar-->
+
+<div class="container">
+  
+<!--Section: Magazine v.1-->
+<section class="section magazine-section">
+
+    <!--Section heading-->
+    <h1 class="section-heading">Section title</h1>
+   
+    <!--First row-->
+    <div class="row text-xs-left">
+
+        <!--First column-->
+        <div class="col-lg-6 col-md-6">
+
+            <!--Featured news-->
+            <div class="single-news">
+
+                <!--Image-->
+                <div class="view overlay hm-white-slight">
+                    <img src="http://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20(27).jpg">
+                    <a>
+                        <div class="mask"></div>
+                    </a>
+                </div>
+
+                <!--Excerpt-->
+                <div class="news-data">
+                </div>
+            </div>
+            <!--/Featured news-->
+        </div>
+        <!--/First column-->
+
+        <!--Second column-->
+        <div class="col-lg-6 col-md-6">
+
+<div class="card">
+    <div class="card-header white-text pujaname">
+        Griha Pravesh
+    </div>
+    <div class="card-block q1">
+    <div class="row">
+    <div class="col-md-10">
+       <h2 class="section-heading" style="margin-bottom:0px;margin-top:0px">Price - <i class="fa fa-rupee"></i> <span id="mainprice" price="2100.00">2100</span></h2>
+    </div>
+    <div class="col-md-2">
+    <a href="#" class="read_more"><i class="fa fa-plus-square-o" aria-hidden="true"></i></a>
+    </div>
+    </div>
+   
+       <div class="container more_text pujaprice">
+    <br>
+
+<fieldset class="form-group">
+    <input name="group1" type="radio" id="radio1">
+    <label for="radio1">
+    Twe pandit Price - <i class="fa fa-rupee"></i> <span id="mainprice" price="3100.00">3100</span></label>
+</fieldset>
+
+<fieldset class="form-group">
+    <input name="group1" type="radio" id="radio2">
+    <label for="radio2">With Samagri Price - <i class="fa fa-rupee"></i> <span id="mainprice" price="4100.00">4100</span> </label>
+</fieldset>
+
+<fieldset class="form-group">
+    <input name="group1" type="radio" id="radio3">
+    <label for="radio3">With Music  Price - <i class="fa fa-rupee"></i> <span id="mainprice" price="5100.00">5100</span></label>
+</fieldset>
+ <div class="col-md-12" style="text-align:center">
+ <hr style="margin-top:1px;margin-bottom:1px;display:block">
+<a href="#" class="read_less"><i class="fa fa-minus-square-o" aria-hidden="true"></i></a>
+    </div>
+</div>
+    </div>
+    </div>
+<div class="card">
+    <div class="card-block">
+    
+ 
+       <div class="row">
+         <div class="col-md-6">
+           <div class="md-form">
+                    <i class="fa fa-user prefix"></i>
+                    <input type="text" id="form3" class="form-control">
+                    <label for="form3">Example label</label>
+                </div>
+         </div>
+         <div class="col-md-6">
+           <div class="md-form">
+                    <i class="fa fa-envelope prefix"></i>
+                    <input type="text" id="form2" class="form-control">
+                    <label for="form2">Example label</label>
+                </div>
+         </div>
+       </div>
+          <div class="row">
+         <div class="col-md-6">
+           <div class="md-form">
+                    <i class="fa fa-phone prefix"></i>
+                    <input type="text" id="phone" class="form-control">
+                    <label for="phone">Example label</label>
+                </div>
+         </div>
+         <div class="col-md-6">
+           <div class="md-form">
+                    <i class="fa fa-calendar prefix"></i>
+                    <input type="text" id="datepicker" name="date" class="form-control">
+                    <label for="datepicker">Example label</label>
+                </div>
+         </div>
+       </div>
+       
+    <div class="row">
+      <div class="col-md-12">
+        <div class="md-form">
+    <i class="fa fa-pencil prefix"></i>
+    <textarea type="text" id="form8" class="md-textarea"></textarea>
+    <label for="form8">Icon Prefix</label>
+</div>
+      </div>
+    </div>
+    <div class="row" style="text-align:center">
+      <button type="button" class="btn btn-danger">Book Now</button>
+    </div>
+
+</div>
+<!--/.
+
+        </div>
+        <!--/Second column-->
+
+    </div>
+    <!--/First row-->
+
+</section>
+<!--/Section: Magazine v.1-->
+<hr>
+<section class="section">
+
+        <!--Section heading-->
+        <h1 class="section-heading" style="text-align:center">About Grah Parvesh</h1>
+        <!--Section sescription-->
+        <p class="section-description">Griha Pravesh is a ceremony performed on the occasion of one's first entry into a new house. Once the house is ready, the family moves in on an auspicious day that is determined by the astrological charts. Purity of panchang (almanac) and auspicious time (muhurat) must be considered during the griha pravesh. Three types of griha pravesh have been mentioned in our ancient scriptures:
+</p>
+
+ <div class="excerpt">
+                <p>Apoorva: First entry to newly constructed house on a newly selected land is called apoorva (new) griha pravesh.
+                </p>
+
+                <p>Sapoorva: Entry into an already existing house after travelling abroad or migration elsewhere is called sapoorva griha pravesh.</p>
+                <p>Dwandwah: Entry into a house to after reconstruction or renovation subsequent to damage due to fire, flood or earthquake, is termed as dwandwah (old) griha pravesh.</p>
+                <p>For apoorva griha pravesh, the exact auspicious time need to be adhered to. For sapoorva griha pravesh or dwandwah griha pravesh, the purity of the panchang should be given due consideration.</p>
+                <p style="font-weight:500">Do's and Don'ts of Griha pravesh : </p>
+                <p>Griha pravesh is not complete until:<br>
+1. The doors of the house are fitted with shutters;<br>
+2. The roof is covered;<br>
+3. The Gods of vastu have been worshipped or offered sacrifices;<br>
+4. The priests have been offered feast.<br>
+5. House-warming ceremony should not be performed when the lady of the house is pregnant.</p>
+<p>If the above-mentioned points are not considered when moving into a new house, they can bring trouble and miseries to the dwellers. Therefore, living in a house should be considered only after all rituals are complete as per the procedure given in the scriptures.</p>
+<p>Once the griha pravesh ceremony has been completed, the family can then move into the house. The house should not be locked for a few days since that would be considered inauspicious.</p>
+            </div>
+      <!-- /.About Product -->
+      </section>
+                   <hr class="firstheadhr">
+    <h2 class="h2-responsive firsthead">What Our customers Says</h2>
+<section class="section">
+    
+    <!--Section heading-->
+  
+
+    
+    <div class="row">
+        <!--Carousel Wrapper-->
+        <div id="multi-item-example" class="carousel testimonial-carousel slide carousel-multi-item wow fadeIn" data-ride="carousel">
+
+            <!--Controls-->
+            <div class="controls-top" style="margin-bottom:5%">
+                <a class="btn-floating btn-small mdb-color waves-effect waves-light" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+                <a class="btn-floating btn-small mdb-color waves-effect waves-light" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+            </div>
+            <!--/.Controls-->
+
+            <!--Indicators-->
+            <ol class="carousel-indicators testimonial-indicators">
+                <li data-target="#multi-item-example" data-slide-to="0" class="mdb-color active"></li>
+                <li data-target="#multi-item-example" data-slide-to="1" class="mdb-color"></li>
+                <li data-target="#multi-item-example" data-slide-to="2" class="mdb-color"></li>
+            </ol>
+            <!--/.Indicators-->
+
+            <!--Slides-->
+            <div class="carousel-inner testimonial-iner" role="listbox">
+
+                <!--First slide-->
+                <div class="carousel-item active">
+                    <!--First column-->
+                    <div class="col-md-4">
+
+                        <div class="testimonial">
+                            <!--Avatar-->
+                           
+                            <!--Content-->
+                            <h4>Pardeep,Delhi</h4>
+                            <p><i class="fa fa-quote-left"></i> I Wanted An Advice Regarding Marriage Issue. Found Out About Akashvaani.Com On Internet. I Called Them And In Less Than 5 Minutes I Was Talking To Expert Marriage Astrologer . I Got An Advice Based On My Birth Details On Call. It Was More Than Satisfying Experience. It Could Not Have Been Easier And Better Than This</p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star-half-full"> </i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--/First column-->
+
+                    <!--Second column-->
+                    <div class="col-md-4 hidden-sm-down">
+                        <div class="testimonial">
+                            <!--Avatar-->
+                           
+                            <!--Content-->
+                            <h4>Sonali, Gurgaon</h4>
+                            <p><i class="fa fa-quote-left"></i> I Wanted An Advice Regarding Marriage Issue. Found Out About Akashvaani.Com On Internet. I Called Them And In Less Than 5 Minutes I Was Talking To Expert Marriage Astrologer . I Got An Advice Based On My Birth Details On Call. It Was More Than Satisfying Experience. It Could Not Have Been Easier And Better Than This.</p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/Second column-->
+                    
+                    <!--Third column-->
+                    <div class="col-md-4 hidden-sm-down">
+                        <div class="testimonial">
+                            <!--Avatar-->
+                         
+                            <!--Content-->
+                            <h4>Rahul, Delhi</h4>
+                            <p><i class="fa fa-quote-left"></i> Thank You Akashvaani For Giving Me Instant Service When I Was In Dilemma Of Switching My Job. They Helped In Choosing The Right Decision.</p>
+                            
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star-o"> </i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/Third column-->
+
+                </div>
+                <!--/.First slide-->
+
+                <!--Second slide-->
+                <div class="carousel-item">
+                    <!--First column-->
+                    <div class="col-md-4">
+
+                        <div class="testimonial">
+                            <!--Avatar-->
+                          
+                            <!--Content-->
+                            <h4>Shikha, Gurgaon</h4>
+                            <p><i class="fa fa-quote-left"></i>I Was Much Tensed About My Job Success. I Got My Consultation From This Website, Believe Me Within 3 Months Of Remedies Suggested By Astrologer I Got Promoted In My Company. They Have Best Customer Service Team. </p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star-half-full"> </i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--/First column-->
+
+                    <!--Second column-->
+                    <div class="col-md-4 hidden-sm-down">
+                        <div class="testimonial">
+                            <!--Avatar-->
+                           
+                            <!--Content-->
+                            <h4>Sukriti, Noida</h4>
+                            <p><i class="fa fa-quote-left"></i> Akashvaani Is Worth Taking Service. I Was Doubtful About The Payment Security, But They Are Trustworthy. I Am Satisfied That I Have Invested At Right Place.</p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/Second column-->
+
+                    <!--Third column-->
+                    <div class="col-md-4 hidden-sm-down">
+                        <div class="testimonial">
+                            <!--Avatar-->
+                            
+                            <!--Content-->
+                            <h4>Lekha Sharma, Gurgaon</h4>
+                            <p><i class="fa fa-quote-left"></i> I Was Jobless For Last One Year, Irrespective Of My Qualification My Luck Was Not With Me. Then I Contacted Akashvaani.Com. They Told Me About My Dasha And A Simple Remedy. After Two Months I Got Job. I Am Amazed To See This Positive Result.</p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star-o"> </i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/Third column-->
+
+                </div>
+                <!--/.Second slide-->
+
+                <!--Third slide-->
+                <div class="carousel-item">
+                    <!--First column-->
+                    <div class="col-md-4">
+
+                        <div class="testimonial">
+                            <!--Avatar-->
+                          
+                            <!--Content-->
+                            <h4>Atul, Delhi</h4>
+                            <p><i class="fa fa-quote-left"></i>I Was Very Worried About My Husband’s Health. He Was Not Getting Rid Of Disease. Astrologer From Akashvaani Helped Me In Finding The Problems. I Am Really Grateful To His Guidance And His Knowledge Overwhelmed Me.</p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--/First column-->
+
+                    <!--Second column-->
+                    <div class="col-md-4 hidden-sm-down">
+                        <div class="testimonial">
+                            <!--Avatar-->
+                           
+                            <!--Content-->
+                            <h4>Rajbala, Gurgaon</h4>
+                            <p><i class="fa fa-quote-left"></i> Excellent Service Offered By Akasvaani.Com. Astrologer Heard All Problems Patiently, Guided Me About My Stars And Solutions. It Was Truly A Good Experience. </p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star-half-full"> </i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/Second column-->
+
+                    <!--Third column-->
+                    <div class="col-md-4 hidden-sm-down">
+                        <div class="testimonial">
+                            <!--Avatar-->
+                           
+                            <!--Content-->
+                            <h4>Khushboo, Delhi</h4>
+                            <p><i class="fa fa-quote-left"></i> I Was Very Worried About My Husband’s Health. He Was Not Getting Rid Of Disease. Astrologer From Akashvaani Helped Me In Finding The Problems. I Am Really Grateful To His Guidance And His Knowledge Overwhelmed Me. </p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star-o"> </i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/Third column-->
+
+                </div>
+                <!--/.Third slide-->
+
+            </div>
+            <!--/.Slides-->
+
+        </div>
+        <!--/.Carousel Wrapper-->
+    </div>
+</section>
+<hr>
+<!--Section: Products v.5-->
+<section class="section">
+
+    <!--Section heading-->
+    <h1 class="section-heading" style="text-align:center">Related Pujas</h1>
+    <!--Section sescription-->
+   
+
+
+    <!--Carousel Wrapper-->
+    <div id="multi-item-example1" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+        <!--Controls-->
+        <div class="controls-top">
+            <a class="btn-floating btn-small primary-color" href="#multi-item-example1" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+            <a class="btn-floating btn-small primary-color" href="#multi-item-example1" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+        </div>
+        <!--/.Controls-->
+
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+            <li class="primary-color" data-target="#multi-item-example1" data-slide-to="0" class="active"></li>
+            <li class="primary-color" data-target="#multi-item-example1" data-slide-to="1"></li>
+            <li class="primary-color" data-target="#multi-item-example1" data-slide-to="2"></li>
+        </ol>
+        <!--/.Indicators-->
+
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+
+            <!--First slide-->
+            <div class="carousel-item active">
+
+                <div class="col-md-3">
+
+                    <!--Card-->
+                    <div class="card card-cascade narrower">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img%20(8).jpg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block text-xs-center">
+                            <!--Category & Title-->
+                            
+                            <h4 class="card-title"><strong><a href="">Product Name</a></strong></h4>
+<div class="orange-text">
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                    </div>
+                            <!--Description-->
+                           <p class="card-text price">Price - <span class="green-text"><strong>$69</strong></span> <span class="grey-text"><small><s>$129</s></small></span></p>
+                            <!--Card footer-->
+                         <button type="button" class="btn btn-primary">Book Now</button>
+
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+
+                </div>
+
+                <div class="col-md-3 hidden-sm-down">
+
+                    <!--Card-->
+                    <div class="card card-cascade narrower">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img%20(9).jpg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block text-xs-center">
+                            <!--Category & Title-->
+                            <h4 class="card-title"><strong><a href="">Product Name</a></strong></h4>
+<div class="orange-text">
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                    </div>
+                            <!--Description-->
+                            <p class="card-text price">Price - <span class="green-text"><strong>$69</strong></span> <span class="grey-text"><small><s>$129</s></small></span></p>
+
+                            <!--Card footer-->
+                         <button type="button" class="btn btn-primary">Book Now</button>
+                           
+
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+
+                </div>
+
+                <div class="col-md-3 hidden-sm-down">
+
+                    <!--Card-->
+                    <div class="card card-cascade narrower">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img%20(10).jpg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block text-xs-center">
+                            <!--Category & Title-->
+                            <h4 class="card-title"><strong><a href="">Product Name</a></strong></h4>
+<div class="orange-text">
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                    </div>
+                            <!--Description-->
+                            <p class="card-text price">Price - <span class="green-text"><strong>$69</strong></span> <span class="grey-text"><small><s>$129</s></small></span></p>
+                            <!--Card footer-->
+                         <button type="button" class="btn btn-primary">Book Now</button>
+                          
+
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+
+                </div>
+
+                <div class="col-md-3 hidden-sm-down">
+
+                    <!--Card-->
+                    <div class="card card-cascade narrower">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img%20(12).jpg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block text-xs-center">
+                            <!--Category & Title-->
+                            <h4 class="card-title"><strong><a href="">Product Name</a></strong></h4>
+<div class="orange-text">
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                    </div>
+                            <!--Description-->
+                            <p class="card-text price">Price - <span class="green-text"><strong>$69</strong></span> <span class="grey-text"><small><s>$129</s></small></span></p>
+
+                            <!--Card footer-->
+                         <button type="button" class="btn btn-primary">Book Now</button>
+                          
+
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+
+                </div>
+
+            </div>
+            <!--/.First slide-->
+
+            <!--Second slide-->
+            <div class="carousel-item">
+
+         
+                <div class="col-md-3">
+
+                    <!--Card-->
+                    <div class="card card-cascade narrower">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img%20(8).jpg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block text-xs-center">
+                            <!--Category & Title-->
+                            <h4 class="card-title"><strong><a href="">Product Name</a></strong></h4>
+<div class="orange-text">
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                    </div>
+                            <!--Description-->
+                            <p class="card-text price">Price - <span class="green-text"><strong>$69</strong></span> <span class="grey-text"><small><s>$129</s></small></span></p>
+                            <!--Card footer-->
+                         <button type="button" class="btn btn-primary">Book Now</button>
+                           
+
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+
+                </div>
+
+                <div class="col-md-3 hidden-sm-down">
+
+                    <!--Card-->
+                    <div class="card card-cascade narrower">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img%20(9).jpg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block text-xs-center">
+                            <!--Category & Title-->
+                            <h4 class="card-title"><strong><a href="">Product Name</a></strong></h4>
+<div class="orange-text">
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                    </div>
+                            <!--Description-->
+                           <p class="card-text price">Price - <span class="green-text"><strong>$69</strong></span> <span class="grey-text"><small><s>$129</s></small></span></p>
+
+                            <!--Card footer-->
+                         <button type="button" class="btn btn-primary">Book Now</button>
+                          
+
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+
+                </div>
+
+                <div class="col-md-3 hidden-sm-down">
+
+                    <!--Card-->
+                    <div class="card card-cascade narrower">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img%20(10).jpg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block text-xs-center">
+                            <!--Category & Title-->
+                            <h4 class="card-title"><strong><a href="">Product Name</a></strong></h4>
+<div class="orange-text">
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                    </div>
+                            <!--Description-->
+                           <p class="card-text price">Price - <span class="green-text"><strong>$69</strong></span> <span class="grey-text"><small><s>$129</s></small></span></p>
+
+                            <!--Card footer-->
+                         <button type="button" class="btn btn-primary">Book Now</button>
+                          
+
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+
+                </div>
+
+                <div class="col-md-3 hidden-sm-down">
+
+                    <!--Card-->
+                    <div class="card card-cascade narrower">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img%20(12).jpg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block text-xs-center">
+                            <!--Category & Title-->
+                            <h4 class="card-title"><strong><a href="">Product Name</a></strong></h4>
+<div class="orange-text">
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                    </div>
+                            <!--Description-->
+                          <p class="card-text price">Price - <span class="green-text"><strong>$69</strong></span> <span class="grey-text"><small><s>$129</s></small></span></p>
+
+                         <button type="button" class="btn btn-primary">Book Now</button>
+                          
+
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+
+                </div>
+            </div>
+            <!--/.Second slide-->
+
+            <!--Third slide-->
+            <div class="carousel-item">
+
+       
+                <div class="col-md-3">
+
+                    <!--Card-->
+                    <div class="card card-cascade narrower">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img%20(8).jpg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block text-xs-center">
+                            <!--Category & Title-->
+                            <h4 class="card-title"><strong><a href="">Product Name</a></strong></h4>
+<div class="orange-text">
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                    </div>
+                            <!--Description-->
+                           <p class="card-text price">Price - <span class="green-text"><strong>$69</strong></span> <span class="grey-text"><small><s>$129</s></small></span></p>
+
+                            <!--Card footer-->
+                         <button type="button" class="btn btn-primary">Book Now</button>
+                         
+
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+
+                </div>
+
+                <div class="col-md-3 hidden-sm-down">
+
+                    <!--Card-->
+                    <div class="card card-cascade narrower">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img%20(9).jpg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block text-xs-center">
+                            <!--Category & Title-->
+                            <h4 class="card-title"><strong><a href="">Product Name</a></strong></h4>
+<div class="orange-text">
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                    </div>
+                            <!--Description-->
+                          <p class="card-text price">Price - <span class="green-text"><strong>$69</strong></span> <span class="grey-text"><small><s>$129</s></small></span></p>
+
+                            <!--Card footer-->
+                         <button type="button" class="btn btn-primary">Book Now</button>
+                          
+
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+
+                </div>
+
+                <div class="col-md-3 hidden-sm-down">
+
+                    <!--Card-->
+                    <div class="card card-cascade narrower">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img%20(10).jpg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block text-xs-center">
+                            <!--Category & Title-->
+                            <h4 class="card-title"><strong><a href="">Product Name</a></strong></h4>
+<div class="orange-text">
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                    </div>
+                            <!--Description-->
+                          <p class="card-text price">Price - <span class="green-text"><strong>$69</strong></span> <span class="grey-text"><small><s>$129</s></small></span></p>
+
+                            <!--Card footer-->
+                         <button type="button" class="btn btn-primary">Book Now</button>
+                          
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+
+                </div>
+
+                <div class="col-md-3 hidden-sm-down">
+
+                    <!--Card-->
+                    <div class="card card-cascade narrower">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img%20(12).jpg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block text-xs-center">
+                            <!--Category & Title-->
+                            <h4 class="card-title"><strong><a href="">Product Name</a></strong></h4>
+<div class="orange-text">
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                    </div>
+                            <!--Description-->
+                           <p class="card-text price">Price - <span class="green-text"><strong>$69</strong></span> <span class="grey-text"><small><s>$129</s></small></span></p>
+
+                            <!--Card footer-->
+                         <button type="button" class="btn btn-primary">Book Now</button>
+                            
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+
+                </div>
+
+            </div>
+            <!--/.Third slide-->
+
+        </div>
+        <!--/.Slides-->
+
+    </div>
+    <!--/.Carousel Wrapper-->
+
+
+</section>
+<!--/Section: Products v.5-->
+</div>
+
+
+<footer class="page-footer center-on-small-only mdb-color darken-4">
+
+  <!--Footer Links-->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!--First column-->
+      <div class="col-md-3 offset-md-1">
+      <div class="footerlogo"></div>
+        <p>We are the fastest growing company when it comes to Vedic services and spiritual solutions.</p>
+
+        <p>Our Domain expertise is in all kinds of Pujas & rituals, astrological consultancy and Vastu services, and giving all kinds of Vedic solutions and services under one umbrella.</p>
+      </div>
+      <!--/.First column-->
+
+      <hr class="hidden-md-up">
+
+      <!--Second column-->
+      <div class="col-md-2 offset-md-1">
+        <h5 class="title">Company</h5>
+        <ul>
+          <li><a href="#!">About</a></li>
+          <li><a href="#!">Terms & Condition</a></li>
+          <li><a href="#!">Privacy</a></li>
+          <li><a href="#!">Booking Request</a></li>
+        </ul>
+      </div>
+      <!--/.Second column-->
+
+      <hr class="hidden-md-up">
+
+      <!--Third column-->
+      <div class="col-md-2">
+        <h5 class="title">Get In Touch</h5>
+       <ul class="footer-nav pb20">
+                            <li class="footer-phone"><span class="fa fa-phone"></span> 959 956 4835</li>
+                 <li class="footer-address osLight">
+                                <p>246, First Floor,</p>
+                                <p>Sector-45, Gurgaon 122003</p>
+                                <p>India</p>
+                            </li>
+                        </ul>
+      </div>
+      <!--/.Third column-->
+<div class="col-md-2">
+        <h5 class="title">Payment Option</h5>
+        <div class="payment"></div>
+
+</div>
+      <hr class="hidden-md-up">
+
+   
+
+    </div>
+  </div>
+  <!--/.Footer Links-->
+
+  <hr>
+
+
+
+    <!--Copyright-->
+    <div class="footer-copyright">
+      <div class="container-fluid">
+        © 2015 Copyright: <a href="http://www.akahvaani.com"> Akashvaani.com </a>
+
+      </div>
+    </div>
+    <!--/.Copyright-->
+
+  </footer>
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+   <script type="text/javascript" src="js/common.js"></script>
+<div class="drag-target" style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); left: 0px;"></div>
+</body>
+
+</html>

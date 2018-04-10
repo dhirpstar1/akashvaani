@@ -1,0 +1,55 @@
+Array
+(
+    [order_id] => 8762
+    [tracking_id] => 106253198217
+    [bank_ref_no] => 033325
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => Visa Debit Card
+    [status_code] => 0
+    [status_message] => Transaction Successful
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Yashika
+    [billing_address] => Green park
+    [billing_city] => Meerut
+    [billing_state] => Uttar Pradesh
+    [billing_zip] => 250004
+    [billing_country] => India
+    [billing_tel] => 8417841989
+    [billing_email] => gospel15jeez@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => 05
+    [retry] => null
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 15/07/2017 03:33:36
+    [bin_country] => 
+
+
+
+
+
+
+
+
+
+
+)

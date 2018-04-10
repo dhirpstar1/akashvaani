@@ -1,0 +1,449 @@
+<!--Report-->
+  <link href="<?php echo base_url('/assets/reports/'); ?>/css/report.css" rel="stylesheet">
+  <link href="<?php echo base_url('/assets/horoscope/css/horoscope.css'); ?>" rel="stylesheet">
+<style type="text/css">
+.selectpicker{margin-top: 10px; padding: 0;font-size: 14px;}
+</style>
+<div style="clear:both;"></div>
+<?php if(!$hide_stroy_section): ?> 
+<?php /* if($device == 'mobile'){ ?>
+
+
+<?php */ endif; ?>
+
+<div class=" reportcontent"> <hr style="display: block;">
+        <h2 class="h2-responsive firsthead">The story of my Life</h2>
+                   
+
+
+<div class="row">
+  
+<div class="col-lg-12 col-md-12 col-xs-12 mb-r ">
+
+              <!--Card-->
+              <div class="card-cascade wider" >
+
+                <!--Card image-->
+                <div class="view hm-white-slight" align="text-center">
+                  
+
+   <?php if($device == 'mobile'){ ?>
+          <img src="<?php echo base_url('/assets/astrology/img/SOML-mobile-700px400px.png'); ?>" class="img-fluid" alt="" width="100%">
+    <?php }else{ ?>
+          <img src="<?php echo base_url('/assets/astrology/img/SOML-1200px400px.png'); ?>" class="img-fluid" alt="" width="100%">
+      <?php } ?>
+
+
+                 <a href="https://www.akashvaani.com/full-extended-reports">
+                    <div class="mask waves-effect waves-light"></div>
+                  </a>
+                </div>
+                <!--Card image-->
+
+                <!--Card content-->
+                <div class="card-body text-left">
+                  <!--Category & Title-->
+                  <div class="col-md-12" style="padding-top: 10px; text-align: left;font-size:14px;">
+
+              <div class="col-md-12" style="padding-top: 20px; text-align: left;">
+                  <b style="color:#ff3366;">Your beautiful Guide</b>
+                   <p class="card-text">The method of Kundali is developed by ancient sages. This beautiful report covers the Horoscope charts, Gemstone suggestion, Numerology analysis, manglik Analysis, Sade Sati analysis, Behaviour analysis.</p>
+                 </div>
+                <div class="col-md-12" style="text-align: center;">  
+
+                   <div class="col-md-3 col-xs-12" style="padding-top: 10px;"> 
+                    <span class="cancel-price"> Price <strong><strike><?=get_currency();?> <?=get_key_data('YOUR_LIFETIME_GUIDE', $cccode, true);?>/-</strike></strong></span> 
+                    <span class="currnt-price" style="color:#0000FF;"><strong><?=get_currency();?> <?=get_key_data('YOUR_LIFETIME_GUIDE', $cccode, false);?>/-</strong></span> 
+                   
+                   </div>
+                  
+                   <div class="col-md-1 col-xs-12" style="padding-top: 10px;"><a  href="https://www.akashvaani.com/report?lg=en&type=story_of_life_basic_report" class="waves-effect waves-light" style="text-decoration:underline; color:#000000;">Buy Now</a>
+                   </div>          
+              <div class="col-md-9 col-xs-12"></div>
+                 </div>
+                  <div style="clear:both;"></div>
+
+                <div class="col-md-12" style="padding-top: 40px; text-align: left;">
+                  <b style="color:#ff3366;">Extended Report- Your Life answers and effect of planets on your life.</b>
+                   <p class="card-text">In addition to the above report the report covers. It is a detailed report about your personality, covers answers regarding various aspects of your life like Your<span style="color:#ff3366;"> Intelligence, education, Mind, Will power & emotions, Wealth, Knowledge, marriage, comfort.
+</span></p>
+<p style="color:#00CC99; font-weight: bold;">Beautiful &amp; Consolidated Life Report.</p>
+                 </div>
+
+     <div class="col-md-12" style="padding:10px 0;  text-align: center;">  
+                   <div class="col-md-3 col-xs-12" style="padding-top: 20px;">
+                    <span class="cancel-price"> Price <strike><strong> <?=get_currency();?><?=get_key_data('THE_STORY_OF_YOUR_LIFE', $cccode, true);?>/-</strong></strike></span> 
+                    <span class="currnt-price" style="color:#0000FF;"><strong><?=get_currency();?><?=get_key_data('THE_STORY_OF_YOUR_LIFE', $cccode, false);?>/-</strong></span> 
+
+                   </div>          
+                   <div class="col-md-2 col-xs-12"> <a id="button2" style="border: 1px solid #ff3366; color: #ff3366!important;" href="<?=base_url('/report');?>"  class="btn waves-effect waves-light buy_now_extended">Buy Now</a></div>
+                   <div class="col-md-2 col-xs-12" style="padding-top: 20px;">
+                    <a id="" href="<?=base_url('/full-extended-reports');?>" class="waves-effect waves-light" style="color:#000000; text-decoration: underline;">See More</a></div>
+                   <div class="col-md-2 col-xs-12">
+                   
+                    <?php echo form_dropdown('select_langiage', unserialize(LANGUAGES) ,'', array('class' => 'form-control  selectpicker', 'id' => 'langauge_select_ext')); ?></div>
+                    <div class="col-md-3 col-xs-12"></div>
+                  </div>
+
+<div style="clear:both;"></div>
+
+
+
+
+
+
+
+
+
+<?php if($question_parent): ?>
+
+<div class="col-md-12" style="padding:10px;  text-align: center;border: 1px solid #ccc;margin-bottom: 15px;">  
+                   <div class="col-md-12 col-xs-12" style="text-align: left;">
+
+                    <p><b style="color:#ff3366;">Report with Special Commentary</b></p>
+                    <p>The story of my Life report & <span style="color:#ff3366;">Commentary + Special Marriage issue you want to ask. by Expert Astrologer.</span></p>
+</div>
+
+
+<div class="col-md-12">
+
+<?php if($question_parent): foreach($question_parent as $key => $question): ?>
+<div class="col-md-10" style="padding: 20px 0; text-align: left;"><?php echo trim($question);?></div>
+<div class="col-md-2">
+  <a id="button2" href="<?=base_url('/questions?report=1&ctype='.$ctype);?>" data-text="<?php echo trim($question);?>"  class="btn waves-effect waves-light buy_now_commentary" 
+    data-title = '<?=($page_name) ? $page_name : $key;?>' style="border: 1px solid #ff3366;color: #ff3366 !important;">Buy Now</a>
+</div>
+<?php endforeach; endif; ?>
+</div>
+
+
+
+              <div class="col-md-3 col-xs-12" style="padding: 20px 0 0 15px;">  <span class="cancel-price">Price <strike> <strong><?=get_currency();?> <?=get_key_data('THE_STORY_OF_YOUR_LIFE_SPECIAL_COMMENTARY', $cccode, true);?>/-</strong></strike></span> 
+                    <span class="currnt-price" style="color:#0000FF;"><strong><?=get_currency();?><?=get_key_data('THE_STORY_OF_YOUR_LIFE_SPECIAL_COMMENTARY', $cccode, false);?>/-</strong></span> </div>
+          
+                   <div class="col-md-2 col-xs-12" style="text-align: center; padding: 20px;"><a id="" href="<?=base_url('/full-extended-reports');?>" class="waves-effect waves-light" style="color:#000000; text-decoration: underline;">See More</a></div>
+                 
+         <div class="col-md-6 col-xs-12"></div>
+      <div style="clear:both;"></div>
+</div>
+<script type="text/javascript">
+  
+$('.buy_now_commentary').click(function(e){
+$('#selected_heading').val($(this).attr('data-text'));
+$('#question_related').text($(this).attr('data-title'));
+$('#alertModal_new').modal('show');
+console.log($(this).attr('data-title'));
+e.preventDefault();
+});
+
+</script>
+
+
+<!-- Modal --> 
+<div class="modal fade" id="alertModal_new" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Body-->
+            <div class="modal-body">
+
+                <?php $attributes = array('class' => 'commentary_form', 'id' => 'commentary_form');
+                    echo form_open('/questions?report=1&ctype=', $attributes); 
+                    echo form_input(array( 'type'  => 'hidden', 'name'  => 'question_type', 'id'    => 'type', 'value' => 1));
+                    echo form_input(array( 'type'  => 'hidden', 'name'  => 'report_type', 'id'    => 'report', 'value' => 1));
+                    echo form_input(array( 'type'  => 'hidden', 'name'  => 'selected_heading', 'id'    => 'selected_heading', 'value' => ''));
+                    echo form_input(array( 'type'  => 'hidden', 'name'  => 'questions', 'id'    => 'questions', 'value' => ''));
+                    echo form_close();
+                ?>
+
+              <p style="font-size: 22px;"><b> Enter if you have any specific issue.<br>  Please enter issue related to <span id="question_related"><?=($page_name) ? $page_name : 'Marriage'?></span> only.</b></p>
+              </div>
+
+        <div style="height:10px"></div>
+        <div class="col-md-12" style="text-align:center" id="own_question_div">
+        <div class="md-form"> <i class="fa fa-pencil prefix"></i>
+            <textarea type="text" id="ownoptional" name="ownoptional" class="md-textarea"></textarea>
+            <label for="own">Enter your issue (Optional)</label>
+          </div>
+         
+          </div>
+          <div style="clear:both;"></div>
+            <!--Footer-->
+            <div class="modal-footer">
+               <button type="button" class="btn" style="border-radius:30px;background:#ff3366" onClick="ask_commentory();">Continue with commentary</button>
+               
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+<script type="text/javascript">
+
+function ask_commentory(){
+var complimentory = $('textarea#ownoptional').val();
+    if(complimentory){
+      var complimentory = '<br>' + complimentory;
+    }
+$('#questions').val('<li id="b1" class="list-group-item justify-content-between"><question>'+ $('#selected_heading').val() + complimentory +'</question><span class="tag red float-xs-right"><a class="b1" onclick="removeOwn(this);" style="color:#fff">Remove(✗)</a></span></li>');
+$('#commentary_form').submit();
+}
+
+
+
+
+$('.buy_now_basic').click(function(e){
+window.location.href = '<?php echo base_url('/report?lg=');?>' + $('#langauge_select :selected').val()+ '&type=story_of_life_basic_report';
+ e.preventDefault();
+});
+$('.buy_now_extended').click(function(e){
+window.location.href = '<?php echo base_url('/report?lg=');?>' + $('#langauge_select_ext :selected').val()+ '&type=story_of_life_extended_report';
+ e.preventDefault();
+});
+</script>
+
+
+<?php else: ?>
+     <div class="col-md-12" style="padding:10px;  text-align: center;border: 1px solid #ccc;margin-bottom: 15px;">  
+                   <div class="col-md-12 col-xs-12" style="text-align: left;">
+
+                    <p><b style="color:#ff3366;">Report with Special Commentary</b></p>
+                    <p>The story of my Life report & <span style="color:#ff3366;">Commentary + Special Marriage issue you want to ask. by Expert Astrologer.</span></p>
+</div>
+
+              <div class="col-md-2 col-xs-12" style="padding: 20px 0 0 15px;">  <span class="cancel-price">Price <strike> <strong><?=get_currency();?> <?=get_key_data('THE_STORY_OF_YOUR_LIFE_SPECIAL_COMMENTARY', $cccode, true);?>/-</strong></strike></span> 
+                    <span class="currnt-price" style="color:#0000FF;"><strong><?=get_currency();?><?=get_key_data('THE_STORY_OF_YOUR_LIFE_SPECIAL_COMMENTARY', $cccode, false);?>/-</strong></span> </div>
+                   <div class="col-md-2 col-xs-12"><a id="button1" href="<?=base_url('/questions?report=1&ctype='.$ctype);?>"  class="btn waves-effect waves-light">Buy Now</a></div>          
+                   <div class="col-md-2 col-xs-12" style="text-align: center; padding: 20px;"><a id="" href="<?=base_url('/full-extended-reports');?>" class="waves-effect waves-light" style="color:#000000; text-decoration: underline;">See More</a></div>
+                   <div class="col-md-2 col-xs-12"  style="text-align: center;"><?php echo form_dropdown('select_langiage', unserialize(LANGUAGES) ,'', array('class' => 'form-control  selectpicker', 'id' => 'langauge_select_ext')); ?></div>
+         <div class="col-md-6 col-xs-12"></div>
+      <div style="clear:both;"></div>
+</div><div style="clear:both;"></div>
+
+<?php endif; ?>
+<div style="clear:both;"></div>
+
+
+                </div>
+                <!--Card content-->
+
+            </div>
+            <!--Card-->
+          </div>
+
+</div>
+
+
+
+
+</div>
+  
+
+  </div>
+            
+            
+         
+
+<div class="col-md-12">
+
+<?php if(!$hide_askquestion_section): ?>
+  <div class="container reportcontent"> <hr class="firstheadhr">
+<h2 class="h2-responsive firsthead">Ask Any Question <?php echo ($page_name) ? 'about your '.$page_name : '';?></h2>
+                    
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12 ">
+
+
+
+ <section class="section team-section "> 
+
+  <!--Section heading-->
+  <!--Section sescription-->
+ 
+
+  <div class="row text-xs-center">
+
+
+
+<div class="view hm-white-slight" align="text-center">
+
+<?php if($device == 'mobile'){ ?>
+          <img src="<?=base_url('/assets/astrology/img/our top-astrologer-mobile-600px200px.png');?>" class="img-fluid" alt="" width="100%">
+    <?php }else{ ?>
+         <img src="<?=base_url('/assets/astrology/img/our-top-astrologers-1200px350px.png');?>" class="img-fluid" alt="" width="100%">
+      <?php } ?>
+
+
+                               
+                       <a href="https://www.akashvaani.com/consult-online">
+                    <div class="mask waves-effect waves-light"></div>
+                  </a>
+                </div>
+
+  </div>
+<div class="row">
+<br><br>
+  <div class="col-md-12 col-xs-12" style="padding-top: 10px;" align="center">
+                  <!--Excerpt-->
+                  <h4>Ask about your marriage, career and health </h4>
+                  <h5 style="color:#00CC99;" class="privacy_incredibly"><strong>100% Privacy. Incredibly Simple. Satisfaction Guaranteed.</strong></h5>   
+                          
+                  <div class="col-md-12 privacy_incredibly" style="padding: 0"> <span style="color:#ff3366;"><strong>Special Offer for Limited Period</strong></span>
+                    <span>Price for Q1-</span>  
+                    <span class="currnt-price" style="color:#0000FF;"><?=get_currency();?><?=get_key_data('PER_QUESTION_PRICE', $cccode, false);?>/- , Q2- INR 150/-, Q3-INR 150/- ....</span> 
+                      
+                    </div>
+    </div>
+           <div style="clear: both;">&nbsp;</div>
+               
+                <iframe src="<?=base_url('/askquestions?ctype='.$ctype);?>" class="frame" id="iframewindow" name="iframewindow" style="overflow-x: hidden;"></iframe>  
+</div>
+</section>
+ </div>
+  </div>
+   </div>
+ </div>
+  <?php endif; ?>
+    
+
+<!--Report-->
+
+             
+		</div>
+
+
+<?php if(!$hide_kundali_section): ?>
+
+  <div class="container reportcontent">
+            <hr />
+        <h2 class="h2-responsive firsthead">Kundali Matching</h2>
+                 
+
+
+
+
+<div class="row">
+  
+<div class="col-lg-12 col-md-12 col-xs-12 mb-r ">
+
+              <!--Card-->
+              <div class="card-cascade wider">
+
+                <!--Card image-->
+                <div class="view hm-white-slight" align="text-center">
+                  
+
+   <?php if($device == 'mobile'){ ?>
+          <img src="<?php echo base_url('/assets/astrology/img/Kundali-matching--mobile-2--700px400px.png'); ?>" class="img-fluid" alt="" width="100%">
+    <?php }else{ ?>
+          <img src="<?php echo base_url('/assets/astrology/img/kundali-matching-screen-1200px400px.png'); ?>" class="img-fluid" alt="" width="100%">
+      <?php } ?>
+
+
+                 <a href="<?-base_url('/match-making-report'); ?>">
+                    <div class="mask waves-effect waves-light"></div>
+                  </a>
+                </div>
+                <!--Card image-->
+
+                <!--Card content-->
+                <div class="card-body text-left">
+                  <!--Category & Title-->
+                  <div class="col-md-12" style="padding-top: 10px;font-size:14px;">
+
+              <div class="col-md-12" style="padding: 40px 0 0 0; text-align: left; ">
+                  <b style="color:#ff3366;">The Matchmaking Beautiful report</b>
+                   <p class="card-text">The kundali making for matching is a method which can give info about your Mental and Physical compatibility, Longevity of the marriage , Nature, Health according to Astrology, Childbirth, Separative tendencies and financial standings.</p>
+                   <p>The beautiful report he report will cover important Horoscope charts, Manglik status, Ashtakoot Guna milan, Relationship parameters match analysis and personality Analysis.</p>
+                 </div>
+                <div class="col-md-12" style="text-align: center;">  
+
+                   <div class="col-md-3 col-xs-12" style="padding: 20px;"> 
+
+
+                    Price <span class="cancel-price"><strong><strike><?=get_currency();?> <?=get_key_data('KUNDALI_MATCHING', $cccode, true);?></strike></strong>/-</span> 
+                    <span class="currnt-price" style="color:#0000FF;"><strong><?=get_currency();?> <?=get_key_data('KUNDALI_MATCHING', $cccode, false);?></strong>/-</span> 
+                   
+                   </div>
+                  
+                   <div class="col-md-2 col-xs-12" style="padding:0px;"><a id="button1" href="<?=base_url('/questions');?>" class="btn waves-effect waves-light  button-2018 match_mnaking_report">Buy Now</a>
+                   </div>          
+                    <div class="col-md-2 col-xs-12" style="padding: 20px;">
+                    <a id="" href="<?=base_url('/match-making-report');?>" class="waves-effect waves-light" style="color:#000000; text-decoration: underline;">Know More</a>
+                  </div>
+                  <div class="col-md-2 col-xs-12"><?php echo form_dropdown('select_langiage', unserialize(LANGUAGES) ,'', array('class' => 'form-control  selectpicker', 'id' => 'langauge_select_match')); ?></div>
+                  <div class="col-md-6 col-sm-12"></div>
+                </div>
+                  <div style="clear:both;"></div>
+
+<div class="col-md-12" style="text-align: left;">
+                  <p style="color:#00CC99; font-weight: bold;">Beautiful &amp; Consolidated Life Report.</p>
+</div>
+
+
+
+<div class="col-md-12" style="padding: 10px 0 0 0;  text-align: left;border: 1px solid #ccc;margin-bottom: 15px; margin-top: 20px;">
+
+              <div class="col-md-12" style="padding-top: 10px;  text-align: left;">
+                  <b style="color:#ff3366;">Report & Special commentary- Expert astrologer opinion on the Match</b>
+                   <p class="card-text">Commentary by expert astrologer in detailed if two people should go for marriage and will suggest remedy if there is any issue.
+</p>
+                   
+                 </div>
+                <div class="col-md-12" style="text-align: center; padding-top: 10px;">  
+
+                   <div class="col-md-3 col-xs-12" style="padding: 20px;"> 
+
+
+                    <span>Price<strong> <strike> <?=get_currency();?><?=get_key_data('KUNDALI_MATCHING_SPECIAL_COMMENTARY', $cccode, true);?>/-</strike></strong></span> 
+                    <span class="currnt-price" style="color:#0000FF;"><strong><?=get_currency();?><?=get_key_data('KUNDALI_MATCHING_SPECIAL_COMMENTARY', $cccode, false);?>/-</strong></span> 
+                   
+                   </div>
+                  
+                   <div class="col-md-2 col-xs-12" style="padding:0px;"><a id="button1" href="<?=base_url('/questions?report=3&ctype='.$ctype);?>" class="btn waves-effect waves-light  button-2018">Buy Now</a>
+                   </div>          
+                    <div class="col-md-2 col-xs-12" style="padding: 20px;" >
+                    <a id="" href="<?=base_url('/match-making-report');?>" class="waves-effect waves-light" style="color:#000000; text-decoration: underline;" >Know More</a>
+                  </div>
+                <div class="col-md-2 col-xs-12"> <?php echo form_dropdown('select_langiage', unserialize(LANGUAGES) ,'', array('class' => 'form-control  selectpicker', 'id' => 'langauge_select_ext')); ?></div>    
+
+                   <div class="col-md-3 col-sm-12"></div>
+                </div>
+
+
+                  <div style="clear:both;"></div>
+</div>
+         
+                 
+                  <!--Excerpt-->
+                      
+</div> <div style="clear:both;"></div>
+                </div>
+                <!--Card content-->
+
+            </div>
+            <!--Card-->
+          </div>
+
+</div>
+
+   
+ <div style="clear:both;"></div>
+    </div>
+      </div>
+
+
+
+<script type="text/javascript">
+$('.match_mnaking_report').click(function(e){
+window.location.href = '<?php echo base_url('/report?lg=');?>' + $('#langauge_select_match :selected').val()+ '&type=matchmaking_report';
+ e.preventDefault();
+});
+
+</script>
+
+
+<?php endif; ?>
+
+<!--full consultations-->
+
+<div style="clear:both;"></div>

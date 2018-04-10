@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 8732
+    [tracking_id] => 106252916400
+    [bank_ref_no] => null
+    [order_status] => Failure
+    [failure_message] => 
+    [payment_mode] => Wallet
+    [card_name] => Paytm
+    [status_code] => null
+    [status_message] => Looks like you cancelled the payment. You can try again now or if you faced any issues in completing the payment, please contact us
+    [currency] => INR
+    [amount] => 398.0
+    [billing_name] => Swati
+    [billing_address] => Delhi
+    [billing_city] => Delhi
+    [billing_state] => New Delhi
+    [billing_zip] => 110091
+    [billing_country] => India
+    [billing_tel] => 9911000268
+    [billing_email] => swatig2015@email.iimcal.ac.in
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 398.0
+    [eci_value] => null
+    [retry] => null
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 14/07/2017 13:46:06
+    [bin_country] => 
+)

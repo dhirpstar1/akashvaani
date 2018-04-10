@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 7410
+    [tracking_id] => 106241368540
+    [bank_ref_no] => 7054331858
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Wallet
+    [card_name] => Paytm
+    [status_code] => null
+    [status_message] => Txn Successful.
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Sarabjeet
+    [billing_address] => Chief General Manager Residence BSNL Building Sec 2 Chaani Himmat
+    [billing_city] => Jammu
+    [billing_state] => Jammu and Kashmir
+    [billing_zip] => 180015
+    [billing_country] => India
+    [billing_tel] => 9417394949
+    [billing_email] => sarabjeetdoda@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => null
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 20/06/2017 17:27:03
+    [bin_country] => 									
+)

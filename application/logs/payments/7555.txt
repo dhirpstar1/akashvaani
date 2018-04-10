@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 7555
+    [tracking_id] => 106243031498
+    [bank_ref_no] => 00000000-0000-0000-1706-240432037900
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => Standard Chartered Bank
+    [status_code] => null
+    [status_message] => Y
+    [currency] => INR
+    [amount] => 597.0
+    [billing_name] => Shreyanka
+    [billing_address] => 23, 4th main 4th cross 1st block Kormangala
+    [billing_city] => Bangalore
+    [billing_state] => Karnataka
+    [billing_zip] => 560052
+    [billing_country] => India
+    [billing_tel] => 9148158825
+    [billing_email] => shreyanka9203@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 597.0
+    [eci_value] => null
+    [retry] => null
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 24/06/2017 04:32:39
+    [bin_country] => 
+)

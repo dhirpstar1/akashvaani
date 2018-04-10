@@ -1,0 +1,1582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>Material Design Bootstrap</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+</head>
+
+<body>
+
+
+  <!-- Start your project here-->
+
+  <div id="mySidenav" class="sidenav">
+   <ul id="slide-out" class="side-nav fixed custom-scrollbar ps-container ps-theme-default ps-active-y">
+
+    <!-- Logo -->
+    <li>
+      <div class="logo-wrapper waves-light waves-effect waves-light">
+        <a href="#"><img src="img/logo1.png" class="img-fluid flex-center"></a>
+      </div>
+    </li>
+    <!--/. Logo -->
+
+    <!--Social-->
+    <li>
+      <ul class="social">
+        <li><a class="icons-sm fb-ic"><i class="fa fa-facebook"> </i></a></li>
+        <li><a class="icons-sm pin-ic"><i class="fa fa-pinterest"> </i></a></li>
+        <li><a class="icons-sm gplus-ic"><i class="fa fa-google-plus"> </i></a></li>
+        <li><a class="icons-sm tw-ic"><i class="fa fa-twitter"> </i></a></li>
+      </ul>
+    </li>
+    <!--/Social-->
+
+
+
+    <!-- Side navigation links -->
+    <li>
+      <ul class="collapsible collapsible-accordion">
+        <li><a class="collapsible-header waves-effect arrow-r" href="http://www.akashvaani.com"><span class="home"></span> Home</a>
+
+        </li>
+        <li><a class="collapsible-header waves-effect arrow-r" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample"><span class="astrology"></span> Astrology<i class="fa fa-angle-down rotate-icon"></i></a>
+          <div class="collapse" id="collapseExample1">
+            <div class="collapseitem">
+              <ul>
+                <li><a class="collapsible-header waves-effect arrow-r" data-toggle="collapse" href="#marriage" aria-expanded="false" aria-controls="collapseExample"><span class="marriageicon"></span> Marriage<i class="fa fa-angle-down rotate-icon"></i></a>
+                  <div class="collapse" id="marriage">
+                    <div class="collapseitem">
+                      <ul>
+                        <li><a href="/kundali" class="waves-effect">Kundali Milan</a>
+                        </li>
+                        <li><a href="/marriageprerdiction" class="waves-effect">Marriage Prediction</a>
+                        </li>
+                        <li><a href="/manglik" class="waves-effect">Manglik Dosh</a>
+                        </li>
+                        <li><a href="/childandpreg" class="waves-effect">Child & Pregnancy</a>
+                        </li>
+                        <li><a href="#" class="waves-effect">Marriage Problems</a>
+                        </li>
+                        <li><a href="/love" class="waves-effect">Love Marriage</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li><a class="collapsible-header waves-effect arrow-r" data-toggle="collapse" href="#career" aria-expanded="false" aria-controls="collapseExample"><span class="careericon"></span> Carrer<i class="fa fa-angle-down rotate-icon"></i></a>
+                  <div class="collapse" id="career">
+                    <div class="collapseitem">
+                      <ul>
+                        <li><a href="/career" class="waves-effect">Job & Career</a>
+                        </li>
+                        <li><a href="/career" class="waves-effect">Prediction & Analysis</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+
+                <li><a class="collapsible-header waves-effect arrow-r" data-toggle="collapse" href="#health" aria-expanded="false" aria-controls="collapseExample"><span class="healthicon"></span> Health<i class="fa fa-angle-down rotate-icon"></i></a>
+                  <div class="collapse" id="health">
+                    <div class="collapseitem">
+                      <ul>
+                        <li><a href="/health" class="waves-effect">Health</a>
+                        </li>
+                        <li><a href="/health" class="waves-effect">Prediction & Analysis</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li><a class="collapsible-header waves-effect arrow-r"><span class="pujaicon"></span> Puja</a>
+
+        </li>
+        <li><a class="collapsible-header waves-effect arrow-r"><span class="articleicon"></span> Articles</a>
+
+        </li>
+        <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-magic"></i>Products</a>
+
+        </li>
+      </ul>
+    </li>
+    <!--/. Side navigation links -->
+
+    <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; height: 281px; right: 0px;"><div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 158px;"></div></div></ul>
+  </div>
+
+  <!--Navbar-->
+  <nav class="navbar navbar-fixed-top scrolling-navbar collapsenav">
+
+    <div class="float-xs-left menu1 bars">
+      <a id="barmenu" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars"></i></a>
+    </div>
+    <div class="breadcrumb-dn logo1">
+      <a href="http://www.akashvaani.com"><img src="img/logo1.png" class="img-fluid flex-center"></a>
+    </div>
+    <ul class="nav navbar-nav float-xs-left menu1">
+     <li class="nav-item ">
+      <a class="nav-link waves-effect waves-light" href="http://www.akashvaani.com"><span class="hidden-sm-down">Home</span></a>
+    </li>
+    <li class="nav-item dropdown">
+      <a id="contact" class="nav-link waves-effect waves-light contact"> <span class="hidden-sm-down">Astrology</span></a>
+
+      <div class="dropdown-content card">
+        <div class="row">
+          <div class="col-md-4" style="border-right: 1px solid #0003;">
+            <ul class="navlink">
+              <li style="font-weight: 500;color:#ec3333;">Marriage<i class="fa fa-caret-right" aria-hidden="true"></i></li><hr>
+              <li><a class="dropdown-item waves-effect waves-light" href="/kundali">Kundali Milan</a></li>
+              <li><a class="dropdown-item waves-effect waves-light" href="/marriageprediction">Marriage Prediction</a></li>
+              <li><a class="dropdown-item waves-effect waves-light" href="/manglik">manglik Dosh</a></li>
+              <li><a class="dropdown-item waves-effect waves-light" href="/childandpreg">Child & Pregnancy</a></li>
+              <li><a class="dropdown-item waves-effect waves-light">Marriage Problems</a></li>
+              <li><a class="dropdown-item waves-effect waves-light" href="/love">Love marriage</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4" style="border-right: 1px solid #0003;">
+           <ul class="navlink">
+            <li style="font-weight: 500;color:#ec3333;">Health<i class="fa fa-caret-right" aria-hidden="true"></i></li><hr>
+            <li><a class="dropdown-item waves-effect waves-light" href="/health">Health</a></li>
+            <li><a class="dropdown-item waves-effect waves-light" href="/health">Prediction & Analysis</a></li>
+
+          </ul>
+        </div>
+        <div class="col-md-4" style="border-right: 1px solid #0003;">
+         <ul class="navlink">
+          <li style="font-weight: 500;color:#ec3333;">Career<i class="fa fa-caret-right" aria-hidden="true"></i></li><hr>
+          <li><a class="dropdown-item waves-effect waves-light" href="/career">Job & career</a></li>
+          <li><a class="dropdown-item waves-effect waves-light" href="/career">Prediction & Analysis</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</li>
+<li class="nav-item ">
+  <a class="nav-link waves-effect waves-light"><span class="hidden-sm-down">Puja</span></a>
+</li>
+<li class="nav-item ">
+  <a class="nav-link waves-effect waves-light"> <span class="hidden-sm-down">Articles</span></a>
+</li>
+<li class="nav-item ">
+  <a class="nav-link waves-effect waves-light"> <span class="hidden-sm-down">Products</span></a>
+</li>
+
+</ul>
+<ul class="nav navbar-nav float-xs-right menu1">
+ <li class="nav-item dropdown">
+  <a class="signup nav-link dropdown-toggle waves-effect waves-light" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i>Account</a>
+  <div class="dropdown-menu dropdown-primary dd-right" aria-labelledby="dropdownMenu1" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+    <a class="dropdown-item waves-effect waves-light" data-toggle="modal" data-target="#signin">Sign In</a>
+    <a class="dropdown-item waves-effect waves-light" href="#">Sign Up</a>
+  </div>
+</li>
+</ul>
+</nav>
+
+
+<!--/.Navbar-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-2" data-slide-to="1"></li>
+    <li data-target="#carousel-example-2" data-slide-to="2"></li>
+  </ol>
+  <!--/.Indicators-->
+
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    <!--First slide-->
+    <div class="carousel-item active">
+      <!--Mask color-->
+      <div class="view">
+        <img src="img/astrology.jpg" class="img-fluid" alt="">
+        <div class="full-bg-img">
+        </div>
+      </div>
+      <!--Caption-->
+      <div class="carousel-caption sider-caption">
+        <div class="animated fadeInDown">
+          <div class="col-md-12">
+            <h3 class="white-text"><span class="name ch">Book Astrologer In<br/>Delhi & NCR</span><br></h3>
+            <h5 style="color:#484848"><span class="cp">For Marriage,Health & Career</span></h5>
+            <div class="col-md-12">
+              <a class="btn btn-outline-white btn-rounded waves-effect waves-light explore" href="https://www.akashvaani.com/astrologer">Explore</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Caption-->
+    </div>
+    <!--/First slide-->
+
+    <!--Second slide-->
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img src="img/marriage.jpg" class="img-fluid" alt="">
+        <div class="full-bg-img">
+        </div>
+      </div>
+      <!--Caption-->
+      <div class="carousel-caption sider-caption">
+       <div class="animated fadeInDown">
+        <div class="col-md-12">
+          <h3 class="white-text"><span class="name ch">For Marriager Astrology</span><br></h3>
+          <h5 style="color:#484848"><span class="cp">Marriage Prediction - Kundali Milan</span></h5>
+          <div class="col-md-12">
+            <a class="btn btn-outline-white btn-rounded waves-effect waves-light explore" href="https://www.akashvaani.com/marriage-astrologer/">Explore</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Caption-->
+  </div>
+  <!--/Second slide-->
+
+  <!--Third slide-->
+  <div class="carousel-item">
+    <!--Mask color-->
+    <div class="view">
+      <img src="img/career.jpg" class="img-fluid" alt="">
+      <div class="full-bg-img">
+      </div>
+    </div>
+    <!--Caption-->
+    <div class="carousel-caption sider-caption">
+     <div class="animated fadeInDown">
+      <div class="col-md-12">
+        <h3 class="white-text"><span class="name ch">Career Astrology</span><br></h3>
+        <h5 style="color:#484848"><span class="cp">Career Obstacles, Job prediction</span></h5>
+        <div class="col-md-12">
+          <a class="btn btn-outline-white btn-rounded waves-effect waves-light explore" href="https://www.akashvaani.com/career-astrologer">Explore</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Caption-->
+</div>
+<!--/Third slide-->
+</div>
+<!--/.Slides-->
+
+<!--Controls-->
+<a class="left carousel-control" href="#carousel-example-2" role="button" data-slide="prev">
+  <span class="icon-prev" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#carousel-example-2" role="button" data-slide="next">
+  <span class="icon-next" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</a>
+<!--/.Controls-->
+</div>
+
+<!--/.Carousel Wrapper-->
+<!-- /Start your project here-->
+<div class="container cntnr1">
+  <hr>
+
+  <section id="about" class="text-xs-center wow bounceIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: bounceIn;">
+
+    <div class="card">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-10 astrohead">
+            <span class="name">What are you looking for</span>
+            <!-- <span class="tagline">Find And Experience<br> The Best Astrology Services.</span> -->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <div id="serviceDiv" class="col-md-11 srchdrop">
+
+              <div class="card srvcbox pujabox">
+              <li style="font-weight: 500;color:#ec3333;">Marriage<i class="fa fa-caret-right" aria-hidden="true"></i></li><hr style="margin-top:0px;margin-bottom:0px">
+                <a href="akashvaani.com/astrologer" id="Astrological Consultation" class="dropdown-item waves-effect waves-light" onclick="linkselect(this.id)">Astrological Consultation</a>
+                <hr style="margin-top:1px;margin-bottom:1px">
+                <a href="/kundali" id="Kundali Milan" class="dropdown-item waves-effect waves-light" onclick="linkselect(this.id)">Kundali Milan</a>
+                <hr style="margin-top:1px;margin-bottom:1px">
+                <a href="/marriageprediction" id="2017 Marriage Report" class="dropdown-item waves-effect waves-light" onclick="linkselect(this.id)">2017 Marriage Report</a>
+                <hr style="margin-top:1px;margin-bottom:1px">
+                <a href="akashvaani.com/astrologer" id="Astrological Consultation" class="dropdown-item waves-effect waves-light" onclick="linkselect(this.id)">Astrological Consultation</a>
+                <hr style="margin-top:1px;margin-bottom:1px">
+                <a href="/kundali" id="Kundali Milan" class="dropdown-item waves-effect waves-light" onclick="linkselect(this.id)">Kundali Milan</a>
+                <hr style="margin-top:1px;margin-bottom:1px">
+                <a href="/marriageprediction" id="2017 Marriage Report" class="dropdown-item waves-effect waves-light" onclick="linkselect(this.id)">2017 Marriage Report</a>
+                <hr style="margin-top:1px;margin-bottom:1px">
+                 <a href="akashvaani.com/astrologer" id="Astrological Consultation" class="dropdown-item waves-effect waves-light" onclick="linkselect(this.id)">Astrological Consultation</a>
+                   <li style="font-weight: 500;color:#ec3333;">Marriage<i class="fa fa-caret-right" aria-hidden="true"></i></li><hr style="margin-top:0px;margin-bottom:0px">
+               <a href="akashvaani.com/astrologer" id="Astrological Consultation" class="dropdown-item waves-effect waves-light" onclick="linkselect(this.id)">Astrological Consultation</a>
+                <hr style="margin-top:1px;margin-bottom:1px">
+                <a href="/kundali" id="Kundali Milan" class="dropdown-item waves-effect waves-light" onclick="linkselect(this.id)">Kundali Milan</a>
+                <hr style="margin-top:1px;margin-bottom:1px">
+                <a href="/marriageprediction" id="2017 Marriage Report" class="dropdown-item waves-effect waves-light" onclick="linkselect(this.id)">2017 Marriage Report</a>
+                <hr style="margin-top:1px;margin-bottom:1px">
+                <a href="akashvaani.com/astrologer" id="Astrological Consultation" class="dropdown-item waves-effect waves-light" onclick="linkselect(this.id)">Astrological Consultation</a>
+                <hr style="margin-top:1px;margin-bottom:1px">
+                <a href="/kundali" id="Kundali Milan" class="dropdown-item waves-effect waves-light" onclick="linkselect(this.id)">Kundali Milan</a>
+                   <li style="font-weight: 500;color:#ec3333;">Marriage<i class="fa fa-caret-right" aria-hidden="true"></i></li><hr style="margin-top:0px;margin-bottom:0px">
+             <a href="akashvaani.com/astrologer" id="Astrological Consultation" class="dropdown-item waves-effect waves-light" onclick="linkselect(this.id)">Astrological Consultation</a>
+                <hr style="margin-top:1px;margin-bottom:1px">
+                <a href="/kundali" id="Kundali Milan" class="dropdown-item waves-effect waves-light" onclick="linkselect(this.id)">Kundali Milan</a>
+                <hr style="margin-top:1px;margin-bottom:1px">
+                <a href="/marriageprediction" id="2017 Marriage Report" class="dropdown-item waves-effect waves-light" onclick="linkselect(this.id)">2017 Marriage Report</a>
+                <hr style="margin-top:1px;margin-bottom:1px">
+                <a href="akashvaani.com/astrologer" id="Astrological Consultation" class="dropdown-item waves-effect waves-light" onclick="linkselect(this.id)">Astrological Consultation</a>
+                <hr style="margin-top:1px;margin-bottom:1px">
+                <a href="/kundali" id="Kundali Milan" class="dropdown-item waves-effect waves-light" onclick="linkselect(this.id)">Kundali Milan</a>
+              </div>
+
+            </div>
+            <div id="custom-search-input">
+              <div class="input-group col-md-12">
+                <input id="mydiv" type="text" class="form-control input-lg" placeholder="Find Your Best Astrology Service" onclick="showserviceDiv()" onfocus="blur()"/>
+                <span class="input-group-btn">
+                  <button class="btn btn-info btn-lg srch" type="button">
+                    <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <hr class="firstheadhr">
+  <h2 class="h2-responsive firsthead">Astrological Services</h2>
+
+  <main>
+
+    <div class="row">
+      <div class="col-md-9">
+        <div class="row">
+          <!--First columnn-->
+
+          <div class="col-md-4">
+            <!--Card-->
+            <div class="card">
+
+              <!--Card image-->
+              <div class="view overlay hm-white-slight">
+                <img src="img/marriagecard.jpg" class="img-fluid" alt="" style="position:relative">
+                <div class="col-md-12 col-xs-12 servicetitle"> <h4 class="card-title serviceh">Marriage</h4></div>
+
+                <a>
+                  <div class="mask waves-effect waves-light"></div>
+                </a>
+              </div>
+              <!--/.Card image-->
+
+              <!--Card content-->
+              <div class="card-block astrcard q1">
+                <!--Title-->
+                <hr>
+                <!--Text-->
+                <p class="card-text">
+                  <div class="row marglink">
+                    <div class="col-md-6 col-xs-6">
+                      <h5 class="blue-text"><a href="/kundali"> Kundali Milan<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+                      </h5>
+                      <h5 class="blue-text"><a href="/maanglik">Manglik Dosh<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                    </div>
+                    <div class="col-md-6 col-xs-6 astrcardh5" style="padding-right: 0">
+                      <h5 class="blue-text"><a href="/marriageprediction">Marriage Prediction<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="#">Marriage Problem<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                    </div>
+                  </div>
+                  <div class="row read_more" style="text-align:center">
+                  <span class="tag red"><a href="#" class="read_more" style="color:#fff">Read More(+) </a></span>
+                    
+                  </div>
+                   <div class="row marglink more_text">
+                    <div class="col-md-6 col-xs-6">
+                      <h5 class="blue-text"><a href="/childandpreg">Child & Pregnancy<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="/maanglik">Manglik Dosh<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="/childandpreg">Child & Pregnancy<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                    </div>
+                    <div class="col-md-6 col-xs-6 astrcardh5" style="padding-right: 0">
+                      <h5 class="blue-text"><a href="/love">Love Marriage<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="#">Marriage Problem<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="/love">Love Marriage<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                    </div>
+                    <div class="row read_less" style="text-align:center">
+                  <span class="tag blue"><a href="#" class="read_less" style="color:#fff">Read Less(-) </a></span>
+                  </div>
+                  </div>
+
+                </p>
+              </div>
+              <!--/.Card content-->
+
+            </div>
+            <!--/.Card-->
+          </div>
+
+          <!--First columnn-->
+
+
+          <div class="col-md-4">
+            <!--Card-->
+            <div class="card">
+
+              <!--Card image-->
+              <div class="view overlay hm-white-slight">
+                <img src="img/careercard.jpg" class="img-fluid" alt="" style="position:relative">
+                <div class="col-md-12 col-xs-12 servicetitle"> <h4 class="card-title serviceh">Career</h4></div>
+
+                <a>
+                  <div class="mask waves-effect waves-light"></div>
+                </a>
+              </div>
+              <!--/.Card image-->
+
+              <!--Card content-->
+                <div class="card-block astrcard q2">
+                <!--Title-->
+                <hr>
+                <!--Text-->
+                <p class="card-text">
+                  <div class="row marglink">
+                    <div class="col-md-6 col-xs-6">
+                      <h5 class="blue-text"><a href="/kundali"> Kundali Milan<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+                      </h5>
+                      <h5 class="blue-text"><a href="/maanglik">Manglik Dosh<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                    </div>
+                    <div class="col-md-6 col-xs-6 astrcardh5" style="padding-right: 0">
+                      <h5 class="blue-text"><a href="/marriageprediction">Marriage Prediction<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="#">Marriage Problem<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                    </div>
+                  </div>
+                  <div class="row read_more1" style="text-align:center">
+                  <span class="tag red"><a href="#" class="read_more1" style="color:#fff">Read More(+) </a></span>
+                    
+                  </div>
+                   <div class="row marglink more_text1">
+                    <div class="col-md-6 col-xs-6">
+                      <h5 class="blue-text"><a href="/childandpreg">Child & Pregnancy<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="/maanglik">Manglik Dosh<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="/childandpreg">Child & Pregnancy<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                    </div>
+                    <div class="col-md-6 col-xs-6 astrcardh5" style="padding-right: 0">
+                      <h5 class="blue-text"><a href="/love">Love Marriage<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="#">Marriage Problem<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="/love">Love Marriage<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                    </div>
+                    <div class="row read_less1" style="text-align:center">
+                  <span class="tag blue"><a href="#" class="read_less1" style="color:#fff">Read Less(-) </a></span>
+                  </div>
+                  </div>
+
+                </p>
+              </div>
+              <!--/.Card content-->
+
+            </div>
+            <!--/.Card-->
+          </div>
+          <!--Second columnn-->
+
+          <!--Third columnn-->
+
+
+          <div class="col-md-4">
+            <!--Card-->
+            <div class="card">
+
+              <!--Card image-->
+              <div class="view overlay hm-white-slight">
+                <img src="img/healthcard.jpg" class="img-fluid" alt="" style="position:relative">
+                <div class="col-md-12 col-xs-12 servicetitle"> <h4 class="card-title serviceh">Health</h4></div>
+
+                <a>
+                  <div class="mask waves-effect waves-light"></div>
+                </a>
+              </div>
+              <!--/.Card image-->
+
+              <!--Card content-->
+                 <div class="card-block astrcard q3">
+                <!--Title-->
+                <hr>
+                <!--Text-->
+                <p class="card-text">
+                  <div class="row marglink">
+                    <div class="col-md-6 col-xs-6">
+                      <h5 class="blue-text"><a href="/kundali"> Kundali Milan<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+                      </h5>
+                      <h5 class="blue-text"><a href="/maanglik">Manglik Dosh<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                    </div>
+                    <div class="col-md-6 col-xs-6 astrcardh5" style="padding-right: 0">
+                      <h5 class="blue-text"><a href="/marriageprediction">Marriage Prediction<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="#">Marriage Problem<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                    </div>
+                  </div>
+                  <div class="row read_more2" style="text-align:center">
+                  <span class="tag red"><a href="#" class="read_more2" style="color:#fff">Read More(+) </a></span>
+                    
+                  </div>
+                   <div class="row marglink more_text2">
+                    <div class="col-md-6 col-xs-6">
+                      <h5 class="blue-text"><a href="/childandpreg">Child & Pregnancy<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="/maanglik">Manglik Dosh<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="/childandpreg">Child & Pregnancy<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                    </div>
+                    <div class="col-md-6 col-xs-6 astrcardh5" style="padding-right: 0">
+                      <h5 class="blue-text"><a href="/love">Love Marriage<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="#">Marriage Problem<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="/love">Love Marriage<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                    </div>
+                    <div class="row read_less2" style="text-align:center">
+                  <span class="tag blue"><a href="#" class="read_less2" style="color:#fff">Read Less(-) </a></span>
+                  </div>
+                  </div>
+
+                </p>
+              </div>
+             <!--/.Card content-->
+
+           </div>
+           <!--/.Card-->
+         </div>
+
+         <!--Third columnn-->
+       </div>
+         <div class="row">
+          <!--First columnn-->
+
+          <div class="col-md-4">
+            <!--Card-->
+            <div class="card">
+
+              <!--Card image-->
+              <div class="view overlay hm-white-slight">
+                <img src="img/marriagecard.jpg" class="img-fluid" alt="" style="position:relative">
+                <div class="col-md-12 col-xs-12 servicetitle"> <h4 class="card-title serviceh">Marriage</h4></div>
+
+                <a>
+                  <div class="mask waves-effect waves-light"></div>
+                </a>
+              </div>
+              <!--/.Card image-->
+
+              <!--Card content-->
+             <div class="card-block astrcard q4">
+                <!--Title-->
+                <hr>
+                <!--Text-->
+                <p class="card-text">
+                  <div class="row marglink">
+                    <div class="col-md-6 col-xs-6">
+                      <h5 class="blue-text"><a href="/kundali"> Kundali Milan<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+                      </h5>
+                      <h5 class="blue-text"><a href="/maanglik">Manglik Dosh<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                    </div>
+                    <div class="col-md-6 col-xs-6 astrcardh5" style="padding-right: 0">
+                      <h5 class="blue-text"><a href="/marriageprediction">Marriage Prediction<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="#">Marriage Problem<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                    </div>
+                  </div>
+                  <div class="row read_more3" style="text-align:center">
+                  <span class="tag red"><a href="#" class="read_more3" style="color:#fff">Read More(+) </a></span>
+                    
+                  </div>
+                   <div class="row marglink more_text3">
+                    <div class="col-md-6 col-xs-6">
+                      <h5 class="blue-text"><a href="/childandpreg">Child & Pregnancy<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="/maanglik">Manglik Dosh<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="/childandpreg">Child & Pregnancy<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                    </div>
+                    <div class="col-md-6 col-xs-6 astrcardh5" style="padding-right: 0">
+                      <h5 class="blue-text"><a href="/love">Love Marriage<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="#">Marriage Problem<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="/love">Love Marriage<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                    </div>
+                    <div class="row read_less3" style="text-align:center">
+                  <span class="tag blue"><a href="#" class="read_less3" style="color:#fff">Read Less(-) </a></span>
+                  </div>
+                  </div>
+
+                </p>
+              </div>
+              <!--/.Card content-->
+
+            </div>
+            <!--/.Card-->
+          </div>
+
+          <!--First columnn-->
+
+
+          <div class="col-md-4">
+            <!--Card-->
+            <div class="card">
+
+              <!--Card image-->
+              <div class="view overlay hm-white-slight">
+                <img src="img/careercard.jpg" class="img-fluid" alt="" style="position:relative">
+                <div class="col-md-12 col-xs-12 servicetitle"> <h4 class="card-title serviceh">Career</h4></div>
+
+                <a>
+                  <div class="mask waves-effect waves-light"></div>
+                </a>
+              </div>
+              <!--/.Card image-->
+
+              <!--Card content-->
+           <div class="card-block astrcard q5">
+                <!--Title-->
+                <hr>
+                <!--Text-->
+                <p class="card-text">
+                  <div class="row marglink">
+                    <div class="col-md-6 col-xs-6">
+                      <h5 class="blue-text"><a href="/kundali"> Kundali Milan<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+                      </h5>
+                      <h5 class="blue-text"><a href="/maanglik">Manglik Dosh<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                    </div>
+                    <div class="col-md-6 col-xs-6 astrcardh5" style="padding-right: 0">
+                      <h5 class="blue-text"><a href="/marriageprediction">Marriage Prediction<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="#">Marriage Problem<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                    </div>
+                  </div>
+                  <div class="row read_more4" style="text-align:center">
+                  <span class="tag red"><a href="#" class="read_more4" style="color:#fff">Read More(+) </a></span>
+                    
+                  </div>
+                   <div class="row marglink more_text4">
+                    <div class="col-md-6 col-xs-6">
+                      <h5 class="blue-text"><a href="/childandpreg">Child & Pregnancy<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="/maanglik">Manglik Dosh<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="/childandpreg">Child & Pregnancy<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                    </div>
+                    <div class="col-md-6 col-xs-6 astrcardh5" style="padding-right: 0">
+                      <h5 class="blue-text"><a href="/love">Love Marriage<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="#">Marriage Problem<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="/love">Love Marriage<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                    </div>
+                    <div class="row read_less4" style="text-align:center">
+                  <span class="tag blue"><a href="#" class="read_less4" style="color:#fff">Read Less(-) </a></span>
+                  </div>
+                  </div>
+
+                </p>
+              </div>
+              <!--/.Card content-->
+
+            </div>
+            <!--/.Card-->
+          </div>
+          <!--Second columnn-->
+
+          <!--Third columnn-->
+
+
+          <div class="col-md-4">
+            <!--Card-->
+            <div class="card">
+
+              <!--Card image-->
+              <div class="view overlay hm-white-slight">
+                <img src="img/healthcard.jpg" class="img-fluid" alt="" style="position:relative">
+                <div class="col-md-12 col-xs-12 servicetitle"> <h4 class="card-title serviceh">Health</h4></div>
+
+                <a>
+                  <div class="mask waves-effect waves-light"></div>
+                </a>
+              </div>
+              <!--/.Card image-->
+
+              <!--Card content-->
+           <div class="card-block astrcard q6">
+                <!--Title-->
+                <hr>
+                <!--Text-->
+                <p class="card-text">
+                  <div class="row marglink">
+                    <div class="col-md-6 col-xs-6">
+                      <h5 class="blue-text"><a href="/kundali"> Kundali Milan<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+                      </h5>
+                      <h5 class="blue-text"><a href="/maanglik">Manglik Dosh<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                    </div>
+                    <div class="col-md-6 col-xs-6 astrcardh5" style="padding-right: 0">
+                      <h5 class="blue-text"><a href="/marriageprediction">Marriage Prediction<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="#">Marriage Problem<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                    </div>
+                  </div>
+                  <div class="row read_more5" style="text-align:center">
+                  <span class="tag red"><a href="#" class="read_more5" style="color:#fff">Read More(+) </a></span>
+                    
+                  </div>
+                   <div class="row marglink more_text5">
+                    <div class="col-md-6 col-xs-6">
+                      <h5 class="blue-text"><a href="/childandpreg">Child & Pregnancy<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="/maanglik">Manglik Dosh<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="/childandpreg">Child & Pregnancy<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                    </div>
+                    <div class="col-md-6 col-xs-6 astrcardh5" style="padding-right: 0">
+                      <h5 class="blue-text"><a href="/love">Love Marriage<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="#">Marriage Problem<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                      <h5 class="blue-text"><a href="/love">Love Marriage<span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a></h5>
+                    </div>
+                    <div class="row read_less5" style="text-align:center">
+                  <span class="tag blue"><a href="#" class="read_less5" style="color:#fff">Read Less(-) </a></span>
+                  </div>
+                  </div>
+
+                </p>
+              </div>
+             <!--/.Card content-->
+
+           </div>
+           <!--/.Card-->
+         </div>
+
+         <!--Third columnn-->
+       </div>
+
+     </div>
+     <div class="col-md-3 asknow">
+       <div class="card text-xs-center z-depth-2">
+        <div class="card-header sidecard white-text">
+          Ask From Our Expert
+        </div>
+      </div>
+      <div class="card wow fadeInUp shadowless" style="visibility: visible; animation-name: fadeInUp;">
+        <div class="card-block">
+         <div class="row">
+           <div class="col-md-12">
+
+            <div class="md-form wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+              <i class="fa fa-user prefix"></i>
+              <input type="text" id="form1" class="form-control">
+              <label for="form1">Your Name</label>
+            </div>
+
+          </div>
+          <div class="col-md-12">
+
+            <div class="md-form wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+              <i class="fa fa-phone prefix"></i>
+              <input type="text" id="form2" class="form-control">
+              <label for="form2">Phone No.</label>
+            </div>
+
+          </div>
+          <div class="col-md-12">
+           <div class="md-form wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+            <i class="fa fa-pencil prefix"></i>
+            <textarea type="text" id="form8" class="md-textarea"></textarea>
+            <label for="form8">Ask Your Question</label>
+          </div>
+        </div>
+
+      </div>
+      <a class="btn btn-primary wow fadeInRight waves-effect waves-light" style="visibility: visible; animation-name: fadeInRight;border-radius: 35px;background: #ff3366;">Submit</a>
+    </div>
+  </div>
+</div>
+</div>
+<!--Second row-->
+
+<!--/.Second row-->
+<!--Second row-->
+<!--/.Main layout-->
+
+</main>
+
+
+
+</div>
+<div class="apointment">
+  <div class="container">
+
+    <!--First row-->
+    <div class="row mb-3 fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+
+      <!--First column-->
+      <div class="col-lg-8 offset-lg-2 text-xs-center smooth-scroll">
+
+        <!--Icon-->
+        <i class="fa fa-check fa-4x light-blue-text pt-1 pb-2"></i>
+        <!--Title-->
+        <h2 class="mb-2">Online Consultation
+
+        </h2>
+        <!--Description-->
+        <p class="text-muted">At “Akashvaani “Our experienced and renowned Astrologers will study your kundali in depth . They will guide you through the health forecast by not only explaining the planetary positions but also making you learn the karmic connection one has with regard to health which is commonly known as “health karma” They would guide you to understand this journey and suggest Astro remedies to break this karmic chain. </p>
+        <!--Button-->
+        <a class="btn btn-lg btn-outline-white" data-toggle="modal" data-target="#myModal" style="margin-top: 25px;margin-bottom: 25px; border-radius:35px"><i style="margin-right:6px" class="fa fa-phone" aria-hidden="true"></i>Book Consultation</a>
+
+      </div>
+      <!--/First column-->
+
+    </div>
+    <!--/First row-->
+
+  </div>
+</div>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <!--Content-->
+    <div class="modal-content">
+      <!--Header-->
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <!--Body-->
+      <div class="modal-body">
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs tabs-3 indigo" role="tablist" style="display:none">
+          <li class="nav-item">
+            <a id="step1" class="nav-link active" data-toggle="tab" href="#pane21" role="tab"><i class="fa fa-user"></i> Profile</a>
+          </li>
+          <li class="nav-item">
+            <a id="step2" class="nav-link" data-toggle="tab" href="#pane22" role="tab"><i class="fa fa-heart"></i> Follow</a>
+          </li>
+          <li class="nav-item">
+            <a id="step3" class="nav-link" data-toggle="tab" href="#pane23" role="tab"><i class="fa fa-envelope"></i> Mail</a>
+          </li>
+          <li class="nav-item">
+            <a id="step4" class="nav-link" data-toggle="tab" href="#pane24" role="tab"><i class="fa fa-envelope"></i> Mail</a>
+          </li>
+          <li class="nav-item">
+            <a id="step5" class="nav-link" data-toggle="tab" href="#pane25" role="tab"><i class="fa fa-envelope"></i> Mail</a>
+          </li>
+          <li class="nav-item">
+            <a id="step6" class="nav-link" data-toggle="tab" href="#pane26" role="tab"><i class="fa fa-envelope"></i> Mail</a>
+          </li>
+        </ul>
+
+        <!-- Tab panels -->
+        <div class="tab-content" style="padding:1rem">
+
+          <!--Panel 1-->
+          <div class="tab-pane fade in active" id="pane21" role="tabpanel">
+            <p><strong>Regarding What you want to consult?</strong></p>
+
+            <div class="row">
+              <div class="col-md-6">
+                <fieldset class="form-group" style="margin-bottom:0px">
+                  <input type="checkbox" id="checkbox1">
+                  <label for="checkbox1">
+                    Marriage</label>
+                  </fieldset>
+                  <fieldset class="form-group" style="margin-bottom:0px">
+                    <input type="checkbox" id="checkbox1">
+                    <label for="checkbox1">
+                      Career</label>
+                    </fieldset>
+                    <fieldset class="form-group" style="margin-bottom:0px">
+                      <input type="checkbox" id="checkbox1">
+                      <label for="checkbox1">
+                        Regarding Life</label>
+                      </fieldset>
+                    </div>
+                    <div class="col-md-6">
+                     <fieldset class="form-group" style="margin-bottom:0px">
+                      <input type="checkbox" id="checkbox1">
+                      <label for="checkbox1">
+                        Health</label>
+                      </fieldset>
+                      <fieldset class="form-group" style="margin-bottom:0px">
+                        <input type="checkbox" id="checkbox1">
+                        <label for="checkbox1">
+                          Business</label>
+                        </fieldset>
+                        <fieldset class="form-group" style="margin-bottom:0px">
+                          <input type="checkbox" id="checkbox1">
+                          <label for="checkbox1">
+                            Astrology</label>
+                          </fieldset>
+                        </div>
+                      </div>
+
+
+                      <div class="modal-footer">
+                        <button id="next1" type="button" class="btn btn-primary">Next</button>
+                      </div>
+                    </div>
+                    <!--/.Panel 1-->
+
+                    <!--Panel 2-->
+                    <div class="tab-pane fade" id="pane22" role="tabpanel">
+                      <p><strong>What specific things are you looking?</strong></p>
+
+                      <div class="row">
+                        <div class="col-md-12">
+                          <fieldset class="form-group" style="margin-bottom:0px">
+                            <input type="checkbox" id="checkbox1">
+                            <label for="checkbox1">
+                              Manglik</label>
+                            </fieldset>
+                            <fieldset class="form-group" style="margin-bottom:0px">
+                              <input type="checkbox" id="checkbox1">
+                              <label for="checkbox1">
+                                Delay Marriage</label>
+                              </fieldset>
+                              <fieldset class="form-group" style="margin-bottom:0px">
+                                <input type="checkbox" id="checkbox1">
+                                <label for="checkbox1">
+                                  Marriage Problem</label>
+                                </fieldset>
+                              </div>
+                            </div>
+
+
+                            <div class="modal-footer">
+                              <button id="prev1" type="button" class="btn btn-secondary">Prev</button>
+
+                              <button id="next2" type="button" class="btn btn-primary">Next</button>
+                            </div>
+                          </div>
+                          <!--/.Panel 2-->
+
+                          <!--Panel 3-->
+                          <div class="tab-pane fade" id="pane23" role="tabpanel">
+                            <p><strong>Tell when you want to take service?</strong></p>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <div class="bootstrap-iso">
+                                 <div class="container-fluid" style="padding-left:0px">
+                                  <div class="row">
+                                   <div class="col-md-12 col-sm-12 col-xs-12">
+
+                                    <!-- Form code begins -->
+                                    <form method="post">
+                                      <div class="md-form">
+                                       <input type="text" id="datepicker" name="date" class="form-control" style="cursor:pointer">
+                                       <label for="datepicker" class="">Enter Date</label>
+
+                                     </div>
+
+                                     <div class="form-group"> <!-- Submit button -->
+                                     </div>
+                                   </form>
+                                   <!-- Form code ends --> 
+
+                                 </div>
+                               </div>    
+                             </div>
+                           </div>
+
+                         </div>
+                         <div class="col-md-12" style="margin-top:1rem">
+                          <p><strong>Specify your Time-slot</strong></p>
+
+                        </div>
+                        <div class="col-md-6">
+
+                          <fieldset class="form-group">
+                            <input name="group1" type="radio" id="radio1">
+                            <label for="radio1">8AM - 10AM</label>
+                          </fieldset><fieldset class="form-group">
+                          <input name="group1" type="radio" id="radio1">
+                          <label for="radio1">10AM - 12AM</label>
+                        </fieldset><fieldset class="form-group">
+                        <input name="group1" type="radio" id="radio1">
+                        <label for="radio1">12PM - 2PM</label>
+                      </fieldset>
+                    </div>
+                    <div class="col-md-6">
+                      <fieldset class="form-group">
+                        <input name="group1" type="radio" id="radio1">
+                        <label for="radio1">2PM - 4PM</label>
+                      </fieldset><fieldset class="form-group">
+                      <input name="group1" type="radio" id="radio1">
+                      <label for="radio1">4PM - 6PM</label>
+                    </fieldset><fieldset class="form-group">
+                    <input name="group1" type="radio" id="radio1">
+                    <label for="radio1">6PM - 9PM</label>
+                  </fieldset>
+                </div>
+
+              </div>
+
+              <div class="modal-footer">
+                <button id="prev2" type="button" class="btn btn-secondary">Prev</button>
+                <button id="next3" type="button" class="btn btn-primary">Next</button>
+              </div>
+            </div>
+            <!--/.Panel 3-->
+            <!--Panel 4-->
+            <div class="tab-pane fade" id="pane24" role="tabpanel">
+              <p><strong>How do you want to take service?</strong></p>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <fieldset class="form-group" style="margin-bottom:0px">
+                    <input name="group1" type="radio" id="radio1">
+                    <label for="radio1">Phone</label>
+                  </fieldset>
+                  <fieldset class="form-group" style="margin-bottom:0px">
+                    <input name="group1" type="radio" id="radio1">
+                    <label for="radio1">Text</label>
+                  </fieldset>
+                  <fieldset class="form-group" style="margin-bottom:0px">
+                    <input name="group1" type="radio" id="radio1">
+                    <label for="radio1">Video</label>
+                  </fieldset>
+                  <fieldset class="form-group" style="margin-bottom:0px">
+                    <input name="group1" type="radio" id="radio1">
+                    <label for="radio1">In Person</label>
+                  </fieldset>
+                </div>
+              </div>
+
+
+              <div class="modal-footer">
+                <button id="prev3" type="button" class="btn btn-secondary">Prev</button>
+
+                <button id="next4" type="button" class="btn btn-primary">Next</button>
+              </div>
+            </div>
+            <!--/.Panel 4-->
+            <!--Panel 5-->
+            <div class="tab-pane fade" id="pane25" role="tabpanel">
+              <p><strong>Provide your contact details</strong></p>
+
+              <div class="row">
+               <div class="col-md-12">
+
+                <div class="md-form wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+                  <i class="fa fa-user prefix"></i>
+                  <input type="text" id="form1" class="form-control">
+                  <label for="form1">Your Name</label>
+                </div>
+
+              </div>
+              <div class="col-md-12">
+
+                <div class="md-form wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+                  <i class="fa fa-phone prefix"></i>
+                  <input type="text" id="form2" class="form-control">
+                  <label for="form2">Phone No.</label>
+                </div>
+
+              </div>
+              <div class="col-md-12">
+
+                <div class="md-form">
+                  <i class="fa fa-envelope prefix"></i>
+                  <input type="email" id="form9" class="form-control validate">
+                  <label for="form9" data-error="wrong" data-success="right">Type your email</label>
+                </div>
+
+              </div>
+
+
+            </div>
+            <div class="modal-footer">
+              <button id="prev4" type="button" class="btn btn-secondary">Prev</button>
+              <button id="next5" type="button" class="btn btn-primary">Next</button>
+            </div>
+          </div>
+          <!--/.Panel 5-->
+          <!--Panel 6-->
+          <div class="tab-pane fade" id="pane26" role="tabpanel">
+            <h2>Thank You !</h2>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Done</button>
+            </div>
+          </div>
+          <!--/.Panel 6-->
+
+        </div>
+      </div>
+      <!--Footer-->
+
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
+<div class="container">
+   <hr class="firstheadhr">
+    <h2 class="h2-responsive firsthead">Why Akashvaani</h2>
+<section class="section feature-box">
+
+  <!--First row-->
+  <div class="row features-big">
+    <!--First column-->
+    <div class="col-md-4 mb-r wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+      <span class="text-center"><img src="img/akashvaani.png" alt="fully responsive" style="display:inline;margin-bottom: 25px;box-shadow:none"></span>
+      <h4 class="feature-title">About Akashvaani</h4>
+      <p class="grey-text">Akashvaani is the best platform to discover and book for astrological consultation and other astrological service regarding marriage, career, health issues</p>
+    </div>
+    <!--/First column-->
+
+    <!--Second column-->
+    <div class="col-md-4 mb-r wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+       <span class="text-center"><img src="img/professionals.png" alt="fully responsive" style="display:inline;margin-bottom: 25px;box-shadow:none"></span>
+      <h4 class="feature-title">Qualified Professionals</h4>
+      <p class="grey-text">Best network of astrologers &amp; vedic professionals. Highly experienced. Qualified &amp; certified. Get Highly accurate prediction &amp; Remedies.</p>
+    </div>
+    <!--/Second column-->
+
+    <!--Third column-->
+    <div class="col-md-4 mb-r wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+       <span class="text-center"><img src="img/easy-booking.png" alt="fully responsive" style="display:inline;margin-bottom: 25px;box-shadow:none"></span>
+      <h4 class="feature-title">Quick &amp; Easy Booking</h4>
+      <p class="grey-text">Quick &amp; easy booking. Everything at one platform. Security of money. Detailed reports on your mobile.</p>
+    </div>
+    <!--/Third column-->
+  </div>
+  <!--/First row-->
+
+</section>
+</div>
+<section class="footer_texture m-t-65">
+              <div class="container sbcrptn">
+                <div class="row">
+                  <div class="col-md-6 col-xs-12 footer_section_align">
+                    <span class="text-white font18">Get Your </span><span class="pink-text font24"> Daily Horoscope<span class="text-white font18">,</span> Daily Lovescope</span><span class="text-white font18"> and</span><span class="pink-text font24"> Daily Tarot </span> <span class="text-white font18">Directly In Your Inbox</span>
+                  </div>
+                  <div class="col-md-6 col-xs-12 footer_section_align">
+
+                    <form method="post" action="#" id="subscribe">
+                      <div class="form-group">
+
+                        <div class="input-group label_align">
+
+                          <input type="email" class="form-control input-lg input_email sub_input" placeholder="Email Address" name="email" id="email">
+
+                          <span class="input-group-addon subscribe_align">
+                            <button type="submit" class="subscribe btn btn-sm  waves-effect waves-light">
+                              <span>
+                                <img src="img/mail-sent.png" alt="mailicon">
+                              </span>
+                            </button>
+                          </span>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+<!--Section: Team v.1-->
+<div class="container">
+<hr class="firstheadhr">
+<h2 class="h2-responsive firsthead">Our Top Astrologers</h2>
+<section class="section team-section "> 
+
+  <!--Section heading-->
+  <!--Section sescription-->
+ 
+
+  <div class="row text-xs-center">
+
+    <!--First column-->
+    <div class="col-md-1"></div>
+    <div class="col-md-3 mb-r">
+      <div class="avatar">
+        <img src="img/sunil.png" style="width:200px;box-shadow:none">
+      </div>
+      <h4>Sunil Vashist</h4>
+
+    
+
+    </div>
+    <!--/First column-->
+
+    <!--Second column-->
+    <div class="col-md-3 mb-r">
+      <div class="avatar">
+         <img src="img/maina.png" style="width:200px;box-shadow:none">
+      </div>
+      <h4>Maina Bhatnagar</h4>
+
+    
+    </div>
+    <!--/Second column-->
+
+    <!--Third column-->
+    <div class="col-md-3 mb-r">
+      <div class="avatar">
+         <img src="img/manoj.png" style="width:200px;box-shadow:none">
+      </div>
+      <h4>Manoj Bhandari</h4>
+
+   
+    </div>
+    <!--/Third column-->
+  </div>
+
+</section>
+                   <hr class="firstheadhr">
+    <h2 class="h2-responsive firsthead">What Our customers Says</h2>
+<section class="section">
+    
+    <!--Section heading-->
+  
+
+    
+    <div class="row">
+        <!--Carousel Wrapper-->
+        <div id="multi-item-example" class="carousel testimonial-carousel slide carousel-multi-item wow fadeIn" data-ride="carousel">
+
+            <!--Controls-->
+            <div class="controls-top" style="margin-bottom:5%">
+                <a class="btn-floating btn-small mdb-color waves-effect waves-light" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+                <a class="btn-floating btn-small mdb-color waves-effect waves-light" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+            </div>
+            <!--/.Controls-->
+
+            <!--Indicators-->
+            <ol class="carousel-indicators testimonial-indicators">
+                <li data-target="#multi-item-example" data-slide-to="0" class="mdb-color"></li>
+                <li data-target="#multi-item-example" data-slide-to="1" class="mdb-color"></li>
+                <li data-target="#multi-item-example" data-slide-to="2" class="mdb-color active"></li>
+            </ol>
+            <!--/.Indicators-->
+
+            <!--Slides-->
+            <div class="carousel-inner testimonial-iner" role="listbox">
+
+                <!--First slide-->
+                <div class="carousel-item">
+                    <!--First column-->
+                    <div class="col-md-4">
+
+                        <div class="testimonial">
+                            <!--Avatar-->
+                           
+                            <!--Content-->
+                            <h4>Pardeep,Delhi</h4>
+                            <p><i class="fa fa-quote-left"></i> I Wanted An Advice Regarding Marriage Issue. Found Out About Akashvaani.Com On Internet. I Called Them And In Less Than 5 Minutes I Was Talking To Expert Marriage Astrologer . I Got An Advice Based On My Birth Details On Call. It Was More Than Satisfying Experience. It Could Not Have Been Easier And Better Than This</p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star-half-full"> </i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--/First column-->
+
+                    <!--Second column-->
+                    <div class="col-md-4 hidden-sm-down">
+                        <div class="testimonial">
+                            <!--Avatar-->
+                           
+                            <!--Content-->
+                            <h4>Sonali, Gurgaon</h4>
+                            <p><i class="fa fa-quote-left"></i> I Wanted An Advice Regarding Marriage Issue. Found Out About Akashvaani.Com On Internet. I Called Them And In Less Than 5 Minutes I Was Talking To Expert Marriage Astrologer . I Got An Advice Based On My Birth Details On Call. It Was More Than Satisfying Experience. It Could Not Have Been Easier And Better Than This.</p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/Second column-->
+                    
+                    <!--Third column-->
+                    <div class="col-md-4 hidden-sm-down">
+                        <div class="testimonial">
+                            <!--Avatar-->
+                         
+                            <!--Content-->
+                            <h4>Rahul, Delhi</h4>
+                            <p><i class="fa fa-quote-left"></i> Thank You Akashvaani For Giving Me Instant Service When I Was In Dilemma Of Switching My Job. They Helped In Choosing The Right Decision.</p>
+                            
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star-o"> </i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/Third column-->
+
+                </div>
+                <!--/.First slide-->
+
+                <!--Second slide-->
+                <div class="carousel-item">
+                    <!--First column-->
+                    <div class="col-md-4">
+
+                        <div class="testimonial">
+                            <!--Avatar-->
+                          
+                            <!--Content-->
+                            <h4>Shikha, Gurgaon</h4>
+                            <p><i class="fa fa-quote-left"></i>I Was Much Tensed About My Job Success. I Got My Consultation From This Website, Believe Me Within 3 Months Of Remedies Suggested By Astrologer I Got Promoted In My Company. They Have Best Customer Service Team. </p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star-half-full"> </i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--/First column-->
+
+                    <!--Second column-->
+                    <div class="col-md-4 hidden-sm-down">
+                        <div class="testimonial">
+                            <!--Avatar-->
+                           
+                            <!--Content-->
+                            <h4>Sukriti, Noida</h4>
+                            <p><i class="fa fa-quote-left"></i> Akashvaani Is Worth Taking Service. I Was Doubtful About The Payment Security, But They Are Trustworthy. I Am Satisfied That I Have Invested At Right Place.</p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/Second column-->
+
+                    <!--Third column-->
+                    <div class="col-md-4 hidden-sm-down">
+                        <div class="testimonial">
+                            <!--Avatar-->
+                            
+                            <!--Content-->
+                            <h4>Lekha Sharma, Gurgaon</h4>
+                            <p><i class="fa fa-quote-left"></i> I Was Jobless For Last One Year, Irrespective Of My Qualification My Luck Was Not With Me. Then I Contacted Akashvaani.Com. They Told Me About My Dasha And A Simple Remedy. After Two Months I Got Job. I Am Amazed To See This Positive Result.</p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star-o"> </i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/Third column-->
+
+                </div>
+                <!--/.Second slide-->
+
+                <!--Third slide-->
+                <div class="carousel-item active">
+                    <!--First column-->
+                    <div class="col-md-4">
+
+                        <div class="testimonial">
+                            <!--Avatar-->
+                          
+                            <!--Content-->
+                            <h4>Atul, Delhi</h4>
+                            <p><i class="fa fa-quote-left"></i>I Was Very Worried About My Husband’s Health. He Was Not Getting Rid Of Disease. Astrologer From Akashvaani Helped Me In Finding The Problems. I Am Really Grateful To His Guidance And His Knowledge Overwhelmed Me.</p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--/First column-->
+
+                    <!--Second column-->
+                    <div class="col-md-4 hidden-sm-down">
+                        <div class="testimonial">
+                            <!--Avatar-->
+                           
+                            <!--Content-->
+                            <h4>Rajbala, Gurgaon</h4>
+                            <p><i class="fa fa-quote-left"></i> Excellent Service Offered By Akasvaani.Com. Astrologer Heard All Problems Patiently, Guided Me About My Stars And Solutions. It Was Truly A Good Experience. </p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star-half-full"> </i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/Second column-->
+
+                    <!--Third column-->
+                    <div class="col-md-4 hidden-sm-down">
+                        <div class="testimonial">
+                            <!--Avatar-->
+                           
+                            <!--Content-->
+                            <h4>Khushboo, Delhi</h4>
+                            <p><i class="fa fa-quote-left"></i> I Was Very Worried About My Husband’s Health. He Was Not Getting Rid Of Disease. Astrologer From Akashvaani Helped Me In Finding The Problems. I Am Really Grateful To His Guidance And His Knowledge Overwhelmed Me. </p>
+
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star-o"> </i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/Third column-->
+
+                </div>
+                <!--/.Third slide-->
+
+            </div>
+            <!--/.Slides-->
+
+        </div>
+        <!--/.Carousel Wrapper-->
+    </div>
+</section>
+</div>
+<footer class="page-footer center-on-small-only mdb-color darken-4">
+
+  <!--Footer Links-->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!--First column-->
+      <div class="col-md-3 offset-md-1">
+        <div class="footerlogo"></div>
+        <p>We are the fastest growing company when it comes to Vedic services and spiritual solutions.</p>
+
+        <p>Our Domain expertise is in all kinds of Pujas & rituals, astrological consultancy and Vastu services, and giving all kinds of Vedic solutions and services under one umbrella.</p>
+      </div>
+      <!--/.First column-->
+
+      <hr class="hidden-md-up">
+
+      <!--Second column-->
+      <div class="col-md-2 offset-md-1">
+        <h5 class="title">Company</h5>
+        <ul>
+          <li><a href="#!">About</a></li>
+          <li><a href="#!">Terms & Condition</a></li>
+          <li><a href="#!">Privacy</a></li>
+          <li><a href="#!">Booking Request</a></li>
+        </ul>
+      </div>
+      <!--/.Second column-->
+
+      <hr class="hidden-md-up">
+
+      <!--Third column-->
+      <div class="col-md-2">
+        <h5 class="title">Get In Touch</h5>
+        <ul class="footer-nav pb20">
+          <li class="footer-phone"><span class="fa fa-phone"></span> 959 956 4835</li>
+          <li class="footer-address osLight">
+            <p>246, First Floor,</p>
+            <p>Sector-45, Gurgaon 122003</p>
+            <p>India</p>
+          </li>
+        </ul>
+      </div>
+      <!--/.Third column-->
+      <div class="col-md-2">
+        <h5 class="title">Payment Option</h5>
+        <div class="payment"></div>
+
+      </div>
+      <hr class="hidden-md-up">
+
+
+
+    </div>
+  </div>
+  <!--/.Footer Links-->
+
+  <hr>
+
+
+
+  <!--Copyright-->
+  <div class="footer-copyright">
+    <div class="container-fluid">
+      © 2015 Copyright: <a href="http://www.akahvaani.com"> Akashvaani.com </a>
+
+    </div>
+  </div>
+  <!--/.Copyright-->
+
+</footer>
+
+<!-- SCRIPTS -->
+
+<!-- JQuery -->
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/tether.min.js"></script>
+
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+
+<!-- Bootstrap Date-Picker Plugin -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+
+<div class="drag-target" style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); left: 0px;"></div>
+</body>
+
+</html>

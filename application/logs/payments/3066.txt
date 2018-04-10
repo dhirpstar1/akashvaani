@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 3066
+    [tracking_id] => 106266273594
+    [bank_ref_no] => 012764
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Debit Card
+    [card_name] => MasterCard Debit Card
+    [status_code] => 0
+    [status_message] => Transaction Successful
+    [currency] => INR
+    [amount] => 1100.0
+    [billing_name] => Akansha Singh
+    [billing_address] => A3-1202 ,Gardenia Glory
+    [billing_city] => Shahjahanpur
+    [billing_state] => Uttar Pradesh
+    [billing_zip] => 201301
+    [billing_country] => India
+    [billing_tel] => 9818407733
+    [billing_email] => singh.akansha4@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 1100.0
+    [eci_value] => 02
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 14/08/2017 21:18:13
+    [bin_country] => INDIA
+)

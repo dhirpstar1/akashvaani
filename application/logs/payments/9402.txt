@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 9402
+    [tracking_id] => 106257923712
+    [bank_ref_no] => 140121720727009363
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Credit Card
+    [card_name] => Visa
+    [status_code] => null
+    [status_message] => SUCCESS
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Deepika jangid
+    [billing_address] => Mayur Vihar phase 1 pocket 1 152-c
+    [billing_city] => Delhi
+    [billing_state] => New Delhi
+    [billing_zip] => 110091
+    [billing_country] => India
+    [billing_tel] => 9013170202
+    [billing_email] => deepikajangid17@yahoo.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 26/07/2017 12:57:42
+    [bin_country] => INDIA
+)

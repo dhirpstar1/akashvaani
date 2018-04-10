@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 8542
+    [tracking_id] => 106251583710
+    [bank_ref_no] => 1249519796
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => ICICI Bank
+    [status_code] => null
+    [status_message] => SUCCESS
+    [currency] => INR
+    [amount] => 597.0
+    [billing_name] => Jyoti
+    [billing_address] => EY Golf View Corporate Tower B, Sector-42, Gurgaon
+    [billing_city] => New Delhi
+    [billing_state] => Delhi
+    [billing_zip] => 122002
+    [billing_country] => India
+    [billing_tel] => 9899836470
+    [billing_email] => Kashyapjyoti21@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 597.0
+    [eci_value] => null
+    [retry] => null
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 11/07/2017 13:54:35
+    [bin_country] => 
+)

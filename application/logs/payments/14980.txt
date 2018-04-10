@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 14980
+    [tracking_id] => 106287950889
+    [bank_ref_no] => IGACELCEY5
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => State Bank of India
+    [status_code] => null
+    [status_message] => Completed Successfully
+    [currency] => INR
+    [amount] => 599.0
+    [billing_name] => Radha Kanta Maity
+    [billing_address] => Burikhali, Bauria, Howrah
+    [billing_city] => Howrah
+    [billing_state] => West Bengal
+    [billing_zip] => 711310
+    [billing_country] => India
+    [billing_tel] => 8961729404
+    [billing_email] => rk1990.rocks@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 599.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 13/10/2017 07:32:21
+    [bin_country] => 
+)

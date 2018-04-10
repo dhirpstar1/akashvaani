@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 17286
+    [tracking_id] => 106295876109
+    [bank_ref_no] => 531351406
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => Axis Bank
+    [status_code] => null
+    [status_message] => null
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => keya dey
+    [billing_address] => vip garden
+    [billing_city] => Kolkata
+    [billing_state] => West Bengal
+    [billing_zip] => 700059
+    [billing_country] => India
+    [billing_tel] => 9007023349
+    [billing_email] => keya_dey@hotmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 05/11/2017 08:51:10
+    [bin_country] => 
+)

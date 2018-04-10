@@ -1,0 +1,45 @@
+Array
+(
+    [order_id] => 12220
+    [tracking_id] => 106276007629
+    [bank_ref_no] => 333656279
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Wallet
+    [card_name] => Mobikwik
+    [status_code] => null
+    [status_message] => success
+    [currency] => INR
+    [amount] => 597.0
+    [billing_name] => Yogesh Sharma
+    [billing_address] => H No 1030, Sector 14
+    [billing_city] => Gurgaon
+    [billing_state] => Haryana
+    [billing_zip] => 122001
+    [billing_country] => India
+    [billing_tel] => 9910231423
+    [billing_email] => yogesh30890@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 597.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 09/09/2017 01:09:59
+    [bin_country] => 
+)

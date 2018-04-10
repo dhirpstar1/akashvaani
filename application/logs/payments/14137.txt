@@ -1,0 +1,55 @@
+Array
+(
+    [order_id] => 14137
+    [tracking_id] => 106284566409
+    [bank_ref_no] => 14219639
+    [order_status] => Success
+    [failure_message] => 
+    [payment_mode] => Net Banking
+    [card_name] => Andhra Bank
+    [status_code] => null
+    [status_message] => Success
+    [currency] => INR
+    [amount] => 199.0
+    [billing_name] => Sourya snigdha mohapatra
+    [billing_address] => Cuttack
+    [billing_city] => Cuttack 
+    [billing_state] => Orisa
+    [billing_zip] => 753004
+    [billing_country] => India
+    [billing_tel] => 7537966765
+    [billing_email] => Sourya.snigdha130@gmail.com
+    [delivery_name] => 
+    [delivery_address] => 
+    [delivery_city] => 
+    [delivery_state] => 
+    [delivery_zip] => 
+    [delivery_country] => 
+    [delivery_tel] => 
+    [merchant_param1] => 
+    [merchant_param2] => 
+    [merchant_param3] => 
+    [merchant_param4] => 
+    [merchant_param5] => 
+    [vault] => N
+    [offer_type] => null
+    [offer_code] => null
+    [discount_value] => 0.0
+    [mer_amount] => 199.0
+    [eci_value] => null
+    [retry] => N
+    [response_code] => 0
+    [billing_notes] => 
+    [trans_date] => 04/10/2017 02:13:41
+    [bin_country] => 
+
+
+
+
+
+
+
+
+
+
+)
